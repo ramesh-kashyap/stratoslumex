@@ -75,6 +75,8 @@ Route::middleware('auth')->group(function ()
 {
 Route::get('/dashboard', [App\Http\Controllers\UserPanel\Dashboard::class, 'index'])->name('user.dashboard');
 Route::get('/tradeOn', [App\Http\Controllers\UserPanel\Dashboard::class, 'tradeOn'])->name('user.tradeOn');
+Route::get('/crypto', [App\Http\Controllers\UserPanel\Dashboard::class, 'getCryptoPrices'])->name('user.crypto');
+
 Route::get('/close-trade', [App\Http\Controllers\UserPanel\Dashboard::class, 'stop_trade'])->name('user.close-trade');
 
 Route::get('/lang', [App\Http\Controllers\UserPanel\Dashboard::class, 'lang'])->name('user.lang');

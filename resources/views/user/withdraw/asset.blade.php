@@ -174,7 +174,7 @@
                             <ul data-v-17dc2e5d="" data-v-32fa28da="" class="tab flex" data-v-6e2d35de="">
                                 <li data-v-17dc2e5d=""><img data-v-17dc2e5d=""
                                         src="{{asset('')}}static/img/wallet-ico10.b777fba7.png" alt="">
-                                    <div data-v-17dc2e5d="" class="s0">Deposit</div>
+                                        <a href="{{route('user.invest')}}">   <div data-v-17dc2e5d="" class="s0">Deposit</div></a>
                                 </li>
                                 <li data-v-17dc2e5d=""><img data-v-17dc2e5d=""
                                         src="{{asset('')}}static/img/wallet-ico11.2bd21110.png" alt="">
@@ -253,7 +253,7 @@
                                                 </li>
                                             </ul>
                                             <ul data-v-56ab0919="" class="com-2">
-                                                <li data-v-56ab0919="">Deposit</li>
+                                                <li data-v-56ab0919=""> Deposit</li>
                                                 <li data-v-56ab0919="">Withdrawal</li>
                                                 <li data-v-56ab0919="">Bill</li>
                                             </ul>

@@ -206,7 +206,7 @@
                                 <li data-v-184f5bd0="" data-v-6e2d35de="">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
                                             data-v-6e2d35de="" src="{{asset('')}}static/img/my_yhq.4ee028cd.png" alt=""></div>
-                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n"><a href="{{route('user.terms')}}">Terms of Use</div>
+                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n"><a href="{{route('user.terms')}}">Terms of Use</a></div>
                                 </li>
                                 <li data-v-184f5bd0="" data-v-6e2d35de="">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""

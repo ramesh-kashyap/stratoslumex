@@ -1,216 +1,390 @@
-<html lang="en" class="van-theme-light pc" style="font-size: 50px;">
+<html class="" style="font-size: 55.2px;">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/favicon_1.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>My income</title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="full-screen" content="true">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="360-fullscreen" content="true">
+    <meta name="renderer" content="webkit">
     <meta name="robots" content="noindex, nofollow">
-    <title>Asset Details</title>
-    <script type="module" crossorigin="" src="{{ asset('') }}assets/js/index-BR72YH-E.js"></script>
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/vant-3s7b3naM.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/vuei18n-CA58nVJV.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/corejs-C4iS2aBk.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/vuex-MbEfqX8_.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/cryptojs-BILcvZe1.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/qrcodejs2fix-CnmRM6Pf.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/vueclipboard3-C7DdPEQF.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/uaParserJs-QZjeYS1Z.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/vuerouter-7dy5tY0D.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/axios-Cm0UX6qg.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/swiper-C1TWdcvt.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/bignumberjs-DOH-f-tm.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/validator-DnYg83Z5.js">
-    <link rel="modulepreload" crossorigin="" href="{{ asset('') }}assets/js/vanttouchemulator-Cv_in60N.js">
-    <link rel="stylesheet" crossorigin="" href="{{ asset('') }}assets/css/index-CFWvmehk.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/PageScroll-CWe5U2pE.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/PageScroll-B0U5qQ_M.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/MainHeader-DINvrqg3.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/MainHeader-DmTIx4Xq.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/PhoneInp-BJMfsyKO.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/PhoneInp-BbLd3uXE.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/PsdInp-CEndfO3Z.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/eye_close-DJdVF6pM.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/PsdInp-B2SSuLGr.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/ComCheckbox-BI3og0hr.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/ComCheckbox-DzGBGsDX.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/ComBtn-CB5ONs6P.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/ComBtn-CgiT3mnI.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/FloatingBubble-CfUHYYW9.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/FloatingBubble-Dntr2w2Z.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/AreaPopup-d_YKKHuA.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/AreaPopup-Dy2cJYlh.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/CustomerService-uNNPIRl7.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/CustomerService-D5uG7YzE.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/MainFooter-DradSXvN.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/MainFooter-KaNE-uqv.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/NoticePopup-CPE0x0yj.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/NoticePopup-SnqEssf-.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/ComImage-DHdOqV0T.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/ComImage-C3FUzSnY.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/index-BJGTjSxj.js">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/icon_copy_min-DeS-a5w4.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/index-C4GTzutw.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/index-Cm92gFG6.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/index-DVNAZuW4.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/LevelInfo-4VfBjL2w.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/LevelInfo-yizkQ68A.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/index-CzvpZ9lN.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/index-DWb5Ccs-.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/InsideHeader-cUb30gWX.js">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/icon_back_white-Fd3ZFuzm.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/InsideHeader-k_Fsd2wZ.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/ComSticky-BUfwGsmT.js">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/ComList-c59R4hNA.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/ComList-N3Ynoyi4.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/ComPicker-D2IkiGpm.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/index-CF9gCD17.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/index-BblBrGU_.css">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/ListEmpty-DvuO2CRk.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/ListEmpty-BnV8Jpo-.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/index-JTInJbMb.js">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/icon_copy-BwRkM0m9.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/index-CzoxWi67.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/index-R9Sdxwdc.js">
-    <link rel="modulepreload" as="script" crossorigin=""
-        href="{{ asset('') }}assets/js/icon_record-C7zQIaVK.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/index-nZ1eiUu3.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{ asset('') }}assets/js/index-7XNGlDJ6.js">
-    <link rel="stylesheet" href="{{ asset('') }}assets/css/index-gseAuM5i.css">
+    <link rel="manifest" href="/manifest.json">
+    <script>
+        window.addEventListener("error", function (event) {
+            if (event.message.indexOf("Unexpected token '<'") > -1) {
+                location.reload();
+            }
+        });
+        if ("standalone" in window.navigator && window.navigator.standalone) {
+            var noddy,
+                remotes = false;
+            document.addEventListener(
+                "click",
+                function (event) {
+                    noddy = event.target;
+                    while (noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+                        noddy = noddy.parentNode;
+                    }
+                    if (
+                        "href" in noddy &&
+                        noddy.href.indexOf("http") !== -1 &&
+                        (noddy.href.indexOf(document.location.host) !== -1 || remotes)
+                    ) {
+                        event.preventDefault();
+                        document.location.href = noddy.href;
+                    }
+                },
+                false
+            );
+        }
+
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+        }
+
+        #startLogo {
+            width: 100%;
+            min-width: 7.5rem;
+            height: 100vh;
+            max-width: 8.5rem;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000000;
+            background: #020503;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: none;
+        }
+
+        #startLogo img {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+    </style>
+    <link href="/js1743619988925/app.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="/js1743619988925/axios.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="/js1743619988925/compressorjs.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="/js1743619988925/core-js.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="/js1743619988925/crypto-js.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="/js1743619988925/vant.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="/js1743619988925/vendors~app.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="/js1743619988925/vue.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+    <link href="{{asset('')}}static/css/app.6328f701.css" rel="preload" as="style">
+    <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="preload" as="style">
+    <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="stylesheet">
+    <link href="{{asset('')}}static/css/app.6328f701.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-6f896b4e.5bb66763.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-6f896b4e.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-5576a184.9f52f39a.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-5576a184.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-60c8a75a.d6f6b692.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-60c8a75a.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-a7d8f170.c87a4291.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-a7d8f170.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-67912ed2.ae8d438d.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-67912ed2.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-375cccc2.6ddcb41c.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-375cccc2.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-00b1464f.674dbd13.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-00b1464f.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-7f362702.6a53b834.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-7f362702.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-05e98ee6.bea82fa2.css">
+    <script charset="utf-8" src="/js1743619988925/chunk-05e98ee6.d968e27a.1743619988925.js?v=1743619988925"></script>
 </head>
 
-<body class="">
-    <div id="app" data-v-app="">
-        <div class="van-config-provider">
-            <!---->
-        </div>
-        <div data-v-e85f0186="" data-v-38c4ffa9="" class="page" style="background-color: rgb(255, 255, 255);">
-            <div data-v-e85f0186="" class="headers">
-                <div data-v-54adc729="" data-v-e85f0186="" class="inside-header">
-                    <div data-v-54adc729="" class="left">
-                        <div data-v-54adc729="" class="back">  <a href="{{route('user.asset')}}"><img data-v-54adc729=""
-                                src="data:image/png;base64,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"
-                                class="icon"></a></div>
+<body class="w856">
+    <div id="app" class="applang">
+        <div data-v-73b46d99="" class="home">
+            <div data-v-6e2d35de="" data-v-73b46d99="" class="page">
+                <div data-v-6e2d35de="" class="headers">
+                    <div data-v-b73557e2="" data-v-73b46d99="" class="head head_isModule" data-v-6e2d35de="">
+                        <div data-v-b73557e2="" class="safe"></div>
+                        <div data-v-b73557e2="" class="container flex">
+                            <div data-v-b73557e2="" class="back"><img data-v-b73557e2=""
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgB7Ze9DcIwEIWf+W1ZgQ0oWIBJYBMoqekoEUJsQAsFA7ACYgCYAHNWbBGO2ICVEBf3SU9Ozufk6ZzYCSAIQrVorQekMVLEmrvqjLRMMnO6KpMNRGDMUbMn9VhXH3XjqZxhhroRc7GIuVjEXCwpmVM8oP2L8JI0R7a4N1lbFGtG5Lrji1LqYG7a+tLchrQjDUkdUteqE2iL8nif71pb0gHIbXUBcyvS2qTYc1d1nctRuXOeB0++r++FX/ZixY7VhxvowHgeU54xzymmOT9RFUd4r6L5QrmTFqQ2smekbcc6uXhRjOeG5HKP8BF4g6dIBTFZFmKyLMRkWYjJsvinyaj/YrMtUmO2xRvrOiMlWCUnSBFrcgJBEOrhAfmtScdij3WYAAAAAElFTkSuQmCC"
+                                    alt=""></div>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <div data-v-b73557e2="" class="name tac"> My income </div>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <div data-v-b73557e2="" class="flex1"></div>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <div data-v-b73557e2="" class="head_right"></div>
+                        </div>
+                        <div data-v-b73557e2="">
+                            <!---->
+                        </div>
                     </div>
                 </div>
-            </div>
-            <style>
-                        .van-refresh-com[data-v-3aad496f] {
-                    min-height: 100%;
-                    position: relative;
-                    overflow: scroll;
-                }.tabs-con[data-v-38c4ffa9] .van-tab--active {
-    color: #fff;
-    text-align: center;
-    font-family: PingFang SC;
-    font-size: .28rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border-radius: .44rem;
-    border: .02rem solid #7a7a78;
-    background: #854af6;
-}
-                    </style>
-            <div data-v-e85f0186="" class="page-container">
-                <div data-v-e85f0186="" class="scroll">
-                    <div data-v-38c4ffa9="" style="">
-                        <div class="van-sticky" style="">
-                            <div data-v-38c4ffa9="" class="tabs-con container">
-                                <div data-v-38c4ffa9="" class="title_heand"
-                                    style="margin-top: 0rem; padding-top: 0.12rem;">@lang('Asset Details')</div>
-                                <div data-v-38c4ffa9="" class="van-tabs van-tabs--line">
-                                    <div class="van-tabs__wrap">
-                                        <div role="tablist"
-                                            class="van-tabs__nav van-tabs__nav--line van-tabs__nav--complete"
-                                            aria-orientation="horizontal" style="background: none;">
-                                            <!---->
-                                           
-                                            <div id="van-tabs-8-1" role="tab"
-                                                class="van-tab van-tab--line van-tab--grow van-tab--active"   tabindex="-1"
-                                                aria-selected="false" aria-controls="van-tab-10"> <a style="color:#fff" href="{{route('user.records')}}"> <span
-                                                    class="van-tab__text">@lang('Deposit')</span> </a></div>
-                                            <div id="van-tabs-8-2" role="tab"
-                                                class="van-tab van-tab--line van-tab--grow" tabindex="-1"
-                                                aria-selected="false" aria-controls="van-tab-11"> <a href="{{route('user.Withdraw-History')}}"> <span
-                                                    class="van-tab__text">@lang('Withdrawal')</span></a></div>
-                                            <div id="van-tabs-8-3" role="tab"
-                                                class="van-tab van-tab--line van-tab--grow" tabindex="-1"
-                                                aria-selected="false" aria-controls="van-tab-12"> <a href="{{route('user.roi-bonus')}}"> <span
-                                                    class="van-tab__text">Income</span> </a></div>
-                                            <div class="van-tabs__line"
-                                                style="transform: translateX(52.5px) translateX(-50%); transition-duration: 0.3s;">
-                                            </div>
-                                            <!---->
-                                        </div>
-                                    </div>
-                                    <!---->
-                                    <div class="van-tabs__content">
-                                        <!---->
-                                        <!---->
-                                        <!---->
-                                        <!---->
+                <div data-v-6e2d35de="" id="scroll" class="content-container">
+                    <div data-v-6e2d35de="" id="content" class="content-scroll">
+                        <div data-v-73b46d99="" data-v-6e2d35de="" class="container">
+                            <ul data-v-31cd11fc="" data-v-73b46d99="" class="flex" data-v-6e2d35de="">
+                                <!-- <li data-v-31cd11fc="" class="on"> Revenue Record </li>
+                                <li data-v-31cd11fc="" class=""> To be released </li> -->
+                            </ul>
+                            <div data-v-71077448="" data-v-73b46d99="" data-v-6e2d35de="">
+                                <ul data-v-71077448="" class="flex">
+                                    <li data-v-71077448="">
+                                        <div data-v-71077448="" class="title">Total Income(USDT)</div>
+                                        <div data-v-71077448="" class="val">5.16</div>
+                                    </li>
+                                    <li data-v-71077448="">
+                                        <div data-v-71077448="" class="title">Today's earnings(USDT)</div>
+                                        <div data-v-71077448="" class="val">2.72</div>
+                                    </li>
+                                    <li data-v-71077448="">
+                                        <div data-v-71077448="" class="title">Accumulated trading income(USDT)</div>
+                                        <div data-v-71077448="" class="val">5.16</div>
+                                    </li>
+                                    <li data-v-71077448="">
+                                        <div data-v-71077448="" class="title">Today's trading income(USDT)</div>
+                                        <div data-v-71077448="" class="val">2.72</div>
+                                    </li>
+                                    <li data-v-71077448="">
+                                        <div data-v-71077448="" class="title">Cumulative community income(USDT)</div>
+                                        <div data-v-71077448="" class="val">0</div>
+                                    </li>
+                                    <li data-v-71077448="">
+                                        <div data-v-71077448="" class="title">Today's community income(USDT)</div>
+                                        <div data-v-71077448="" class="val">0</div>
+                                    </li>
+                                </ul>
+                                <!---->
+                            </div>
+                            <div data-v-73b46d99="" data-v-6e2d35de="" class="cname"> Revenue distribution </div>
+                            <ul data-v-73b46d99="" data-v-6e2d35de="" class="setList">
+                                <li data-v-73b46d99="" data-v-6e2d35de="" id="openPopupBtn"> All <img data-v-73b46d99=""
+                                        data-v-6e2d35de=""
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII="
+                                        alt="">
+                                    
+                                    </li>
+                                <li data-v-73b46d99="" data-v-6e2d35de=""><span data-v-73b46d99=""
+                                        data-v-6e2d35de="">time</span><img data-v-73b46d99="" data-v-6e2d35de=""
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII="
+                                        alt=""></li>
+                            </ul>
+                            <!---->
+                            <div data-v-73b46d99="" class="van-pull-refresh" data-v-6e2d35de="">
+                                <div class="van-pull-refresh__track" style="transition-duration: 0ms;">
+                                    <div class="van-pull-refresh__head" style="height: 100px;"></div>
+                                    <div data-v-73b46d99="" role="feed" class="van-list">
+                                        <ul data-v-8b8e62ac="" data-v-73b46d99="" class="list">
+
+
+
+
+                                        <?php if(is_array($deposit_list) || is_object($deposit_list)){ ?>
+
+<?php
+ date_default_timezone_set('UTC');
+  $cnt = 0; ?>
+  @foreach($deposit_list as $value)  <li data-v-8b8e62ac="">
+
+                   
+
+<div data-v-8b8e62ac="" class="flex">
+    <div data-v-8b8e62ac="" class="title">Order revenue</div>
+    <div data-v-8b8e62ac="" class="amount" >{{$value->amount}} USDT</div>
+</div>
+<div data-v-8b8e62ac="" class="flex">
+    <div data-v-8b8e62ac="" class="time">{{ date('D, d M Y H:i:s', strtotime($value->created_at)) }}</div>
+    <div data-v-8b8e62ac="" class="str"><span data-v-8b8e62ac=""
+            class="s1"></span>
+            <?=($value->status=="Active")?'completed':$value->status?> </div>
+</div>
+
+                     
+
+
+</li>
+
+@endforeach   
+                            
+                            <?php }?>  
+
+                                        </ul>
+                                        <div class="van-list__finished-text">No more</div>
+                                        <div class="van-list__placeholder"></div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
+                        <div data-v-554f6835="" data-v-73b46d99="" data-v-6e2d35de="">
+    <!-- Overlay -->
+    <div id="popupOverlay" class="van-overlay" style="z-index: 2004; display: none;"></div>
+
+    <!-- Popup Box -->
+    <div id="popupContainer" data-v-554f6835="" class="van-popup van-popup--round van-popup--bottom"
+         style="background: none; z-index: 2005; display: none;">
+        <div data-v-554f6835="" class="popup_box">
+            <div data-v-554f6835="" class="scroll">
+                <div data-v-554f6835="" class="ul">
+                <div data-v-554f6835="">
+                        <div data-v-554f6835="" class="item"> <a href="{{('roi-bonus')}}">Income<a></div>
                     </div>
-                    <div data-v-3aad496f="" data-v-38c4ffa9="" class="van-pull-refresh van-refresh-com container">
-                        <div class="van-pull-refresh__track" style="transition-duration: 0ms;">
-                            <div class="van-pull-refresh__head" style="height: 100px;"></div>
-                            <div data-v-3aad496f="" role="feed" class="van-list" aria-busy="false">
-                                <div data-v-01110b5f="" data-v-38c4ffa9="" class="list">
 
-                                    <?php if(is_array($deposit_list) || is_object($deposit_list)){ ?>
 
-                                        <?php
-                                         date_default_timezone_set('UTC');
-                                          $cnt = 0; ?>
-                                          @foreach($deposit_list as $value)
-
-                                    <div data-v-01110b5f="" class="item">
-                                        <div data-v-01110b5f="" class="left">
-                                            <div data-v-01110b5f="" class="type">@lang('Deposit') <a target="_blank" href="{{route('user.viewdetail',['txnId'=>$value->transaction_id])}}" style="margin-left:10px"> <i class="fa fa-share-alt" aria-hidden="true"></i> Show on <?=($value->payment_mode=="USDT_BSC")?"bscscan.com":"tronscan.org"?></a> </div>
-                                            <div data-v-01110b5f="" class="time">{{ date('D, d M Y H:i:s', strtotime($value->created_at)) }}</div>
-                                        </div>
-
-                                        <div data-v-01110b5f="" class="right">
-                                            <div data-v-01110b5f="" class="amount">{{$value->amount}} USDT</div>
-                                            <div data-v-01110b5f="" class="status completed"> <?=($value->status=="Active")?'completed':$value->status?> <!----></div>
-                                        </div>
-                                    </div>
-                                        @endforeach   
-                                                                            
-                                    <?php }?>  
-                             
-                                 
-                                </div><!---->
-                                {{ $deposit_list->withQueryString()->links() }}
-                                <div class="van-list__placeholder"></div>
-                            </div>
-                        </div>
+                    <div data-v-554f6835="">
+                        <div data-v-554f6835="" class="item"> <a href="{{('record')}}">Deposit</a></div>
                     </div>
-                </div>
-                <div data-v-8b363259="" data-v-e85f0186="" class="touch-move-con"
-                    style="top: 1.88rem; right: 0.2rem;">
+                    <div data-v-554f6835="">
+                        <div data-v-554f6835="" class="item"> <a href="{{('WithdrawHistory')}}">Withdrawal</a></div>
+                    </div>
+                  
+                  
                 </div>
             </div>
-            <div data-v-e85f0186="" class="footer">
+            <div data-v-554f6835="" class="esc" id="closePopupBtn">Cancel</div>
+        </div>
+    </div>
+</div>
+                        <div class="van-overlay" style="z-index: 2006; display: none;"></div>
+                        <div data-v-73b46d99="" class="van-popup van-popup--round van-popup--bottom"
+                            style="z-index: 2007; display: none;">
+                            <div data-v-73b46d99="" class="van-picker van-datetime-picker">
+                                <div class="van-picker__toolbar"><button type="button"
+                                        class="van-picker__cancel">Cancel</button><button type="button"
+                                        class="van-picker__confirm">Confirm</button></div>
+                                <!---->
+                                <div class="van-picker__columns" style="height: 264px;">
+                                    <div class="van-picker-column">
+                                        <ul class="van-picker-column__wrapper"
+                                            style="transform: translate3d(0px, 66px, 0px); transition-duration: 0ms; transition-property: none;">
+                                            <li role="button" tabindex="0" class="van-picker-column__item"
+                                                style="height: 44px;">
+                                                <div class="van-ellipsis">2024</div>
+                                            </li>
+                                            <li role="button" tabindex="0"
+                                                class="van-picker-column__item van-picker-column__item--selected"
+                                                style="height: 44px;">
+                                                <div class="van-ellipsis">2025</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="van-picker-column">
+                                        <ul class="van-picker-column__wrapper"
+                                            style="transform: translate3d(0px, -22px, 0px); transition-duration: 0ms; transition-property: none;">
+                                            <li role="button" tabindex="0" class="van-picker-column__item"
+                                                style="height: 44px;">
+                                                <div class="van-ellipsis">01</div>
+                                            </li>
+                                            <li role="button" tabindex="0" class="van-picker-column__item"
+                                                style="height: 44px;">
+                                                <div class="van-ellipsis">02</div>
+                                            </li>
+                                            <li role="button" tabindex="0" class="van-picker-column__item"
+                                                style="height: 44px;">
+                                                <div class="van-ellipsis">03</div>
+                                            </li>
+                                            <li role="button" tabindex="0"
+                                                class="van-picker-column__item van-picker-column__item--selected"
+                                                style="height: 44px;">
+                                                <div class="van-ellipsis">04</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="van-picker__mask" style="background-size: 100% 110px;"></div>
+                                    <div class="van-hairline-unset--top-bottom van-picker__frame" style="height: 44px;">
+                                    </div>
+                                </div>
+                                <!---->
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!---->
             </div>
+        </div>
+        <div data-v-a7d12cfc="" class="global-loading default" style="display: none;">
+            <div data-v-a7d12cfc="" class="global-spinner"><img data-v-a7d12cfc=""
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAArCAYAAAADgWq5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAF6WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMi0wNC0xMlQxNTo0MTowNiswODowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjItMDQtMTJUMTU6NDM6MTQrMDg6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjItMDQtMTJUMTU6NDM6MTQrMDg6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NWU0ZGQwNmEtMWExNS1kYjRmLTkyZmQtZjIzNTAwNzJkMGNmIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjlGMTI0NjE1NTQzQzExRThCQzhCQzEyQjVDOUMzOEJGIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6OUYxMjQ2MTU1NDNDMTFFOEJDOEJDMTJCNUM5QzM4QkYiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5RjEyNDYxMjU0M0MxMUU4QkM4QkMxMkI1QzlDMzhCRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5RjEyNDYxMzU0M0MxMUU4QkM4QkMxMkI1QzlDMzhCRiIvPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1ZTRkZDA2YS0xYTE1LWRiNGYtOTJmZC1mMjM1MDA3MmQwY2YiIHN0RXZ0OndoZW49IjIwMjItMDQtMTJUMTU6NDM6MTQrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hddYGwAABHhJREFUWIXN2XuoFVUUx/HPXG9WmmIPJQtNwQwqe5paEI1pCBZCRvVXDwlKCsLpIURgIZZG1KEXRVJJWPRnIv3TAw/0UCsrUlBLLQ1T01Ip6eZr+mPPOHOP56jXcz3XHxzu3nv2nv29a/bstdaeyJIXdYOG4bLs77k4AzvQFyvxKw7gJ/xZHpjGSZcmam8Csg/uxU0Yi8HHMGYz1uAtfIh/uzrp8QBPwFO4HgfR1oWx52e/CViX3ef9rkwedWFJXIQncE+da7uwHcuwF1uQClbvi1G4tMF9V+GuNE5+6C7gUzANT2Joqb0Dm/A6XsO+I9yjD/7DaMzArTi1ps/iNE6mNAvcjqfxKE4rtS/BXHxytAnqqBcuwHQ8XnNtP0amcfJLo8FHWn/98QIeK8Fuw3W48ThhCbvFBsxEhMWla+3YEFUrfbsKfDpewcOKR/e5sBssPU7QusqWwTTBurlWN+rfCHg67i7V3xasurFZwHpK42QBxmFP1jQkqlbW1utbD3g0ygt7Fe7T2QLdrjROVmBSqWlkVK28WtuvHvB7pfImXNvNbA2VxsmXeKnU9FBUrVxT7lMLHGNkVt6JO/DPiQKspzROZuC3UtM7UbVyiLMMPBDzSvWFWHFC6RprrLCbwCU4ZOUy8G24OivvxCwneN02UhonWwSD5Xo3L5SBpypii/mCu+1JzRHcOwyPqpVhFMD9MSYr78OnLUWrozRO1gk7FCE8mEwBPE7hzVbiu5bSNdabpfKkqFqJcuCr0Dsrr1ETZPegPiiVJ6dxkubAQwW/TohTTxa1K4x3IKpWLmwToqfhWWMqpDEnhdI42SrENYSYpqNN2O+uyBojfN16tPqKqpV2fJNVD+LK3MJbS/0GtRqskdI42Y+zsmob/moTlkHuVQ7qHKifDCpnJtvbBMg8XmjD2S1HaqCoWhmgCDl3o1e+S3xf6tey6OwY1K4IxrZhcw68rNRpjJNHA4WsG7ancbI7B/5CcagxCv1aTVarLKS8OaumAuMh17xFsVb64YaW0tVXO27PyvuxiAL4oJC35Xq+dVwNdbEiDv5btmzL4eXcUnmEwpn0lGYpwoVFaZykdAbeJZziEB7HG0JY13JF1crlyE+BdmQsODynm60ImkcIS6WliqqVQXhO8MCEg5Yf8+u1wFvxANbjfoUHbImiaqU3XsbErGkf5qRx0pH3qXfcOj/79YSeFXaG3JAz0zjZUO7QzIF2tymLyp7BI4oXbYVg7U7qceCoWhmKBRhfal6NKWmcHPYOdeX0/EQoxkc6wy7FxDROfq83oKcsfIvw+MfXtC8VLLuj0cBmgXsLb/RIfCVkK72FrXGfELjsEXLGFHcK580DdI5zd2F2GieVo03YLPCDwqF3nmr1Ek6N1grfN7Zn/8xenNPgHsuFbxw/H8uEzQLvVLwH+UZ/pnDOQfg0UKsD2biPMS+Nk5VdmbBZ4IVCVjtVyAXPE2LYsjqEtGs9vhWCrM8cp1NqFviA4OdzXz9ESLcGC+Abhe9yy4Vk8o8m5/M/9rYMi48jzWIAAAAASUVORK5CYII="
+                    alt=""></div>
+        </div>
+    </div>
+    <script src="/js1743619988925/core-js.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script src="/js1743619988925/vue.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script src="/js1743619988925/vant.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script src="/js1743619988925/crypto-js.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script src="/js1743619988925/axios.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script src="/js1743619988925/compressorjs.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script src="/js1743619988925/vendors~app.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script src="/js1743619988925/app.d968e27a.1743619988925.js?v=1743619988925"></script>
+    <script>
+        window.onload = function () {
+            // 禁用双指放大
+            document.addEventListener("touchstart", function (event) {
+                if (event.touches.length > 1) {
+                    event.preventDefault();
+                }
+            });
+            // 禁用双击放大
+            let lastTouchEnd = 0;
+            document.addEventListener(
+                "touchend",
+                function (event) {
+                    const now = new Date().getTime();
+                    if (now - lastTouchEnd <= 300) {
+                        event.preventDefault();
+                    }
+                    lastTouchEnd = now;
+                },
+                false
+            );
+            document.addEventListener("gesturestart", function (event) {
+                event.preventDefault();
+            });
+        };
+
+    </script>
+
+
+<script>
+    document.getElementById('openPopupBtn').addEventListener('click', function () {
+        document.getElementById('popupContainer').style.display = 'block';
+    });
+
+    document.getElementById('closePopupBtn').addEventListener('click', function () {
+        document.getElementById('popupContainer').style.display = 'none';
+    });
+</script>
+
+    <div class="van-toast van-toast--middle van-toast--success" style="z-index: 2001; display: none;"><i
+            class="van-icon van-icon-success van-toast__icon">
+            <!----></i>
+        <div class="van-toast__text">Login successful</div>
+    </div>
+    <!---->
+</body>
+
+</html>
