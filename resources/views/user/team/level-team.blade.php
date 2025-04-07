@@ -139,7 +139,9 @@
                 <div data-v-6e2d35de="" id="scroll" class="content-container">
                     <div data-v-6e2d35de="" id="content" class="content-scroll">
                         <div data-v-127dfd5e="" data-v-6e2d35de="" class="container rel">
-                            <div data-v-5105ae1a="" data-v-127dfd5e="" class="info" data-v-6e2d35de="">
+                            <div data-v-5105ae1a="" data-v-127dfd5e="" class="info" data-v-6e2d35de="" style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+">
                                 <ul data-v-5105ae1a="" class="flex">
                                     <li data-v-5105ae1a="">
                                         <div data-v-5105ae1a="" class="title">Total Income</div>
