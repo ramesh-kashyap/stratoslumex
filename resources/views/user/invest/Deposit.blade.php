@@ -128,7 +128,11 @@
 				<div data-v-b73557e2="" data-v-679886a1="" class="head" data-v-6e2d35de="">
 					<div data-v-b73557e2="" class="safe"></div>
 					<div data-v-b73557e2="" class="container flex">
-						<div data-v-b73557e2="" class="back"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgB7Ze9DcIwEIWf+W1ZgQ0oWIBJYBMoqekoEUJsQAsFA7ACYgCYAHNWbBGO2ICVEBf3SU9Ozufk6ZzYCSAIQrVorQekMVLEmrvqjLRMMnO6KpMNRGDMUbMn9VhXH3XjqZxhhroRc7GIuVjEXCwpmVM8oP2L8JI0R7a4N1lbFGtG5Lrji1LqYG7a+tLchrQjDUkdUteqE2iL8nif71pb0gHIbXUBcyvS2qTYc1d1nctRuXOeB0++r++FX/ZixY7VhxvowHgeU54xzymmOT9RFUd4r6L5QrmTFqQ2smekbcc6uXhRjOeG5HKP8BF4g6dIBTFZFmKyLMRkWYjJsvinyaj/YrMtUmO2xRvrOiMlWCUnSBFrcgJBEOrhAfmtScdij3WYAAAAAElFTkSuQmCC" alt=""></div><!----><!----><!---->
+						<div data-v-b73557e2="" class="back"><a href="{{route('user.asset')}}"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs
+						4c6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgB7Ze9DcIwEIWf+W1ZgQ0oWIBJYBMoqekoEUJsQAsFA7ACYgCYAHNWbBGO2ICVEBf3SU9Ozufk6Zz
+						YCSAIQrVorQekMVLEmrvqjLRMMnO6KpMNRGDMUbMn9VhXH3XjqZxhhroRc7GIuVjEXCwpmVM8oP2L8JI0R7a4N1lbFGtG5Lrji1LqYG7a+tLchrQjDU
+						kdUteqE2iL8nif71pb0gHIbXUBcyvS2qTYc1d1nctRuXOeB0++r++FX/ZixY7VhxvowHgeU54xzymmOT9RFUd4r6L5QrmTFqQ2smekbcc6uXhRjOeG5
+						HKP8BF4g6dIBTFZFmKyLMRkWYjJsvinyaj/YrMtUmO2xRvrOiMlWCUnSBFrcgJBEOrhAfmtScdij3WYAAAAAElFTkSuQmCC" alt=""></a></div><!----><!----><!---->
 						<div data-v-b73557e2="" class="name tac"> Deposit </div><!----><!----><!---->
 						<div data-v-b73557e2="" class="flex1"></div><!----><!----><!----><!----><!---->
 						<div data-v-b73557e2="" class="head_right"><img data-v-679886a1="" data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAOVBMVEUAAAD///////////////////////////////////////////////////////////////////////8KOjVvAAAAEnRSTlMAQCC/34DvYHDPUJ+QMI9fEK+OVn9hAAABIElEQVQ4y9WU23LEIAiGwWM8JLv1/R+2Cxp11bEznfZiv4tMgr8QEIS/R6ctugrTD1Sh3OsiVHDHCZ+F6KgJXs6kZOSFTXeljgCEVc2i7LrgFMG9m1SJo4cDexh6kdojoubTMB4WeJZhTSDQ92ORGfk7oOMgnwJGKI3h2M6XycGArf4Gn3Z2GG5HwXYNpgCeNkOp4WuvaHuewLAZoVZNAkR6FnixuYxg0g0b9EqoKZ3DqcwBtAlnIRfXQE+ahO0nd0LmmIUc2o9CScIxtOuSCd1g66xvtPK0hq7lEbog7spOCDar2qD5OCRMBF40TbhvCi8zXyens24z9fvG5eAptLnlqVkPTRkuRPRluCwsESq94QQsmS+AHRglXSkuIvwf35r0H3Qf5u1wAAAAAElFTkSuQmCC" alt="" class="headRight"></div>

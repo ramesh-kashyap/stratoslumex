@@ -69,9 +69,17 @@ class Dashboard extends Controller
         $percentage=0;    
         }
       
+
+
+
+
+
         $this->data['willgetProfit'] =$personal_deposit*200/100;
         $this->data['remaining_amount'] =($personal_deposit*2)-$totalIncome;
         $this->data['totalIncome'] =$percentage;
+
+
+        
         $response = Http::get('https://api.coingecko.com/api/v3/coins/markets', [
           'vs_currency' => 'usd',
           'order' => 'market_cap_desc',
@@ -729,5 +737,25 @@ public function tradeOn()
       $this->data['page'] = 'user.dashboard';
       return $this->dashboard_layout();
 
+}
+
+
+
+
+
+public function notice()
+{
+  $this->data['page'] = 'user.notice';
+  return $this->dashboard_layout();
+}
+
+
+
+
+
+public function about()
+{
+  $this->data['page'] = 'user.about';
+  return $this->dashboard_layout();
 }
 }

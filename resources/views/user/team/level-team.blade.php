@@ -157,7 +157,7 @@
                                         <div data-v-5105ae1a="" class="title">Today's community income</div>
                                         <div data-v-5105ae1a="" class="val">0</div>
                                     </li>
-                                </ul><button data-v-5105ae1a="" class="btn2"> Revenue Record </button>
+                                </ul><button data-v-5105ae1a="" class="btn2"><a href="{{route('user.roi-bonus')}}"> Revenue Record </a></button>
                             </div>
                             <div data-v-127dfd5e="" data-v-6e2d35de="" class="itemBox">
                                 <div data-v-127dfd5e="" data-v-6e2d35de="" class="com-title flex">

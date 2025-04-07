@@ -214,7 +214,7 @@
                    
 
 <div data-v-8b8e62ac="" class="flex">
-    <div data-v-8b8e62ac="" class="title">Order revenue</div>
+    <div data-v-8b8e62ac="" class="title">Deposit</div>
     <div data-v-8b8e62ac="" class="amount" >{{$value->amount}} USDT</div>
 </div>
 <div data-v-8b8e62ac="" class="flex">

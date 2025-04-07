@@ -74,12 +74,18 @@ Route::prefix('user')->group(function ()
 Route::middleware('auth')->group(function ()
 {
 Route::get('/dashboard', [App\Http\Controllers\UserPanel\Dashboard::class, 'index'])->name('user.dashboard');
+Route::get('/about', [App\Http\Controllers\UserPanel\Dashboard::class, 'about'])->name('user.about');
+
 Route::get('/tradeOn', [App\Http\Controllers\UserPanel\Dashboard::class, 'tradeOn'])->name('user.tradeOn');
 Route::get('/crypto', [App\Http\Controllers\UserPanel\Dashboard::class, 'getCryptoPrices'])->name('user.crypto');
 
 Route::get('/close-trade', [App\Http\Controllers\UserPanel\Dashboard::class, 'stop_trade'])->name('user.close-trade');
 
 Route::get('/lang', [App\Http\Controllers\UserPanel\Dashboard::class, 'lang'])->name('user.lang');
+Route::get('/notice', [App\Http\Controllers\UserPanel\Dashboard::class, 'notice'])->name('user.notice');
+
+
+
 Route::get('/news', [App\Http\Controllers\UserPanel\Dashboard::class, 'news'])->name('user.news');
 Route::get('/activities', [App\Http\Controllers\UserPanel\Dashboard::class, 'activities'])->name('user.activities');
 Route::post('/submitActivity', [App\Http\Controllers\UserPanel\Dashboard::class, 'submitActivity'])->name('user.submitActivity');
@@ -141,7 +147,9 @@ Route::get('/register/{sponsorCode}', [App\Http\Controllers\Register::class, 'sh
 
 
 Route::get('/record', [App\Http\Controllers\UserPanel\Invest::class, 'showrecord'])->name('user.records');
+Route::get('/vip', [App\Http\Controllers\UserPanel\Invest::class, 'vip'])->name('user.vip');
 Route::get('/invest', [App\Http\Controllers\UserPanel\Invest::class, 'index'])->name('user.invest');
+Route::get('/vip', [App\Http\Controllers\UserPanel\Invest::class, 'vip'])->name('user.vip');
 Route::get('/viewdetail/{txnId}', [App\Http\Controllers\UserPanel\Invest::class, 'viewdetail'])->name('user.viewdetail');
 Route::get('/deposit', [App\Http\Controllers\UserPanel\Invest::class, 'deposit'])->name('user.deposit');
 Route::get('/cancel-payment/{id}', [App\Http\Controllers\UserPanel\Invest::class, 'cancel_payment'])->name('user.cancel-payment');

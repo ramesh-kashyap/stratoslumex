@@ -17,8 +17,13 @@ a[data-v-2620cc76] {
                     </div>
                     
                     <div data-v-2620cc76="" class="item item_active" onclick="window.location.href='{{ route('user.asset') }}'">
-                        <div data-v-2620cc76="" class="on" ><img data-v-2620cc76=""
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALiSURBVHgB7ZlRchJBEIZ7JoEHfZAj7A1EolW+yZ7A5ASGR8tC5ASSE5BIWT7CDSQnGHizSoN4g7mBlKn4AGHHbtihZpddyjHsLKb4qlL0zGTZP73T3bMdgD3ZwtIWnopOFTh7qZQqg3smeN/Lkf+2F19YE/xcfPJm7LarQFUhf2RRFfwv/mupJ7i5SmKnbCZ2RCyxcJ45EfHw0aDzGcUexy6SDJgEh6w5TEFNb49DPUd7NoiKlVyx2je/PgDHPBMfy3M2/67HoRN7ZK+2RABBxLNMsWYeYomv/psxPtWxHnPGH61sbTDGHxvXyCu/3k/6MvrrFxkkY5QKLg37h7Z50i+n7dnKsPOeHlXAlKiID+8gQ0Z+o4VP+YR+0F7d69DmS5iCqtI2Y6/w4xwyJOkpc7Bjog0MBI/SIDjGysNYfYa4X3RwlihnYyrE4GAT2CK0Z4tQ6JsFQ2MlOIB5j8NBA00vnPLI0+TvrYLVYQqzNsZMa/SifmYuWW2Jsd+cBGruoynBBUq1KNDNKSsPEyhalkX7CXr6lAIPPVyC7eJFRiga0+hQ1wRrwQR5GpYZIpMsUREXLUxDK8+GRW1Atm2WcALlYDAyklnUdlIwYZZmk50VnMZ/J/ifgu4uVEW3dAO/vYfwQA78mnXBceZhEkovCL/Y9U86QNFnPMf+Dc4EX7Ob9trbDBUGy1OfE8FYaEoKgtPERQYNsMCJ4AIUvQ3Lm9bWcCJ4BlMJRiEwScu3aTgRvCjlCs6S1vDIegEWOAs6fE0/R3UkWtIYPTtYvv6sd3c24TQPh2eEFtyBfWnOmr3grLkfgpdvwvmSpmEl2OxfIZ6L/lkaR6JDhyRPjxN7axx4pC2E/bNueKFTyFGKqbY5Z2qLN7STuu/OGtrhNvDMObx3/6paP9HjSKWbq9saZwcidpGX456WqKlpTkSCjpokYWenDzlDZw3SQpqi8yks/4UQHMca3ZlDAUZ7Nq/u/54/AK019uZMHLkAAAAASUVORK5CYII="
+                        <div data-v-2620cc76="" class="on" >
+                            <img data-v-2620cc76=""
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAY
+                                AAAAehFoBAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAA
+                                
+                                Cxjwv8YQUAAALiSURBVHgB7ZlRchJBEIZ7JoEHfZAj7A1EolW+yZ7A5ASGR8tC5ASSE5BIW
+                                T7CDSQnGHizSoN4g7mBlKn4AGHHbtihZpddyjHsLKb4qlL0zGTZP73T3bMdgD3ZwtIWnopOFTh7qZQqg3smeN/Lkf+2F19YE/xcfPJm7LarQFUhf2RRFfwv/mupJ7i5SmKnbCZ2RCyxcJ45EfHw0aDzGcUexy6SDJgEh6w5TEFNb49DPUd7NoiKlVyx2je/PgDHPBMfy3M2/67HoRN7ZK+2RABBxLNMsWYeYomv/psxPtWxHnPGH61sbTDGHxvXyCu/3k/6MvrrFxkkY5QKLg37h7Z50i+n7dnKsPOeHlXAlKiID+8gQ0Z+o4VP+YR+0F7d69DmS5iCqtI2Y6/w4xwyJOkpc7Bjog0MBI/SIDjGysNYfYa4X3RwlihnYyrE4GAT2CK0Z4tQ6JsFQ2MlOIB5j8NBA00vnPLI0+TvrYLVYQqzNsZMa/SifmYuWW2Jsd+cBGruoynBBUq1KNDNKSsPEyhalkX7CXr6lAIPPVyC7eJFRiga0+hQ1wRrwQR5GpYZIpMsUREXLUxDK8+GRW1Atm2WcALlYDAyklnUdlIwYZZmk50VnMZ/J/ifgu4uVEW3dAO/vYfwQA78mnXBceZhEkovCL/Y9U86QNFnPMf+Dc4EX7Ob9trbDBUGy1OfE8FYaEoKgtPERQYNsMCJ4AIUvQ3Lm9bWcCJ4BlMJRiEwScu3aTgRvCjlCs6S1vDIegEWOAs6fE0/R3UkWtIYPTtYvv6sd3c24TQPh2eEFtyBfWnOmr3grLkfgpdvwvmSpmEl2OxfIZ6L/lkaR6JDhyRPjxN7axx4pC2E/bNueKFTyFGKqbY5Z2qLN7STuu/OGtrhNvDMObx3/6paP9HjSKWbq9saZwcidpGX456WqKlpTkSCjpokYWenDzlDZw3SQpqi8yks/4UQHMca3ZlDAUZ7Nq/u/54/AK019uZMHLkAAAAASUVORK5CYII="
                                 alt=""><span data-v-2620cc76="">Assets</span></div>
                     </div>
                     <div data-v-2620cc76="" class="item"   onclick="window.location.href='{{ route('user.quality') }}'" >

@@ -178,7 +178,7 @@
                                 </li>
                                 <li data-v-17dc2e5d=""><img data-v-17dc2e5d=""
                                         src="{{asset('')}}static/img/wallet-ico11.2bd21110.png" alt="">
-                                    <div data-v-17dc2e5d="" class="s1">Withdraw</div>
+                                        <a href="{{route('user.Withdraw')}}">   <div data-v-17dc2e5d="" class="s1">Withdraw</div></a>
                                 </li>
                                 <li data-v-17dc2e5d=""><img data-v-17dc2e5d=""
                                         src="{{asset('')}}static/img/wallet-ico13.ec915c24.png" alt="">

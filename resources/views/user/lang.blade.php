@@ -1,347 +1,263 @@
-<html lang="en" class="van-theme-light pc" style="font-size: 50px;">
+<html class="pc" style="font-size: 50px;">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="{{ asset('') }}assets/images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="robots" content="noindex, nofollow">
-    <title>Change Language</title>
-    <script type="module" crossorigin="" src="{{asset('')}}assets/js/index-BR72YH-E.js"></script>
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/vant-3s7b3naM.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/vuei18n-CA58nVJV.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/corejs-C4iS2aBk.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/vuex-MbEfqX8_.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/cryptojs-BILcvZe1.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/qrcodejs2fix-CnmRM6Pf.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/vueclipboard3-C7DdPEQF.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/uaParserJs-QZjeYS1Z.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/vuerouter-7dy5tY0D.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/axios-Cm0UX6qg.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/swiper-C1TWdcvt.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/bignumberjs-DOH-f-tm.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/validator-DnYg83Z5.js">
-    <link rel="modulepreload" crossorigin="" href="{{asset('')}}assets/js/vanttouchemulator-Cv_in60N.js">
-    <link rel="stylesheet" crossorigin="" href="{{asset('')}}assets/css/index-CFWvmehk.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/PageScroll-CWe5U2pE.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/PageScroll-B0U5qQ_M.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/MainHeader-DINvrqg3.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/MainHeader-DmTIx4Xq.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/PhoneInp-BJMfsyKO.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/PhoneInp-BbLd3uXE.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/PsdInp-CEndfO3Z.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/eye_close-DJdVF6pM.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/PsdInp-B2SSuLGr.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/ComCheckbox-BI3og0hr.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/ComCheckbox-DzGBGsDX.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/ComBtn-CB5ONs6P.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/ComBtn-CgiT3mnI.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/FloatingBubble-CfUHYYW9.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/FloatingBubble-Dntr2w2Z.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/AreaPopup-d_YKKHuA.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/AreaPopup-Dy2cJYlh.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/CustomerService-uNNPIRl7.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/CustomerService-D5uG7YzE.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/MainFooter-DradSXvN.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/MainFooter-KaNE-uqv.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/NoticePopup-CPE0x0yj.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/NoticePopup-SnqEssf-.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/ComImage-DHdOqV0T.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/ComImage-C3FUzSnY.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/index-R9Sdxwdc.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/icon_record-C7zQIaVK.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/index-nZ1eiUu3.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/ComSticky-BUfwGsmT.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/ListEmpty-DvuO2CRk.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/ListEmpty-BnV8Jpo-.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/index-BOpasher.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/icon_tips-BV3W61Vo.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/index-TaX0o5sz.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/InsideHeader-cUb30gWX.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/icon_back_white-Fd3ZFuzm.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/InsideHeader-k_Fsd2wZ.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/ComPicker-D2IkiGpm.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/add-DjQys2_Q.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/add-Bc2pxqpf.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/EmailVerify-BmNRfRYW.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/EmailVerify-Dp0-5g_d.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/index-2Ox_JBAH.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/index-3m6MC6us.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/index-B24fKnap.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/icon_copy-BwRkM0m9.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/index-C8z20q5q.css">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/index-BJGTjSxj.js">
-    <link rel="modulepreload" as="script" crossorigin="" href="{{asset('')}}assets/js/icon_copy_min-DeS-a5w4.js">
-    <link rel="stylesheet" href="{{asset('')}}assets/css/index-C4GTzutw.css">
+  <meta charset="utf-8">
+  <title>Switch Language</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="expires" content="0">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="full-screen" content="true">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="360-fullscreen" content="true">
+  <meta name="renderer" content="webkit">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="manifest" href="/manifest.json">
+  <script>
+    window.addEventListener("error", function(event) {
+      if (event.message.indexOf("Unexpected token '<'") > -1) {
+        location.reload();
+      }
+    });
+    if ("standalone" in window.navigator && window.navigator.standalone) {
+      var noddy,
+        remotes = false;
+      document.addEventListener(
+        "click",
+        function(event) {
+          noddy = event.target;
+          while (noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+            noddy = noddy.parentNode;
+          }
+          if (
+            "href" in noddy &&
+            noddy.href.indexOf("http") !== -1 &&
+            (noddy.href.indexOf(document.location.host) !== -1 || remotes)
+          ) {
+            event.preventDefault();
+            document.location.href = noddy.href;
+          }
+        },
+        false
+      );
+    }
+  </script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+    }
+
+    #startLogo {
+      width: 100%;
+      min-width: 7.5rem;
+      height: 100vh;
+      max-width: 8.5rem;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1000000;
+      background: #020503;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: none;
+    }
+
+    #startLogo img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+  </style>
+  <link href="/js1743619988925/app.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="/js1743619988925/axios.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="/js1743619988925/compressorjs.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="/js1743619988925/core-js.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="/js1743619988925/crypto-js.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="/js1743619988925/vant.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="/js1743619988925/vendors~app.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="/js1743619988925/vue.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
+  <link href="{{asset('')}}static/css/app.6328f701.css" rel="preload" as="style">
+  <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="preload" as="style">
+  <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="stylesheet">
+  <link href="{{asset('')}}static/css/app.6328f701.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-41993a66.791df78f.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-41993a66.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-5576a184.9f52f39a.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-5576a184.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-60c8a75a.d6f6b692.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-60c8a75a.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-a7d8f170.c87a4291.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-a7d8f170.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-67912ed2.ae8d438d.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-67912ed2.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-6f896b4e.5bb66763.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-6f896b4e.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-375cccc2.6ddcb41c.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-375cccc2.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-00b1464f.674dbd13.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-00b1464f.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-7f362702.6a53b834.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-7f362702.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-39d146b7.e86e8ed5.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-39d146b7.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-7486a5bb.7212a656.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-7486a5bb.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-b5658432.1d75afbf.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-b5658432.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-747287e5.9009fee8.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-747287e5.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-05e98ee6.bea82fa2.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-05e98ee6.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script charset="utf-8" src="/js1743619988925/echarts.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script charset="utf-8" src="/js1743619988925/chunk-0119f9da.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-0b116a05.250ed6be.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-0b116a05.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-367626f4.8674be05.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-367626f4.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script charset="utf-8" src="/js1743619988925/qrcodejs2.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-0d09da43.555d1171.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-0d09da43.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-115aa5d8.9d416f08.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-115aa5d8.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-5f936813.7deb1a32.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-17ff7542.34892cae.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-17ff7542.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-bb17762c.89cc2aa3.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-bb17762c.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-46a98347.977e0db2.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-46a98347.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-5412a522.b373626a.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-5412a522.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-11f54b20.00ba71bb.css">
+  <script charset="utf-8" src="/js1743619988925/chunk-11f54b20.d968e27a.1743619988925.js?v=1743619988925"></script>
 </head>
 
-<body class="">
-    <div id="app" data-v-app="">
-        <div class="van-config-provider">
-            <!---->
+<body class="mein_cn">
+  <div id="app" class="applang">
+    <div data-v-7668b55c="" class="home">
+      <div data-v-6e2d35de="" data-v-7668b55c="" class="page">
+        <div data-v-6e2d35de="" class="headers">
+          <div data-v-b73557e2="" data-v-7668b55c="" class="head head_isModule" data-v-6e2d35de="">
+            <div data-v-b73557e2="" class="safe"></div>
+            <div data-v-b73557e2="" class="container flex">
+              <div data-v-b73557e2="" class="back"><a href="{{route('user.dashboard')}}"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c
+              6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgB7Ze9DcIwEIWf+W1ZgQ0oWIBJYBMoqekoEUJsQAsFA7ACYgCYAHNWbBGO2ICVEBf3SU9Ozufk6ZzYCSA
+              IQrVorQekMVLEmrvqjLRMMnO6KpMNRGDMUbMn9VhXH3XjqZxhhroRc7GIuVjEXCwpmVM8oP2L8JI0R7a4N1lbFGtG5Lrji1LqYG7a+tLchrQjDUkdUt
+              eqE2iL8nif71pb0gHIbXUBcyvS2qTYc1d1nctRuXOeB0++r++FX/ZixY7VhxvowHgeU54xzymmOT9RFUd4r6L5QrmTFqQ2smekbcc6uXhRjOeG5HKP
+              8BF4g6dIBTFZFmKyLMRkWYjJsvinyaj/YrMtUmO2xRvrOiMlWCUnSBFrcgJBEOrhAfmtScdij3WYAAAAAElFTkSuQmCC" alt=""></a></div><!----><!----><!---->
+              <div data-v-b73557e2="" class="name tac"> Switch Language </div><!----><!----><!---->
+              <div data-v-b73557e2="" class="flex1"></div><!----><!----><!----><!----><!---->
+              <div data-v-b73557e2="" class="head_right"></div>
+            </div>
+            <div data-v-b73557e2=""><!----></div>
+          </div>
         </div>
-        <div data-v-e85f0186="" data-v-50763054="" class="page" style="background-color: rgb(255, 255, 255);">
-            <div data-v-e85f0186="" class="headers">
-                <div data-v-54adc729="" data-v-e85f0186="" class="inside-header">
-                    <div data-v-54adc729="" class="left">
-                        <div data-v-54adc729="" class="back"> <a href="{{route('user.profile')}}"><img data-v-54adc729=""
-                                src="data:image/png;base64,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"
-                                class="icon"></a></div>
-                    </div>
-                </div>
-            </div>
-            
-            <style>
-                
-                .box {
-  margin-top: .32rem;
-  border-radius: .32rem;
-  border: .02rem solid #7a7a78;
-  background: #fff;
-}
-.item[data-v-211556f9] {
-  padding: .36rem .32rem;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.item .name[data-v-211556f9] {
-  font-size: .28rem;
-  font-weight: 500;
-  line-height: 1em;
-  color: #27313c;
-}
-.item .ico[data-v-211556f9] {
-  /*display: none;*/
-}
-.van-radio {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-}.van-radio {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-}
-.van-radio__icon {
-  flex: none;
-  height: 1em;
-  font-size: var(--van-radio-size);
-  line-height: 1em;
-  cursor: pointer;
-}
-.item .ico[data-v-211556f9] .van-radio__icon--checked .van-icon {
-  color: #fff;
-}
-.van-radio__icon--checked .van-icon {
-  color: var(--van-white);
-  background-color: var(--van-radio-checked-icon-color);
-  border-color: var(--van-radio-checked-icon-color);
-}
-.van-radio__icon--round .van-icon {
-  border-radius: 100%;
-}
-.van-radio__icon .van-icon {
-  display: block;
-  box-sizing: border-box;
-  width: 1.25em;
-  height: 1.25em;
-  color: transparent;
-  font-size: .8em;
-  line-height: 1.25;
-  text-align: center;
-  border: 1px solid var(--van-radio-border-color);
-  transition-duration: var(--van-radio-duration);
-  transition-property: color,border-color,background-color;
-}
-.van-icon {
-  position: relative;
-  display: inline-block;
-  font: 14px/1 vant-icon;
-  font: normal normal normal 14px/1 var(--van-icon-font-family, "vant-icon");
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.van-icon-success::before {
-  content: "";
-}
-.van-icon::before {
-  display: inline-block;
-}
-::before, ::after {
-  box-sizing: border-box;
-}
-.item .ico[data-v-211556f9] .van-radio__icon--checked .van-icon {
-  color: #dcfd52;
-}
-.van-radio__icon--checked .van-icon {
-  color: var(--van-white);
-}
-.van-radio__icon .van-icon {
-  color: transparent;
-  font-size: .8em;
-  line-height: 1.25;
-  text-align: center;
-}
-.van-icon {
-  font: 14px/1 vant-icon;
-  font: normal normal normal 14px/1 var(--van-icon-font-family, "vant-icon");
-  font-size: inherit;
-  text-rendering: auto;
-}
-            </style>
-            <div data-v-e85f0186="" class="page-container">
-                <div data-v-e85f0186="" class="scroll">
-                    <div data-v-50763054="" class="container">
-                        <div data-v-50763054="" class="title_heand">@lang('Switch Language')</div>
-                        <div data-v-50763054="" class="boxs">
-                       <div data-v-211556f9="" class="box">
-                           <div data-v-211556f9="" role="feed" class="van-list" aria-busy="false">
-                              <div data-v-211556f9="" class="van-radio-group" role="radiogroup">
-                                  
-                                     @foreach($language as $item)
-                                     
-
-                                     <div data-v-211556f9="" class="item langSel"  data-response="{{$item->code}}">
-                                        <div data-v-211556f9="" class="name flexs">{{ __($item->name) }}</div>
-                                        <div data-v-211556f9="" class="ico">
-                                       <div data-v-211556f9="" role="radio" class="van-radio" tabindex="0" aria-checked="false">
-                                           
-                                          @if(session('lang') == $item->code)  
-                                        
-                                           <div class="van-radio__icon van-radio__icon--round van-radio__icon--checked">
-                                             <i class="van-badge__wrapper van-icon van-icon-success" style="border-color: rgb(133 74 246); background-color: rgb(133 74 246);">
-                                                <!----><!----><!---->
-                                             </i>
-                                          </div>
-                                          @else
-                                            <div class="van-radio__icon van-radio__icon--round">
-                                             <i class="van-badge__wrapper van-icon van-icon-success">
-                                                <!----><!----><!---->
-                                             </i>
-                                          </div>
-                                          @endif
-                                          
-                                          <!---->
-                                       </div>
-                                    </div>
-                                 </div>
-                                    
-                                @endforeach
-                                
-                                
-                                
-                                
-                              </div>
-                              <!----><!----><!---->
-                              <div class="van-list__placeholder"></div>
-                           </div>
+        <div data-v-6e2d35de="" id="scroll" class="content-container">
+          <div data-v-6e2d35de="" id="content" class="content-scroll">
+            <div data-v-7668b55c="" data-v-6e2d35de="" class="container">
+              <div data-v-7668b55c="" data-v-6e2d35de="" class="list">
+                <div data-v-7668b55c="" role="radiogroup" class="van-radio-group" data-v-6e2d35de="">
+                  <ul data-v-7668b55c="">
+                    <li data-v-7668b55c="" class="db">
+                      <div data-v-7668b55c="" class="flexs">Français</div>
+                      <div data-v-7668b55c="" class="s">
+                        <div data-v-7668b55c="" role="radio" tabindex="-1" aria-checked="false" class="van-radio">
+                          <div class="van-radio__icon van-radio__icon--round"><i class="van-icon van-icon-success"><!----></i></div>
                         </div>
-
-                            
-                                                
+                      </div>
+                    </li>
+                    <li data-v-7668b55c="" class="db">
+                      <div data-v-7668b55c="" class="flexs">Deutsch</div>
+                      <div data-v-7668b55c="" class="s">
+                        <div data-v-7668b55c="" role="radio" tabindex="-1" aria-checked="false" class="van-radio">
+                          <div class="van-radio__icon van-radio__icon--round"><i class="van-icon van-icon-success"><!----></i></div>
                         </div>
-                    </div>
+                      </div>
+                    </li>
+                    <li data-v-7668b55c="" class="db">
+                      <div data-v-7668b55c="" class="flexs">español</div>
+                      <div data-v-7668b55c="" class="s">
+                        <div data-v-7668b55c="" role="radio" tabindex="-1" aria-checked="false" class="van-radio">
+                          <div class="van-radio__icon van-radio__icon--round"><i class="van-icon van-icon-success"><!----></i></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-v-7668b55c="" class="db">
+                      <div data-v-7668b55c="" class="flexs">Italia</div>
+                      <div data-v-7668b55c="" class="s">
+                        <div data-v-7668b55c="" role="radio" tabindex="-1" aria-checked="false" class="van-radio">
+                          <div class="van-radio__icon van-radio__icon--round"><i class="van-icon van-icon-success"><!----></i></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li data-v-7668b55c="" class="db">
+                      <div data-v-7668b55c="" class="flexs">English</div>
+                      <div data-v-7668b55c="" class="s">
+                        <div data-v-7668b55c="" role="radio" tabindex="0" aria-checked="true" class="van-radio">
+                          <div class="van-radio__icon van-radio__icon--round van-radio__icon--checked"><i class="van-icon van-icon-success" style="border-color: rgb(50, 192, 146); background-color: rgb(50, 192, 146);"><!----></i></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-               
+              </div>
             </div>
-            <!---->
-        
-   
+          </div>
+        </div><!---->
+      </div>
+    </div>
+    <div data-v-a7d12cfc="" class="global-loading default" style="display: none;">
+      <div data-v-a7d12cfc="" class="global-spinner"><img data-v-a7d12cfc="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAArCAYAAAADgWq5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAF6WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMi0wNC0xMlQxNTo0MTowNiswODowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjItMDQtMTJUMTU6NDM6MTQrMDg6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjItMDQtMTJUMTU6NDM6MTQrMDg6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NWU0ZGQwNmEtMWExNS1kYjRmLTkyZmQtZjIzNTAwNzJkMGNmIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjlGMTI0NjE1NTQzQzExRThCQzhCQzEyQjVDOUMzOEJGIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6OUYxMjQ2MTU1NDNDMTFFOEJDOEJDMTJCNUM5QzM4QkYiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5RjEyNDYxMjU0M0MxMUU4QkM4QkMxMkI1QzlDMzhCRiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5RjEyNDYxMzU0M0MxMUU4QkM4QkMxMkI1QzlDMzhCRiIvPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo1ZTRkZDA2YS0xYTE1LWRiNGYtOTJmZC1mMjM1MDA3MmQwY2YiIHN0RXZ0OndoZW49IjIwMjItMDQtMTJUMTU6NDM6MTQrMDg6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hddYGwAABHhJREFUWIXN2XuoFVUUx/HPXG9WmmIPJQtNwQwqe5paEI1pCBZCRvVXDwlKCsLpIURgIZZG1KEXRVJJWPRnIv3TAw/0UCsrUlBLLQ1T01Ip6eZr+mPPOHOP56jXcz3XHxzu3nv2nv29a/bstdaeyJIXdYOG4bLs77k4AzvQFyvxKw7gJ/xZHpjGSZcmam8Csg/uxU0Yi8HHMGYz1uAtfIh/uzrp8QBPwFO4HgfR1oWx52e/CViX3ef9rkwedWFJXIQncE+da7uwHcuwF1uQClbvi1G4tMF9V+GuNE5+6C7gUzANT2Joqb0Dm/A6XsO+I9yjD/7DaMzArTi1ps/iNE6mNAvcjqfxKE4rtS/BXHxytAnqqBcuwHQ8XnNtP0amcfJLo8FHWn/98QIeK8Fuw3W48ThhCbvFBsxEhMWla+3YEFUrfbsKfDpewcOKR/e5sBssPU7QusqWwTTBurlWN+rfCHg67i7V3xasurFZwHpK42QBxmFP1jQkqlbW1utbD3g0ygt7Fe7T2QLdrjROVmBSqWlkVK28WtuvHvB7pfImXNvNbA2VxsmXeKnU9FBUrVxT7lMLHGNkVt6JO/DPiQKspzROZuC3UtM7UbVyiLMMPBDzSvWFWHFC6RprrLCbwCU4ZOUy8G24OivvxCwneN02UhonWwSD5Xo3L5SBpypii/mCu+1JzRHcOwyPqpVhFMD9MSYr78OnLUWrozRO1gk7FCE8mEwBPE7hzVbiu5bSNdabpfKkqFqJcuCr0Dsrr1ETZPegPiiVJ6dxkubAQwW/TohTTxa1K4x3IKpWLmwToqfhWWMqpDEnhdI42SrENYSYpqNN2O+uyBojfN16tPqKqpV2fJNVD+LK3MJbS/0GtRqskdI42Y+zsmob/moTlkHuVQ7qHKifDCpnJtvbBMg8XmjD2S1HaqCoWhmgCDl3o1e+S3xf6tey6OwY1K4IxrZhcw68rNRpjJNHA4WsG7ancbI7B/5CcagxCv1aTVarLKS8OaumAuMh17xFsVb64YaW0tVXO27PyvuxiAL4oJC35Xq+dVwNdbEiDv5btmzL4eXcUnmEwpn0lGYpwoVFaZykdAbeJZziEB7HG0JY13JF1crlyE+BdmQsODynm60ImkcIS6WliqqVQXhO8MCEg5Yf8+u1wFvxANbjfoUHbImiaqU3XsbErGkf5qRx0pH3qXfcOj/79YSeFXaG3JAz0zjZUO7QzIF2tymLyp7BI4oXbYVg7U7qceCoWhmKBRhfal6NKWmcHPYOdeX0/EQoxkc6wy7FxDROfq83oKcsfIvw+MfXtC8VLLuj0cBmgXsLb/RIfCVkK72FrXGfELjsEXLGFHcK580DdI5zd2F2GieVo03YLPCDwqF3nmr1Ek6N1grfN7Zn/8xenNPgHsuFbxw/H8uEzQLvVLwH+UZ/pnDOQfg0UKsD2biPMS+Nk5VdmbBZ4IVCVjtVyAXPE2LYsjqEtGs9vhWCrM8cp1NqFviA4OdzXz9ESLcGC+Abhe9yy4Vk8o8m5/M/9rYMi48jzWIAAAAASUVORK5CYII=" alt=""></div>
+    </div>
+  </div>
+  <script src="/js1743619988925/core-js.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script src="/js1743619988925/vue.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script src="/js1743619988925/vant.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script src="/js1743619988925/crypto-js.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script src="/js1743619988925/axios.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script src="/js1743619988925/compressorjs.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script src="/js1743619988925/vendors~app.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script src="/js1743619988925/app.d968e27a.1743619988925.js?v=1743619988925"></script>
+  <script>
+    window.onload = function() {
+      // 禁用双指放大
+      document.addEventListener("touchstart", function(event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      });
+      // 禁用双击放大
+      let lastTouchEnd = 0;
+      document.addEventListener(
+        "touchend",
+        function(event) {
+          const now = new Date().getTime();
+          if (now - lastTouchEnd <= 300) {
+            event.preventDefault();
+          }
+          lastTouchEnd = now;
+        },
+        false
+      );
+      document.addEventListener("gesturestart", function(event) {
+        event.preventDefault();
+      });
+    };
+  </script>
+  <div class="van-toast van-toast--middle van-toast--success" style="z-index: 2013; display: none;"><i class="van-icon van-icon-success van-toast__icon"><!----></i>
+    <div class="van-toast__text">Login successful</div>
+  </div><!----><!---->
+</body>
 
-
-            <script src="https://code.jquery.com//jquery-3.3.1.min.js"></script>
-
-<script>
-    'use strict';
-    (function($){
-        $(document).on("click", ".langSel", function() {
-              var res_area = $(this).attr('data-response');
-            window.location.href = "{{url('/')}}/change/"+res_area;
-        });
-      
-    })(jQuery)
-</script>
-
-
-            <script>
-            
-                    $('.first-code-send').click(function(e) {
-                        var ths = $(this);
-             
-                      
-                        // alert(sponsor); 
-                        $.ajax({
-                            type: "POST"
-                            , url: "{{ route('user.send_code') }}"
-                            , data: {
-                                "emailId": ""
-                                , "_token": "{{ csrf_token() }}"
-                            , }
-                            , success: function(response) {
-                                // alert(response);      
-                                if (response) {
-                                    // alert("hh");
-                                    iziToast.success({
-                                    message: 'Email send Successfully',
-                                    position: "topRight"
-                                });
-                                } else {
-                                    // alert("hi");
-                                    iziToast.error({
-                                    message: 'Error!',
-                                    position: "topRight"
-                                });
-                                }
-                            }
-                        });
-                    });
-
-                    $('.sencond-code-send').click(function(e) {
-                        var ths = $(this);
-                        var emailId = $('#emailId').val();
-                   
-                        if (!emailId) 
-                        {
-                            iziToast.error({
-                                    message: 'Invalid Email!',
-                                    position: "topRight"
-                                });
-                                return false;
-                        }
-                        // alert(sponsor); 
-                        $.ajax({
-                            type: "POST"
-                            , url: "{{ route('user.send_code') }}"
-                            , data: {
-                                "emailId": emailId
-                                , "_token": "{{ csrf_token() }}"
-                            , }
-                            , success: function(response) {
-                                // alert(response);      
-                                if (response) {
-                                    // alert("hh");
-                                    iziToast.success({
-                                    message: 'Email send Successfully',
-                                    position: "topRight"
-                                });
-                                } else {
-                                    // alert("hi");
-                                    iziToast.error({
-                                    message: 'Error!',
-                                    position: "topRight"
-                                });
-                                }
-                            }
-                        });
-                    });
-
-                        </script>
-                        
+</html>
