@@ -628,6 +628,7 @@ public function viewdetail($txnId)
 
         $this->data['gen_team1Income'] =$gen_team1->count();
 
+        $notes = Contract::where('user_id',$user->id)->orderBy('id','DESC');
 
 
           $userDirect = User::where('sponsor',$user->id)->where('active_status','Active')->where('package','>=',30)->count();
@@ -640,6 +641,8 @@ public function viewdetail($txnId)
           $this->data['todaysLevelIncome'] = \DB::table('incomes')->where('user_id',$user->id)->where('ttime',date('Y-m-d'))->where('remarks','Quantify Level Income')->sum('comm');
           $this->data['totalLevelIncome'] = \DB::table('incomes')->where('user_id',$user->id)->where('remarks','Quantify Level Income')->sum('comm');
           $this->data['balance'] =round($user->available_balance(),2);
+          $this->data['level_income'] =$notes;
+
           $this->data['page'] = 'user.quality';
           return $this->dashboard_layout();
 
@@ -673,6 +676,22 @@ public function viewdetail($txnId)
           return $this->dashboard_layout();
           
         }
+
+
+
+
+
+        public function vip()
+        {
+            $user=Auth::user();
+     
+            $this->data['page'] = 'user.invest.vip';
+            return $this->dashboard_layout();
+        }
+
+
+
+
 
 
 }
