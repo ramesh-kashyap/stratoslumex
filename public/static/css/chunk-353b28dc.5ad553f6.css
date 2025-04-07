@@ -1,5 +1,5 @@
 .info-com[data-v-73226123] {
-    background: url(../../static/img/bj_10.4a84fac3.png) no-repeat top;
+    background: linear-gradient(to right, #119ac7, #b5dbe7);
     padding: .32rem;
     display: flex;
     margin-bottom: .32rem;
@@ -13,7 +13,7 @@
 }
 
 .info-com li.on .val[data-v-73226123] {
-    color: #32c092
+    color: black;
 }
 
 .info-com li[data-v-73226123]:nth-child(-n+3) {
@@ -640,7 +640,7 @@ button.swiper-pagination-bullet {
 .list .list-item[data-v-4dc539c5] {
     border-radius: .24rem;
     border: .02rem solid hsla(0, 0%, 100%, .1);
-    background: linear-gradient(180deg, #111116, #141519);
+    background: linear-gradient(to right, #119ac7, #b5dbe7);
     padding: .32rem;
     position: relative;
     margin-bottom: .24rem;
@@ -707,12 +707,12 @@ button.swiper-pagination-bullet {
 }
 
 .list .list-item ul li .title[data-v-4dc539c5] {
-    color: #7d7d88
+    color: black;
 }
 
 .list .list-item button[data-v-4dc539c5] {
     border-radius: .16rem;
-    background: #32c092;
+    background: black;
     display: flex;
     width: 100%;
     height: .72rem;
@@ -790,7 +790,7 @@ button.swiper-pagination-bullet {
     top: 0;
     width: 50%;
     border-radius: .16rem;
-    background: #32c092
+    background: black;
 }
 
 [data-v-4dc539c5] .van-count-down {
@@ -1205,8 +1205,7 @@ button.swiper-pagination-bullet {
 }
 
 .btn_box .btn.submit[data-v-c95fb5c2] {
-    background: #32c092
-}
+    background: linear-gradient(to right, #119ac7, #b5dbe7);}
 
 .list[data-v-7a0ef217] {
     margin: 0 -.32rem
@@ -1492,7 +1491,7 @@ button.swiper-pagination-bullet {
 
 .tab li.on[data-v-427eef2e] {
     border-radius: .12rem;
-    background: #32c092
+    background: black;
 }
 
 .levelListPop[data-v-427eef2e] {
@@ -1560,7 +1559,7 @@ button.swiper-pagination-bullet {
 
 .select-level-tab[data-v-427eef2e] {
     border-radius: .24rem;
-    border: .02rem solid hsla(0, 0%, 100%, .1);
+    border: .02rem solid hsl(194.91deg 71.31% 46.47%);
     background: rgba(2, 2, 2, 0);
     padding: .24rem;
     align-items: center;

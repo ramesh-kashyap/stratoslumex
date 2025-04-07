@@ -111,7 +111,10 @@
     <div id="app" class="applang">
         <div data-v-6e2d35de="" data-v-6b16f068="" class="page">
             <div data-v-6e2d35de="" class="headers">
-                <div data-v-b73557e2="" data-v-6b16f068="" class="head" data-v-6e2d35de="">
+                <div data-v-b73557e2="" data-v-6b16f068="" class="head" data-v-6e2d35de="" style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+}
+" >
                     <div data-v-b73557e2="" class="safe"></div>
                     <div data-v-b73557e2="" class="container flex"><!----><!----><!---->
                         <div data-v-b73557e2="" class="myName">
@@ -197,11 +200,17 @@
                                 </div>
                             </div>
                             <ul data-v-2b218ac2="" data-v-6b16f068="" class="flex list" data-v-6e2d35de="" style="margin-top:-500">
-                                <li data-v-2b218ac2="">
+                                <li data-v-2b218ac2="" style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+}
+" >
                                     <div data-v-2b218ac2="" class="title" style="color:black;">Total Assets <img data-v-2b218ac2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADjSURBVHgB7ZXfDcIgEIcPdABHcAYWUDepA2hHkG7gnwHaTYgLdAc3aKrPnNCk+lITDi4xafieeLjw+wLcAZDJZP6MCC3cmnrVy1cJFh/t7tgAEzK0sIdnAYjaKdfqfjsBE8ECju6zciJcEsECw7EjVtwSwW9gRJmLuwbxDRZCt5tDBZGQBbglogQ4JaIFuCSSBCYlEPaUOUFpwx87SIQEkgSGNvTDacS1KXVKxj/CyfBSE7eJbEOm8CgBznCyAHc4SUCZa+F/Qs5wD6ELcM0d7lmGFlqwZ4kL/yV3LryBTCYzF95dfHtiVPp2SwAAAABJRU5ErkJggg==" alt=""></div>
-                                    <div data-v-2b218ac2="" class="val">${{number_format(Auth::user()->available_balance(),2)}}</div>
+                                    <div data-v-2b218ac2="" class="val" style="color:black;">${{number_format(Auth::user()->available_balance(),2)}}</div>
                                 </li>
-                                <li data-v-2b218ac2="">
+                                <li data-v-2b218ac2="" style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+}
+" >
                                    <div data-v-2b218ac2="" class="title" style="color:black;">Level 
                                     <img data-v-2b218ac2="" src="{{asset('')}}static/img/11.png" alt=""></div>
                                    
@@ -210,7 +219,10 @@
                                 </li>
    
                             </ul>
-                            <div data-v-6b16f068="" data-v-6e2d35de="" class="notice_bar">
+                            <div data-v-6b16f068="" data-v-6e2d35de="" class="notice_bar" style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+}
+">
                                 <div data-v-6b16f068="" role="alert" class="van-notice-bar" data-v-6e2d35de="" style="color: rgb(255, 255, 255); background: none;"><i class="van-icon van-notice-bar__left-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BA
                                 ACxjwv8YQUAAAOHSURBVHgB7ZdBaxNBFMffJCtUUEg/gdOD0B5sNp+gKfgB1LskgVq82X6CpJ+g9SBCLaTePGlFPXgygicFTYulFaTZgqV4
                                 sq0VY5tkfG8zm7zZbNPsshaE/uEls9mZeb+ZeTPzAnCu/0wCzkBKqdTY5yUbCxKEcDav3anAWQGRc/yytaVrR/t26ds7+/2vXe7WgQ
@@ -229,7 +241,11 @@
                                     </marquee>
 
                                 </div>
-                            </div><div data-v-d59d9098="" data-v-6b16f068="" class="info" data-v-6e2d35de="">
+                            </div><div data-v-d59d9098="" data-v-6b16f068="" class="info" 
+                             style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+}
+" data-v-6e2d35de="">
                                 <h3 data-v-d59d9098="" style="color:black;">Algorithm order</h3>
                                 <p data-v-d59d9098="" style="color:black;">Standing at the forefront of technology and finance, achieving steady multiplication of assets</p>
                                 <!-- <a href="{{route('user.quality')}}">   <div data-v-d59d9098="" class="view" >  View details<img data-v-d59d9098="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADjSURBVHgB
@@ -241,12 +257,14 @@
                             <div data-v-6b16f068="" data-v-6e2d35de="" class="itemBox">
                                 <div data-v-6b16f068="" data-v-6e2d35de="" class="com-title flex">
                                     <div data-v-6b16f068="" data-v-6e2d35de="" class="left" style="color:black;">market</div>
-                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="right" style="color:black;"> More <img data-v-6b16f068="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAMAAABWBG9SAAAAM1BMVEUAAAC9vb27u7u7u7u7u7u/v7++vr69vb29vb29vb29vb2/v7+vr6+9vb29vb2/v7+9vb1wSDrWAAAAEHRSTlMA3yBAgBDPkHDvgH8QoGAwgYnI2QAAAGFJREFUKM+l0TkOwCAMRNEAZl8y9z9trJQeGhKXT0Ify9fZjL4YG5AJBUCxGJNqsOor4LzVACBFq0V1UmyexepBTCx2xbZ57qIJOd5quM2X8lvhSP4TuflGvIpwRGfJ9W0eIl8FPPjFWJQAAAAASUVORK5CYII=" alt=""></div>
+                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="right" style="color:black;background: #119ac7;"> More <img data-v-6b16f068="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAMAAABWBG9SAAAAM1BMVEUAAAC9vb27u7u7u7u7u7u/v7++vr69vb29vb29vb29vb2/v7+vr6+9vb29vb2/v7+9vb1wSDrWAAAAEHRSTlMA3yBAgBDPkHDvgH8QoGAwgYnI2QAAAGFJREFUKM+l0TkOwCAMRNEAZl8y9z9trJQeGhKXT0Ify9fZjL4YG5AJBUCxGJNqsOor4LzVACBFq0V1UmyexepBTCx2xbZ57qIJOd5quM2X8lvhSP4TuflGvIpwRGfJ9W0eIl8FPPjFWJQAAAAASUVORK5CYII=" alt=""></div>
                                 </div>
 
 
                                 <div data-v-6b16f068="" data-v-6e2d35de="" class="quotes">
-                                    <table data-v-6b16f068="" data-v-6e2d35de="">
+                                    <table data-v-6b16f068="" data-v-6e2d35de="" style="
+    background: radial-gradient(#a5d5e4, transparent);
+">
                                         <tr data-v-6b16f068="" data-v-6e2d35de="">
                                             <th data-v-6b16f068="" data-v-6e2d35de="" style="color:black;">Currency/Name</th>
                                             <th data-v-6b16f068="" data-v-6e2d35de=""></th>
@@ -287,7 +305,9 @@
 
 
                             </div>
-                            <div data-v-4e3fe4c4="" data-v-6b16f068="" class="teaminfo" data-v-6e2d35de="">
+                            <div data-v-4e3fe4c4="" data-v-6b16f068="" class="teaminfo" style="
+   background: linear-gradient(to right, #119ac7, #b5dbe7);
+" data-v-6e2d35de="">
                                 <div data-v-4e3fe4c4="" class="cname" style="color:black;"> Community Information <img data-v-4e3fe4c4="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgB7ZbNDYJAEIVnF1oxMSEa6AAr0A6MBykKPVCCdkAHkKgJibXAynIysP/MepF3hIHv2wkkD2DJv4foBtaPSwodpDAzQchuryirwUYgqvK4DUgFWCGwazbn8vsSVc23lBwAM4JNKgX6uyV4Tqi6yde1qvIksNgEo7AnDGLT+VA38E6GD6cGg6yf1yPpmDGchwJSOBw6VoBlUARkcMb0m5stID85O/X/+F33/CwBFbzZZoXJO5wFMODOAlhwJwFMuLUANtxKwAfcWMAX3EjAJ1wr4BuuFPgFXCqABh/1CV7LxiOTSiavYW4n7/tEPPSJXmZcx3gmfUBcw9zXrusTVHClxIKbRNiKdWtbsgQzH3FhqIls8vSZAAAAAElFTkSuQmCC" alt=""></div>
                                 <ul data-v-4e3fe4c4="" class="flex">
                                     <li data-v-4e3fe4c4="">
@@ -307,11 +327,11 @@
                             <div data-v-6b16f068="" data-v-6e2d35de="" class="itemBox">
                                 <div data-v-6b16f068="" data-v-6e2d35de="" class="com-title flex">
                                     <div data-v-6b16f068="" data-v-6e2d35de="" class="left" style="color:black;">Hot News</div>
-                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="right" style="color:black;"> More <img data-v-6b16f068="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAMAAABWBG9SAAAAM1BMVEUAAAC9vb27u7u7u7u7u7u/v7++vr69vb29vb29vb29vb2/v7+vr6+9vb29vb2/v7+9vb1wSDrWAAAAEHRSTlMA3yBAgBDPkHDvgH8QoGAwgYnI2QAAAGFJREFUKM+l0TkOwCAMRNEAZl8y9z9trJQeGhKXT0Ify9fZjL4YG5AJBUCxGJNqsOor4LzVACBFq0V1UmyexepBTCx2xbZ57qIJOd5quM2X8lvhSP4TuflGvIpwRGfJ9W0eIl8FPPjFWJQAAAAASUVORK5CYII=" alt=""></div>
+                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="right" style="color:black; background: #119ac7;"> More <img data-v-6b16f068="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAMAAABWBG9SAAAAM1BMVEUAAAC9vb27u7u7u7u7u7u/v7++vr69vb29vb29vb29vb2/v7+vr6+9vb29vb2/v7+9vb1wSDrWAAAAEHRSTlMA3yBAgBDPkHDvgH8QoGAwgYnI2QAAAGFJREFUKM+l0TkOwCAMRNEAZl8y9z9trJQeGhKXT0Ify9fZjL4YG5AJBUCxGJNqsOor4LzVACBFq0V1UmyexepBTCx2xbZ57qIJOd5quM2X8lvhSP4TuflGvIpwRGfJ9W0eIl8FPPjFWJQAAAAASUVORK5CYII=" alt=""></div>
                                 </div>
                            <div data-v-5adce6a8="" data-v-88474812="" class="banner" data-v-6e2d35de=""><div data-v-5adce6a8="" class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-autoheight"> <div class="swiper-wrapper" style="transition-duration: 300ms; transform: translate3d(-1520px, 0px, 0px); height: 84px;"><div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
                             <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250316/ae554e8a994a7ee5af0a2c26e38242d2.png"></div><div data-v-5adce6a8="" class="flex1">
-                                \<div data-v-5adce6a8="" class="text van-multi-ellipsis--l2" style="color:black;"> LumeX: The world's first OTC integrated trading platform based on price algorithm trading innovation and breakthrough </div><div data-v-5adce6a8="" class="time"> 15/07/2024 06:13:26 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
+                                <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2" style="color:black;"> LumeX: The world's first OTC integrated trading platform based on price algorithm trading innovation and breakthrough </div><div data-v-5adce6a8="" class="time"> 15/07/2024 06:13:26 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
                                     <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg" lazy="loaded"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> The Price Evolution of Bitcoin Over 15 Years: From Genesis Block to Trillion-Dollar Market Cap in the Global Financial Revolution </div><div data-v-5adce6a8="" class="time"> 06/08/2024 22:48:52 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide" data-swiper-slide-index="1" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
                                         <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250317/378f8db2f538eae53c93cc8d418265f5.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250317/378f8db2f538eae53c93cc8d418265f5.png" lazy="loaded"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> Quick Overview of LumeX </div><div data-v-5adce6a8="" class="time"> 15/07/2024 10:55:12 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
                                             <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250314/61814da64330650677780f8c403d946b.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250314/61814da64330650677780f8c403d946b.png" lazy="loaded"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> Cryptocurrency OTC is expected to surpass $7.5 trillion between 2028 and 2030. </div><div data-v-5adce6a8="" class="time"> 05/02/2025 02:19:08 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">

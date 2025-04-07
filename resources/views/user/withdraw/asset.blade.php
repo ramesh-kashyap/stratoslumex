@@ -116,7 +116,10 @@
     <div id="app" class="applang">
         <div data-v-6e2d35de="" data-v-32fa28da="" class="page">
             <div data-v-6e2d35de="" class="headers">
-                <div data-v-b73557e2="" data-v-32fa28da="" class="head" data-v-6e2d35de="">
+                <div data-v-b73557e2="" data-v-32fa28da="" class="head" data-v-6e2d35de=""   style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+}
+">
                     <div data-v-b73557e2="" class="safe"></div>
                     <div data-v-b73557e2="" class="container flex"><!----><!----><!---->
                         <div data-v-b73557e2="" class="myName"><img data-v-b73557e2=""
@@ -220,7 +223,7 @@
                             </div>
                         </div>
                         <div data-v-56ab0919="" data-v-32fa28da="" class="itemBox" data-v-6e2d35de="">
-                            <div data-v-56ab0919="" class="cname">List of Assets</div>
+                            <div data-v-56ab0919="" class="cname"  style="color:black;">List of Assets</div>
                             <div data-v-56ab0919="" class="list">
                                 <div data-v-56ab0919="" class="item">
                                     <div data-v-56ab0919="" class="item-head flex">
@@ -228,10 +231,10 @@
                                                 src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/f710b0ea16ca629941e92e00e453fd1b.png"
                                                 alt=""></div>
                                         <div data-v-56ab0919="" class="flex1">
-                                            <div data-v-56ab0919="">USDT</div>
+                                            <div data-v-56ab0919="" style="color:black;"> USDT</div>
                                             <p data-v-56ab0919=""></p>
                                         </div>
-                                        <div data-v-56ab0919="" class="val">2.43</div>
+                                        <div data-v-56ab0919="" class="val" style="color:black;">2.43</div>
                                         <div data-v-56ab0919="" class="arr"><img data-v-56ab0919=""
                                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII="
                                                 alt="" class=""></div>

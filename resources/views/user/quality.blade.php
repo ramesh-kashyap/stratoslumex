@@ -139,7 +139,7 @@
             <div data-v-6e2d35de="" class="headers">
                 <div data-v-b73557e2="" data-v-427eef2e="" class="head" data-v-6e2d35de="">
                     <div data-v-b73557e2="" class="safe"></div>
-                    <div data-v-b73557e2="" class="container flex">
+                    <div data-v-b73557e2="" class="container flex" style=" background: linear-gradient(to right, #119ac7, #b5dbe7);=">
                      
                         <!---->
                         <!---->
@@ -199,7 +199,10 @@
                                     <div data-v-73226123="" class="val">{{ number_format($totalLevelIncome,2) }}</div>
                                 </li>
                             </ul>
-                            <ul data-v-427eef2e="" data-v-6e2d35de="" class="tab flex">
+                            <ul data-v-427eef2e="" data-v-6e2d35de="" class="tab flex"                             style="
+       background: linear-gradient(to right, #119ac7, #b5dbe7);
+}
+"> 
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class="on" id="strategyButton" id="strategyButton" > Strategy </li>
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class="" id="todayButton" > Today </li>
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class=""  id="billButton"> Bill </li>
@@ -217,7 +220,7 @@
                                     <div data-v-427eef2e="" data-v-6e2d35de="" class="title">G0</div>
                                     <div data-v-427eef2e="" data-v-6e2d35de="" class="rate">1.20%-1.50% </div>
                                 </div>
-                                <div data-v-427eef2e="" data-v-6e2d35de="" class="val"> 0-200 USDT </div><i
+                                <div data-v-427eef2e="" data-v-6e2d35de="" class="val" style="color:black"> 0-200 USDT </div><i
                                     data-v-427eef2e="" data-v-6e2d35de="" class="van-icon van-icon-arrow">
                                     <!----></i>
                             </div>
