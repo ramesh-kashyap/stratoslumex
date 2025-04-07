@@ -156,7 +156,7 @@
                                 <div data-v-1daeed5a="" data-v-6e2d35de="" class="inp"><input data-v-1daeed5a="" name="email" value="{{ Auth::user()->email }}" data-v-6e2d35de="" type="text" ></div>
                             </div>
                         </div>
-                        
+
                         <div data-v-1daeed5a="" data-v-6e2d35de="" class="go">
                             <div data-v-d8bb9fe2="" data-v-1daeed5a="" data-v-6e2d35de="" style="height: 1.4rem;">
                                 <div data-v-d8bb9fe2="" class="big_btn_box">
