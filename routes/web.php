@@ -117,6 +117,8 @@ Route::get('/share', [App\Http\Controllers\UserPanel\Profile::class, 'share'])->
 Route::get('/ChangeMail', [App\Http\Controllers\UserPanel\Profile::class, 'ChangeMail'])->name('user.ChangeMail');
 Route::get('/bindMail', [App\Http\Controllers\UserPanel\Profile::class, 'bindMail'])->name('user.bindMail');
 Route::post('/bindemail-action', [App\Http\Controllers\UserPanel\Profile::class, 'bindemail_action'])->name('user.bindemail-action');
+Route::post('/store-Mail', [App\Http\Controllers\UserPanel\Profile::class, 'storeMail'])->name('user.store-Mail');
+Route::post('/update-Mail', [App\Http\Controllers\UserPanel\Profile::class, 'updateMail'])->name('user.update-Mail');
 Route::post('/changeEmailAction', [App\Http\Controllers\UserPanel\Profile::class, 'changeEmailAction'])->name('user.changeEmailAction');
 
 

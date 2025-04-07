@@ -183,7 +183,7 @@
                                             <div class="van-checkbox__icon van-checkbox__icon--square"><i class="van-icon van-icon-success"><!----></i></div><span class="van-checkbox__label">Remember account password </span>
                                         </div>
                                     </div>
-                                    <div data-v-366decca="" data-v-6e2d35de="" class="kfBox"> Forgot password? </div>
+                                    <div data-v-366decca="" data-v-6e2d35de="" class="kfBox"> <a href="{{route('forgot-password')}}">Forgot password?</a> </div>
                                 </div>
                             </div>
                      
@@ -192,7 +192,9 @@
                             <div data-v-366decca="" data-v-6e2d35de="" class="submit">
                                 <button data-v-366decca="" data-v-6e2d35de=""><img data-v-366decca="" data-v-6e2d35de="" src="{{asset('')}}static/img/icon-go-on.310400ce.png" alt=""></button></div>
                             <div data-v-366decca="" data-v-6e2d35de="" class="wrap bet">
-                                <div data-v-366decca="" data-v-6e2d35de="" class="wr"> No account <span data-v-366decca="" data-v-6e2d35de="">Register now</span></div>
+                                <div data-v-366decca="" data-v-6e2d35de="" class="wr"> No account <span data-v-366decca="" data-v-6e2d35de=""><a href="{{route('register')}}">
+                                Register now
+                                </a></span></div>
                             </div>
                         </div>
                         </form>
