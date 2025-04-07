@@ -4,7 +4,6 @@
         display: block;
         color: inherit;
     }
-
     .item_active {
         color: #32c092 !important;
     }

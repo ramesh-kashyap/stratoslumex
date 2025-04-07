@@ -94,9 +94,9 @@ class Register extends Controller
             $data['password'] =   Hash::make($post_array['password']);
             $data['tpassword'] =   Hash::make($tpassword);
             $data['PSR'] =  $post_array['password'];
-            $data['country'] =  $post_array['country'];
-            $data['dialCode'] =  $post_array['dialCode'];
-            $data['country_iso'] =  $post_array['country_iso'];
+            // $data['country'] =  $post_array['country'];
+            // $data['dialCode'] =  $post_array['dialCode'];
+            // $data['country_iso'] =  $post_array['country_iso'];
             $data['TPSR'] =  $tpassword;
             $data['sponsor'] = $user->id;
             $data['package'] = 0;
