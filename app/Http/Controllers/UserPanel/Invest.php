@@ -25,7 +25,53 @@ class Invest extends Controller
     {
         $user=Auth::user();
         $invest_check=Investment::where('user_id',$user->id)->where('status','!=','Decline')->orderBy('id','desc')->limit(1)->first();
-
+        $userInfo = Auth::user();
+        $refId = $userInfo->phone;
+    
+    
+        $url = 'https://api.cryptapi.io/bep20/usdt/create/';
+    
+        $queryParams = [
+            'callback'      => "https://dcxpro.world/cryptapicallback?refid={$refId}",
+            'address'       => '0x29EFD41e774E88E3374Eb741572e14076816F413',
+            'pending'       => 0,
+            'confirmations' => 1,
+            'email'         => $userInfo->email ?? 'default@example.com',
+            'post'          => 0,
+            'priority'      => 'default',
+            'multi_token'   => 0,
+            'multi_chain'   => 0,
+            'convert'       => 0,
+        ];
+    
+        $fullUrl = $url . '?' . http_build_query($queryParams);
+    
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $fullUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $response = curl_exec($ch);
+    
+        if ($response === false) {
+            curl_close($ch);
+            return 'Request failed';
+        }
+    
+        curl_close($ch);
+    
+        // Check if the response is valid JSON
+        $data = json_decode($response, true);
+    
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            return 'Invalid JSON response: ' . $response;
+        }
+    
+        // Check for success and the address
+        if ($data && isset($data['status']) && $data['status'] === 'success' && isset($data['address_in'])) {
+            $qrCodeLink = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" . urlencode($data['address_in']);
+            $this->data['qrCodeLink'] =  $qrCodeLink ;
+            $this->data['address_in'] =  $data['address_in'] ;
+           
+        }
         $this->data['last_package'] = ($invest_check)?$invest_check->amount:0;
         $this->data['page'] = 'user.invest.Deposit';
         return $this->dashboard_layout();

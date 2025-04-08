@@ -51,7 +51,7 @@ class WithdrawRequest extends Controller
 
              $validation =  Validator::make($request->all(), [
             'amount' => 'required|numeric|min:10',
-            'PSys' => 'required',     
+                 
             'walletAddress' => 'required',
             'code' => 'required',
             'transaction_password' => 'required',
@@ -118,14 +118,14 @@ class WithdrawRequest extends Controller
       
         $password=$request->transaction_password;
         
-         if($request->PSys=="USDT.BEP20")
-         {
-          \DB::table('users')->where('id',$user->id)->update(['usdtBep20' =>$account]);  
-         }
-         else
-         {
-           \DB::table('users')->where('id',$user->id)->update(['usdtTrc20' =>$account]);      
-         }
+        //  if($request->PSys=="USDT.BEP20")
+        //  {
+        //   \DB::table('users')->where('id',$user->id)->update(['usdtBep20' =>$account]);  
+        //  }
+        //  else
+        //  {
+        //    \DB::table('users')->where('id',$user->id)->update(['usdtTrc20' =>$account]);      
+        //  }
        
         if (Hash::check($password, $user->tpassword))
 
@@ -163,7 +163,7 @@ class WithdrawRequest extends Controller
                         'payable_amt' => $request->amount-$request->amount*$chargeAmt/100,
                         'charge' => $request->amount*$chargeAmt/100,
                         'account' => $account,
-                        'payment_mode' =>$request->PSys,
+                        'payment_mode' =>"USDT.BEP20",
                         'status' => 'Pending',
                         'walletType' => 1,
                         'wdate' => Date("Y-m-d"),
