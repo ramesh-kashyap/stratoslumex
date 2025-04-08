@@ -208,8 +208,6 @@
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class=""  id="billButton"> Bill </li>
                             </ul>
 
-
-
                             <div  id="defaultContent" style="display: block;" >
                             <div data-v-427eef2e="" data-v-6e2d35de="" class="select-level-tab">
                                 <div data-v-427eef2e="" data-v-6e2d35de="" class="ico"><img data-v-427eef2e=""
@@ -296,38 +294,37 @@
 
       
 
-      <div data-v-68c18260="" class="list"  id="billContent" style="display: none;">
-      @foreach ($level_income as $value)
-      
-                <div data-v-68c18260="" class="list-item">
-                    <div data-v-68c18260="" class="com1">
-                        <div data-v-68c18260="" class="left">
-                            <div data-v-68c18260="" class="title"></div>
-                            <div data-v-68c18260="" class="time">{{date("D, d M Y", strtotime($value->created_at)) }}</div>
-                        </div>
-                        <div data-v-68c18260="" class="right">
-                            <div data-v-68c18260=""></div><span data-v-68c18260="">Completed</span><i data-v-68c18260=""
-                                class="van-icon van-icon-arrow">
-                                <!----></i>
-                        </div>
-                    </div>
-                    <ul data-v-68c18260="" class="flex">
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Trading pair</div>
-                            <div data-v-68c18260="" class="val">{{ $value->c_name }}USDT</div>
-                        </li>
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Transaction amount</div>
-                            <div data-v-68c18260="" class="val">{{currency()}} {{ $value->c_ref }}</div>
-                        </li>
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Amount of income</div>
-                            <div data-v-68c18260="" class="val">{{currency()}} {{ $value->profit }}</div>
-                        </li>
-                    </ul>
+      <div data-v-68c18260="" class="list" id="billContent" style="display: none;">
+    @foreach ($level_income as $value)
+        <div data-v-68c18260="" class="list-item">
+            <div data-v-68c18260="" class="com1">
+                <div data-v-68c18260="" class="left">
+                    <div data-v-68c18260="" class="title"></div>
+                    <div data-v-68c18260="" class="time">{{ date("D, d M Y", strtotime($value->created_at)) }}</div>
                 </div>
-                @endforeach
+                <div data-v-68c18260="" class="right">
+                    <div data-v-68c18260=""></div>
+                    <span data-v-68c18260="">Completed</span>
+                    <i data-v-68c18260="" class="van-icon van-icon-arrow"></i>
+                </div>
             </div>
+            <ul data-v-68c18260="" class="flex">
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Trading pair</div>
+                    <div data-v-68c18260="" class="val">{{ $value->c_name ?? '0' }}USDT</div>
+                </li>
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Transaction amount</div>
+                    <div data-v-68c18260="" class="val">{{ currency() }} {{ $value->c_ref ?? '0' }}</div>
+                </li>
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Amount of income</div>
+                    <div data-v-68c18260="" class="val">{{ currency() }} {{ $value->profit ?? '0' }}</div>
+                </li>
+            </ul>
+        </div>
+    @endforeach
+</div>
 
          
     

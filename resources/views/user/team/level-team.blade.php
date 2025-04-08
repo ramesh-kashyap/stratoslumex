@@ -136,7 +136,9 @@
                         <div data-v-b73557e2=""><!----></div>
                     </div>
                 </div>
-                <div data-v-6e2d35de="" id="scroll" class="content-container">
+                <div data-v-6e2d35de="" id="scroll" class="content-container" style="
+    background: #97cfe1;
+">
                     <div data-v-6e2d35de="" id="content" class="content-scroll">
                         <div data-v-127dfd5e="" data-v-6e2d35de="" class="container rel">
                             <div data-v-5105ae1a="" data-v-127dfd5e="" class="info" data-v-6e2d35de="" style="
@@ -144,22 +146,22 @@
 ">
                                 <ul data-v-5105ae1a="" class="flex">
                                     <li data-v-5105ae1a="">
-                                        <div data-v-5105ae1a="" class="title">Total Income</div>
-                                        <div data-v-5105ae1a="" class="val">2.43</div>
+                                        <div data-v-5105ae1a="" class="title">New Earnings</div>
+                                        <div data-v-5105ae1a="" class="val">{{number_format($todaysIncome,2)}}</div>
                                     </li>
                                     <li data-v-5105ae1a="">
-                                        <div data-v-5105ae1a="" class="title">Today's earnings</div>
-                                        <div data-v-5105ae1a="" class="val">0</div>
+                                        <div data-v-5105ae1a="" class="title">New Members</div>
+                                        <div data-v-5105ae1a="" class="val">{{$todaysuser}}</div>
                                     </li>
                                     <li data-v-5105ae1a="">
-                                        <div data-v-5105ae1a="" class="title">Cumulative community income</div>
-                                        <div data-v-5105ae1a="" class="val">0</div>
+                                        <div data-v-5105ae1a="" class="title">Total Recharge</div>
+                                        <div data-v-5105ae1a="" class="val">{{number_format($totalrecharge,2)}}</div>
                                     </li>
                                     <li data-v-5105ae1a="">
-                                        <div data-v-5105ae1a="" class="title">Today's community income</div>
-                                        <div data-v-5105ae1a="" class="val">0</div>
+                                        <div data-v-5105ae1a="" class="title">Total Withdrawals</div>
+                                        <div data-v-5105ae1a="" class="val">{{number_format($totalwithdrawal,2)}}</div>
                                     </li>
-                                </ul><button data-v-5105ae1a="" class="btn2"><a href="{{route('user.roi-bonus')}}"> Revenue Record </a></button>
+                                </ul><button data-v-5105ae1a="" class="btn2" style="background:black;">   <a href="{{route('user.roi-bonus')}}"> Revenue Record </a></button>
                             </div>
                             <div data-v-127dfd5e="" data-v-6e2d35de="" class="itemBox">
                                 <div data-v-127dfd5e="" data-v-6e2d35de="" class="com-title flex"  style="       background: linear-gradient(to right, #119ac7, #b5dbe7);
@@ -177,25 +179,26 @@
                                                 <div data-v-b96ab108="" class="title"><img data-v-b96ab108=""
                                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAwFBMVEUAAAAxzJwxx5cwyZct1p8vzZowz5ou0Z0wyJYwypgv158u0JwwzJkxxJQwyZgvy5kwxZUvy5ku0Jwt1J4wx5Yu054vzJkuz5ot1Z8w0JwxyZcvzJks2KAuz5ovzJks2qExxpUv0Jwq358r2qIyw5Qwx5cr2qIs16Axx5gyw5Mu0ZwvypgywZIt054s2aIuz5syw5Mt1Z0vy5kt1J4uz5svzJku0ZwuzpoxxJQwyJct1p8wypgxxpUs2qIs2KAxwpPdcbCbAAAAMnRSTlMAECDf338gYGBAIN+ff2/+37+QcO/fz6+fQDDv39/fz6+fEO/Pn4+AUEDv7++/r6CQMFPFNDQAAAFzSURBVCjPjZFpc4IwEIaXIGcREKz1bNXed5tDEkD8//+qGzOIPafPF3Z45t3szsJ/sPrL9Grp78vgi4ufpJR1XacEyFBF7rHr73ZaIkMyVZWyrc7do3sj+E0V/vfthJ518mq365uXR0rFQGZUHN4lUqZgCJQaADhCOK28k7Lf1nb1COAWxaGv/0lS7F4UmDdMpbxu103oCGDCu6Q1xA1M6VARAaw497o169reW58K4YLD+QkcsFJVV1EcDygVjjXiOthBbKVUUlHddMr5xoFjyHWl1blOZGeTb2cJfH/628l8J8riyU8qGCTYtCj4YqWvtc4nXWqJRmiHszzkAGPGxmE7akXFLLsLAu91g2Rwy1jZC1s3i8HgrjaYAq9XGovu3IUDOWMsh7DXNPM1OMZ1eNjzHax509xAlVB0x2RlOQYIL7eXQHFMhG80DCmRZwgvttstDFBybiQzsmk8uEX3AiQaLRYnmlOkp7nIAZPzmzX8xQeskjZ/THW1YAAAAABJRU5ErkJggg=="
                                                         alt="">Number of people in the community </div>
-                                                <div data-v-b96ab108="" class="val">0</div>
-                                                <div data-v-b96ab108="" class="add"> Today's new <span
-                                                        data-v-b96ab108="">+0</span></div>
+                                                <div data-v-b96ab108="" class="val">{{$active_gen_team1total}}/{{$gen_team1total}}</div>
+                                                <div data-v-b96ab108="" class="add"> Today's new 
+                                               
+                                                <span  data-v-b96ab108="">+0</span>
+                                                        
+                                                        </div>
+                                                        
                                             </li>
                                             <li data-v-b96ab108="">
                                                 <div data-v-b96ab108="" class="title"><img data-v-b96ab108=""
                                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAARVBMVEUAAAAvy5kvzJowypowz5cwypkvy5kwz58vy5ovy5kvy5kwy5swy5cvy5owypcwy5owzJkwzJowx5cwypowy5kwypUvy5kH521CAAAAFnRSTlMA359gIKCAEM/vsEBAv2C/kFAgMHAwtdP4OwAAANNJREFUKM91kosOwiAMRS0gL2HA5u7/f6pkZcG5ekIgzaEtEB6TlyKErB8SFoxyogt1sdTtza2AP1KeQLoY13QEDAcEr3Uzp+qiE8/6l9Z+REMuYPwIqtkI+cVEhGZ2C+guM8rcPovkow9BSfIJOqUz37iLPNnGDSTpEP/INRMBREqSHoH6oChJhP7ARS7b19yTc2xiTwKTxNO6hGIslCCdtRVkPaogNzDeSGVTavBpF07L1EW6ymRKf8zB3d3KOQmgt/7hTcDGP0rEji9VbiaU1MUHvpkVmo/Der0AAAAASUVORK5CYII="
                                                         alt="">Today's earnings </div>
-                                                <div data-v-b96ab108="" class="val">0</div>
+                                                <div data-v-b96ab108="" class="val">{{number_format($gen_teamIncome,2)}}</div>
                                                 <div data-v-b96ab108="" class="add"> Today's new <span
                                                         data-v-b96ab108="">+0</span></div>
                                             </li>
                                         </ul>
                                     </div>
                                     <div data-v-602cab3f="" data-v-127dfd5e="" class="chart_box" data-v-6e2d35de="">
-                                        <ul data-v-602cab3f="" class="tab">
-                                            <li data-v-602cab3f="" class="on"> Number of people in the community </li>
-                                            <li data-v-602cab3f="" class=""> Community income </li>
-                                        </ul>
+                                      
                                         <div data-v-602cab3f="" class="chart-dom">
                                             <div data-v-602cab3f="" id="ChartDom" _echarts_instance_="ec_1743577253040"
                                                 style="width: 100%; height: 3rem; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;">
@@ -222,43 +225,87 @@
                             </div>
                             <div data-v-127dfd5e="" data-v-6e2d35de="" class="itemBox">
                                 <div data-v-42e6b7af="" data-v-127dfd5e="" data-v-6e2d35de="">
-                                    <ul data-v-42e6b7af="" class="tab flex">
-                                        <li data-v-42e6b7af="" class="on">
-                                            <div data-v-42e6b7af="" class="name">M1</div><!----><!---->
-                                        </li>
-                                        <li data-v-42e6b7af="" class=""><!---->
-                                            <div data-v-42e6b7af="" class="name">M2</div><!---->
-                                        </li>
-                                        <li data-v-42e6b7af="" class=""><!----><!---->
-                                            <div data-v-42e6b7af="" class="name">M3</div>
-                                        </li>
-                                    </ul>
+                                   
                                     <div data-v-42e6b7af="" class="info">
                                         <ul data-v-42e6b7af="">
                                             <li data-v-42e6b7af="">
-                                                <div data-v-42e6b7af="" class="title"> Community members</div>
-                                                <div data-v-42e6b7af="" class="val">0/0</div>
+                                                <div data-v-42e6b7af="" class="title"> Gen </div>
+                                                <div data-v-42e6b7af="" class="val">1</div>
                                             </li>
                                             <li data-v-42e6b7af="">
-                                                <div data-v-42e6b7af="" class="title">Community income</div>
-                                                <div data-v-42e6b7af="" class="val">0</div>
+                                                <div data-v-42e6b7af="" class="title">ValidMembers</div>
+                                                <div data-v-42e6b7af="" class="val">{{$active_gen_team1total}}/{{$gen_team1total}}</div>
                                             </li>
                                             <li data-v-42e6b7af="">
-                                                <div data-v-42e6b7af="" class="title">Today's community dynamics</div>
-                                                <div data-v-42e6b7af="" class="val">0/0</div>
+                                                <div data-v-42e6b7af="" class="title">Commission</div>
+                                                <div data-v-42e6b7af="" class="val">12%</div>
                                             </li>
                                             <li data-v-42e6b7af="">
-                                                <div data-v-42e6b7af="" class="title">Today's community income</div>
-                                                <div data-v-42e6b7af="" class="val">0</div>
+                                                <div data-v-42e6b7af="" class="title">Total Earnings</div>
+                                                <div data-v-42e6b7af="" class="val">  {{number_format($gen_teamIncome,2)}}</div>
                                             </li>
-                                            <li data-v-42e6b7af="">
-                                                <div data-v-42e6b7af="" class="title">Recommendation rewards</div>
-                                                <div data-v-42e6b7af="" class="val">0%</div>
-                                            </li>
+                                           
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+
+                            <div data-v-127dfd5e="" data-v-6e2d35de="" class="itemBox">
+                                <div data-v-42e6b7af="" data-v-127dfd5e="" data-v-6e2d35de="">
+                                   
+                                    <div data-v-42e6b7af="" class="info">
+                                        <ul data-v-42e6b7af="">
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title"> Gen </div>
+                                                <div data-v-42e6b7af="" class="val">2</div>
+                                            </li>
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title">ValidMembers</div>
+                                                <div data-v-42e6b7af="" class="val">{{$active_gen_team2total}}/{{$gen_team2total}}</div>
+                                            </li>
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title">Commission</div>
+                                                <div data-v-42e6b7af="" class="val">4%</div>
+                                            </li>
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title"> Total Earnings</div>
+                                                <div data-v-42e6b7af="" class="val">{{number_format($gen_team2Income,2)}}</div>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div data-v-127dfd5e="" data-v-6e2d35de="" class="itemBox">
+                                <div data-v-42e6b7af="" data-v-127dfd5e="" data-v-6e2d35de="">
+                                   
+                                    <div data-v-42e6b7af="" class="info">
+                                        <ul data-v-42e6b7af="">
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title"> Gen </div>
+                                                <div data-v-42e6b7af="" class="val">3</div>
+                                            </li>
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title">ValidMembers</div>
+                                                <div data-v-42e6b7af="" class="val">{{$active_gen_team1total}}/{{$gen_team1total}}</div>
+                                            </li>
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title">Commission</div>
+                                                <div data-v-42e6b7af="" class="val">2%</div>
+                                            </li>
+                                            <li data-v-42e6b7af="">
+                                                <div data-v-42e6b7af="" class="title">Total Earnings</div>
+                                                <div data-v-42e6b7af="" class="val">Total Earnings {{number_format($gen_team3Income,2)}}</div>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         <div data-v-554f6835="" data-v-127dfd5e="" data-v-6e2d35de=""><!----></div>
                     </div>
