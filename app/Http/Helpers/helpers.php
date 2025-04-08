@@ -40,12 +40,12 @@ function paginationLimit()
 }
 
 
-function sendEmail($user, $type = null, $shortCodes = [])
-{
+// function sendEmail($user, $type = null, $shortCodes = [])
+// {
 
-  $mail_data=array('subject'=>$type,'MailDetail'=>$shortCodes);
-  \Mail::to($user)->send(new Sendmail($mail_data));
-}
+//   $mail_data=array('subject'=>$type,'MailDetail'=>$shortCodes);
+//   Mail::to($user)->send(new Sendmail($mail_data));
+// }
 
 
 function isEven($number)

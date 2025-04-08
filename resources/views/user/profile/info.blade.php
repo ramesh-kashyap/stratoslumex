@@ -66,7 +66,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 1000000;
-            background: #020503;
+            /* background:rgb(25, 233, 94); */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -117,9 +117,12 @@
     <div id="app" class="applang">
         <div data-v-6e2d35de="" data-v-c66de3ba="" class="page">
             <div data-v-6e2d35de="" class="headers">
-                <div data-v-b73557e2="" data-v-c66de3ba="" class="head" data-v-6e2d35de="">
+                <div data-v-b73557e2="" data-v-c66de3ba="" class="head" data-v-6e2d35de="" style=" 
+                
+    background: linear-gradient(to right, #119ac7, #b5dbe7);
+                ">
                     <div data-v-b73557e2="" class="safe"></div>
-                    <div data-v-b73557e2="" class="container flex">
+                    <div data-v-b73557e2="" class="container flex" >
                         <div data-v-b73557e2="" class="back">
                         <a href="{{route('user.profile')}}"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c
                         6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgB7Ze9DcIwEIWf+W1ZgQ0oWIBJYBMoqekoEUJsQAsFA7ACYgCYAHNWbBGO2ICVEBf3SU9Ozufk6ZzYCS
@@ -137,7 +140,7 @@
                 <div data-v-6e2d35de="" id="content" class="content-scroll">
                     <div data-v-c66de3ba="" data-v-6e2d35de="" class="container">
                         <div data-v-c66de3ba="" data-v-6e2d35de="" class="photo">
-                            <div data-v-c66de3ba="" data-v-6e2d35de="" class="pic rel"><img data-v-c66de3ba="" data-v-6e2d35de="" alt="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/6ca664b90f036b7967d5eb1e2ac4ac17.png">
+                            <div data-v-c66de3ba="" data-v-6e2d35de="" class="pic rel"><img data-v-c66de3ba="" data-v-6e2d35de="" alt="" src="https://toppng.com/uploads/preview/stock-person-png-stock-photo-man-11563049686zqeb9zmqjd.png">
                                 <div data-v-c66de3ba="" data-v-6e2d35de="" class="file" style="opacity: 0;"><input data-v-c66de3ba="" data-v-6e2d35de="" type="file" accept="image/*" class="file"></div>
                                 <div data-v-c66de3ba="" data-v-6e2d35de="" class="abs"><img data-v-c66de3ba="" data-v-6e2d35de="" src="data:image/png;base64,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" alt=""></div>
                             </div>
@@ -154,7 +157,7 @@
                             <div data-v-c66de3ba="" data-v-6e2d35de="" class="it db">
                                 <div data-v-c66de3ba="" data-v-6e2d35de="" class="flexs">Mailbox</div>
                                 <div data-v-c66de3ba="" data-v-6e2d35de="" class="str" id="email">pashutosh563@gmail.com</div>
-                                <div data-v-c66de3ba="" data-v-6e2d35de="" class="img" onclick="copyById('email')"><img data-v-c66de3ba="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAAAp0ptCRlUo1ZxASFgo0ptDR1Uo0ptCRlZISFgo0ptCRlUqyZc/WF4vr4kwpoUfcbQVAAAACnRSTlMA7+8gIL+/sLAgyb3sXAAAAGxJREFUKM9jAAHmwFVQsNwALGC4Cg6EwQJVCIGlYIFVCLAQXWAVOQKcSbt3owhM2o0m0I0usHswC5xCF3iF4C8HC9xBCmSwwN5fML6oAVAAAUCBRY6ANrpANoK/AyzghBBQAQuwdMP4ag4gPgDsiytjL3zauAAAAABJRU5ErkJggg=="></div>
+                                <div data-v-c66de3ba="" data-v-6e2d35de="" class="img" onclick="copyById('email')"><img data-v-c66de3ba="" data-v-6e2d35de="" src="/static/img/copy1.png"></div>
                             </div>
                             <div data-v-c66de3ba="" data-v-6e2d35de="" class="it db">
                                 <div data-v-c66de3ba="" data-v-6e2d35de="" class="flexs">Mobile phone number</div>
@@ -163,7 +166,7 @@
 
                                 <div data-v-c66de3ba="" data-v-6e2d35de="" class="img" onclick="copyById('phone')">
                                     <img data-v-c66de3ba="" data-v-6e2d35de=""
-                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAAAp0ptCRlUo1ZxASFgo0ptDR1Uo0ptCRlZISFgo0ptCRlUqyZc/WF4vr4kwpoUfcbQVAAAACnRSTlMA7+8gIL+/sLAgyb3sXAAAAGxJREFUKM9jAAHmwFVQsNwALGC4Cg6EwQJVCIGlYIFVCLAQXWAVOQKcSbt3owhM2o0m0I0usHswC5xCF3iF4C8HC9xBCmSwwN5fML6oAVAAAUCBRY6ANrpANoK/AyzghBBQAQuwdMP4ag4gPgDsiytjL3zauAAAAABJRU5ErkJggg=="
+                                        src="/static/img/copy1.png"
                                         alt="Copy" style="cursor: pointer;">
                                 </div>
                             </div>
