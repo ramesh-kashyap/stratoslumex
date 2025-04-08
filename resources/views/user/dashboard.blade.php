@@ -311,15 +311,15 @@
                                 <div data-v-4e3fe4c4="" class="cname" style="color:black;"> Community Information <img data-v-4e3fe4c4="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgB7ZbNDYJAEIVnF1oxMSEa6AAr0A6MBykKPVCCdkAHkKgJibXAynIysP/MepF3hIHv2wkkD2DJv4foBtaPSwodpDAzQchuryirwUYgqvK4DUgFWCGwazbn8vsSVc23lBwAM4JNKgX6uyV4Tqi6yde1qvIksNgEo7AnDGLT+VA38E6GD6cGg6yf1yPpmDGchwJSOBw6VoBlUARkcMb0m5stID85O/X/+F33/CwBFbzZZoXJO5wFMODOAlhwJwFMuLUANtxKwAfcWMAX3EjAJ1wr4BuuFPgFXCqABh/1CV7LxiOTSiavYW4n7/tEPPSJXmZcx3gmfUBcw9zXrusTVHClxIKbRNiKdWtbsgQzH3FhqIls8vSZAAAAAElFTkSuQmCC" alt=""></div>
                                 <ul data-v-4e3fe4c4="" class="flex">
                                     <li data-v-4e3fe4c4="">
-                                        <div data-v-4e3fe4c4="" class="val" style="color:black;">0/0</div>
+                                        <div data-v-4e3fe4c4="" class="val" style="color:black;">{{$active_gen_team1total}}/{{$gen_team1total}}</div>
                                         <div data-v-4e3fe4c4="" class="title" style="color:black;">M1</div>
                                     </li>
                                     <li data-v-4e3fe4c4="">
-                                        <div data-v-4e3fe4c4="" class="val" style="color:black;"> 0/0</div>
+                                        <div data-v-4e3fe4c4="" class="val" style="color:black;"> {{$active_gen_team2total}}/{{$gen_team2total}}</div>
                                         <div data-v-4e3fe4c4="" class="title">M2</div>
                                     </li>
                                     <li data-v-4e3fe4c4="">
-                                        <div data-v-4e3fe4c4="" class="val"  style="color:black;">0/0</div>
+                                        <div data-v-4e3fe4c4="" class="val"  style="color:black;">{{$active_gen_team3total}}/{{$gen_team3total}}</div>
                                         <div data-v-4e3fe4c4="" class="title" style="color:black;">M3</div>
                                     </li>
                                 </ul>
