@@ -162,7 +162,8 @@
                                 </ul><button data-v-5105ae1a="" class="btn2"><a href="{{route('user.roi-bonus')}}"> Revenue Record </a></button>
                             </div>
                             <div data-v-127dfd5e="" data-v-6e2d35de="" class="itemBox">
-                                <div data-v-127dfd5e="" data-v-6e2d35de="" class="com-title flex">
+                                <div data-v-127dfd5e="" data-v-6e2d35de="" class="com-title flex"  style="       background: linear-gradient(to right, #119ac7, #b5dbe7);
+">
                                     <div data-v-127dfd5e="" data-v-6e2d35de="" class="h3">My community</div>
                                     <div data-v-127dfd5e="" data-v-6e2d35de="" class="str"><a href="{{route('user.referral-team')}}">Community List </a><img
                                             data-v-127dfd5e="" data-v-6e2d35de=""
