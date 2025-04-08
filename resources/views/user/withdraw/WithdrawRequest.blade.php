@@ -174,9 +174,9 @@
                 <div data-v-b73557e2="" data-v-c0dba864="" class="head" data-v-7daccefc="">
                     <div data-v-b73557e2="" class="safe"></div>
                     <div data-v-b73557e2="" class="container flex">
-                        <div data-v-b73557e2="" class="back"><img data-v-b73557e2=""
+                        <div data-v-b73557e2="" class="back"><a href="{{route('user.asset')}}"><img data-v-b73557e2=""
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEeSURBVHgB7Ze9DcIwEIWf+W1ZgQ0oWIBJYBMoqekoEUJsQAsFA7ACYgCYAHNWbBGO2ICVEBf3SU9Ozufk6ZzYCSAIQrVorQekMVLEmrvqjLRMMnO6KpMNRGDMUbMn9VhXH3XjqZxhhroRc7GIuVjEXCwpmVM8oP2L8JI0R7a4N1lbFGtG5Lrji1LqYG7a+tLchrQjDUkdUteqE2iL8nif71pb0gHIbXUBcyvS2qTYc1d1nctRuXOeB0++r++FX/ZixY7VhxvowHgeU54xzymmOT9RFUd4r6L5QrmTFqQ2smekbcc6uXhRjOeG5HKP8BF4g6dIBTFZFmKyLMRkWYjJsvinyaj/YrMtUmO2xRvrOiMlWCUnSBFrcgJBEOrhAfmtScdij3WYAAAAAElFTkSuQmCC"
-                                alt=""></div><!----><!----><!---->
+                                alt=""></a></div><!----><!----><!---->
                         <div data-v-b73557e2="" class="name tac"> Withdrawal </div><!----><!----><!---->
                         <div data-v-b73557e2="" class="flex1"></div><!----><!----><!----><!----><!---->
                         <div data-v-b73557e2="" class="head_right"><img data-v-c0dba864="" data-v-b73557e2=""
