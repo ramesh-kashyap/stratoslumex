@@ -113,6 +113,28 @@
 </head>
 
 <body class="mein_cn">
+
+
+
+
+
+<?php 
+                                                    
+                                                    $quantifiable_count = 0;
+                                                    if ($balance>=30 && $balance <500) 
+                                                    {
+                                                        $quantifiable_count = 3;
+                                                    }
+                                                    elseif ($balance>=500 && $userDirect>=5 )
+                                                    {
+                                                        $quantifiable_count = 4;
+                                                    }
+                                                    else
+                                                     {
+                                                           $quantifiable_count = 3; 
+                                                     }
+                                                    // dd($balance);
+                                                    ?>
     <div id="app" class="applang">
         <div data-v-6e2d35de="" data-v-32fa28da="" class="page">
             <div data-v-6e2d35de="" class="headers">
@@ -152,7 +174,7 @@
                                                 data-v-7e49fd41=""
                                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIjSURBVHgB7ZfRUYNAEIYXx0ctQAtIAxRgCjC+JwVgAfHd+C6+mwLk3aQALCAFmAJCARQQ95c9vUG4W0LQcea+mRMVuPu4210OokAgEBiUiHqw3+9HfIi5XXK74HYup0puBbcdt20URRs6kM6CLAWZKbdrS8gHZCG5ZNkddUAtyGKQmYtYH9bUQVQlyHJjPtyTfsZ8YEZTlsx9F3oFWS7hQ0LDgJlcui5wCg4sZ3BKnradYDkkgkYOGZtRlQRYujOqsnpMunhNeKySJbOmk1GLHAZ4JT8IeMRS6ejnmaoS5AL333I/W1IKrhSdZtxhWpOJZbCtydIOkrhnRj5BZdxhKWeYOSk/jyJn8xVbfE0skj5+xONJTc4UYU1HZlmb5EAicUzyJtG8TabywM2CVM2cpta944fMTOy4zl6JnPxg7KlL8IoUWMEcey49l/c1KEiHU3BISjqAumCmuUliFfjiqrBme0Q63uw/mgQ1T/pZgBXB/2L9PiY/GLs9iyUzNbM4sbLtjqqCXR8oNW8HRTIZsvoup0+hXnNnC+seLDuWEeK5KUMdCjXCYVL/Z5vgSDr1lZyc21Pb3k5mbqGQAzdN/bTuZqTIzsmP2S2v6LuU4AERp2PSkXbaLFiSf77d+t8bVoNs+bHcmljSgAR6OMqW3yDZiJk8xkdT6x6yzqGfnRBFhmpntBSxVdOm1EXfD3dIImPrH+6FSKFsbLpKBQKBwC/yAaDj265e7gwWAAAAAElFTkSuQmCC"
                                                 alt=""></div>
-                                        <div data-v-7e49fd41="" class="val" style="white-space: nowrap;"> 2.43 </div>
+                                        <div data-v-7e49fd41="" class="val" style="white-space: nowrap;"> ${{number_format(Auth::user()->available_balance(),2)}} </div>
                                     </div>
                                     <div data-v-7e49fd41="" class="it">
                                         <div data-v-7e49fd41="" class="name"> Token Volume </div>
@@ -163,14 +185,14 @@
                                     <li data-v-7e49fd41="">
                                         <div data-v-7e49fd41="" class="title"><span data-v-7e49fd41="">Flexible
                                                 Funds</span></div>
-                                        <div data-v-7e49fd41="" class="val"> 0 </div>
+                                        <div data-v-7e49fd41="" class="val"> {{number_format(Auth::user()->available_balance(),2)}} </div>
                                     </li>
                                     <li data-v-7e49fd41="">
                                         <div data-v-7e49fd41="" class="title"><span data-v-7e49fd41="">To be unlocked
                                             </span><img data-v-7e49fd41=""
                                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgB7ZbNDYJAEIVnF1oxMSEa6AAr0A6MBykKPVCCdkAHkKgJibXAynIysP/MepF3hIHv2wkkD2DJv4foBtaPSwodpDAzQchuryirwUYgqvK4DUgFWCGwazbn8vsSVc23lBwAM4JNKgX6uyV4Tqi6yde1qvIksNgEo7AnDGLT+VA38E6GD6cGg6yf1yPpmDGchwJSOBw6VoBlUARkcMb0m5stID85O/X/+F33/CwBFbzZZoXJO5wFMODOAlhwJwFMuLUANtxKwAfcWMAX3EjAJ1wr4BuuFPgFXCqABh/1CV7LxiOTSiavYW4n7/tEPPSJXmZcx3gmfUBcw9zXrusTVHClxIKbRNiKdWtbsgQzH3FhqIls8vSZAAAAAElFTkSuQmCC"
                                                 alt=""></div>
-                                        <div data-v-7e49fd41="" class="val"> 2.43 </div>
+                                        <div data-v-7e49fd41="" class="val"> 30 </div>
                                     </li>
                                 </ul>
                             </div>
@@ -197,27 +219,27 @@
                                 <ul data-v-396fd10e="" class="flex">
                                     <li data-v-396fd10e="">
                                         <div data-v-396fd10e="" class="title">Total Income</div>
-                                        <div data-v-396fd10e="" class="val">2.43</div>
+                                        <div data-v-396fd10e="" class="val">{{number_format($totalRoi,2)}}</div>
                                     </li>
                                     <li data-v-396fd10e="">
                                         <div data-v-396fd10e="" class="title">Today's earnings</div>
-                                        <div data-v-396fd10e="" class="val">0</div>
+                                        <div data-v-396fd10e="" class="val">{{number_format($todaysRoiSum,2)}}</div>
                                     </li>
                                     <li data-v-396fd10e="">
-                                        <div data-v-396fd10e="" class="title">Accumulated trading income</div>
-                                        <div data-v-396fd10e="" class="val">2.43</div>
+                                        <div data-v-396fd10e="" class="title">Total team income</div>
+                                        <div data-v-396fd10e="" class="val">{{number_format($totalLevelIncome,2)}}</div>
                                     </li>
                                     <li data-v-396fd10e="">
-                                        <div data-v-396fd10e="" class="title">Today's trading income</div>
-                                        <div data-v-396fd10e="" class="val">0</div>
+                                        <div data-v-396fd10e="" class="title">Todays Quantifiable Amount</div>
+                                        <div data-v-396fd10e="" class="val"><?=(Auth::user()->tradeAmt<=0 && $todaysRoi<$quantifiable_count)?number_format($balance,2):number_format(Auth::user()->tradeAmt,2)?> / {{number_format($balance,2)}}</div>
                                     </li>
                                     <li data-v-396fd10e="">
-                                        <div data-v-396fd10e="" class="title">Cumulative community income</div>
-                                        <div data-v-396fd10e="" class="val">0</div>
+                                        <div data-v-396fd10e="" class="title">Todays Quantifiable Count</div>
+                                        <div data-v-396fd10e="" class="val">{{$todaysRoi}}/{{$quantifiable_count}}</div>
                                     </li>
                                     <li data-v-396fd10e="">
                                         <div data-v-396fd10e="" class="title">Today's community income</div>
-                                        <div data-v-396fd10e="" class="val">0</div>
+                                        <div data-v-396fd10e="" class="val">{{number_format($todaysLevelIncome,2)}}</div>
                                     </li>
                                 </ul>
                             </div>
@@ -234,7 +256,7 @@
                                             <div data-v-56ab0919="" style="color:black;"> USDT</div>
                                             <p data-v-56ab0919=""></p>
                                         </div>
-                                        <div data-v-56ab0919="" class="val" style="color:black;">2.43</div>
+                                        <div data-v-56ab0919="" class="val" style="color:black;">{{number_format(Auth::user()->available_balance(),2)}}</div>
                                         <div data-v-56ab0919="" class="arr"><img data-v-56ab0919=""
                                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII="
                                                 alt="" class=""></div>

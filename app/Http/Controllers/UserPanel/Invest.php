@@ -646,8 +646,9 @@ public function viewdetail($txnId)
           $this->data['page'] = 'user.quality';
           return $this->dashboard_layout();
 
-
         }
+
+        
 
         public function records(Request $request)
         {
