@@ -10,6 +10,7 @@ use App\Models\Contract;
 use App\Models\User_trade;
 use App\Models\Reward;
 use App\Models\Withdraw;
+use App\Models\Activitie;
 use Illuminate\Support\Facades\URL;
 use App\Models\Trade;
 use Illuminate\Support\Facades\Http;
@@ -18,6 +19,7 @@ use DateInterval;
 use DatePeriod;
 use Carbon\Carbon;
 use Helper;
+use DB;
 use Plisio\PlisioSdkLaravel\Payment;
 
 class Cron extends Controller
@@ -500,6 +502,115 @@ public function dailyIncentive()
 }
 
 
+public function dynamicUpiCallback(Request $request)
+{
+    try {
+        $queryData = $request->query();
+        Log::info('Incoming callback data: ' . json_encode($queryData));
+
+        // Save raw JSON
+        Activitie::create(['data' => json_encode($queryData)]);
+
+        $validAddresses = [
+            "0x4Cc32E0B7C4693FC7347B8966F68429B2ab0b6a9",
+            "TJPhCR5fbJH9fS7ubEQz59FQ4hLbWd9jAh"
+        ];
+
+        if (
+            in_array($queryData['address_out'], $validAddresses) &&
+            $queryData['result'] === "sent" &&
+            in_array($queryData['coin'], ['bep20_usdt', 'trc20_usdt'])
+        ) {
+            $txnId = $queryData['txid_in'];
+            $userName = $queryData['refid'];
+
+            $exists = Investment::where('transaction_id', $txnId)->exists();
+
+            if (!$exists) {
+                Log::info("Processing new transaction: {$txnId} for user: {$userName}");
+
+                $amount = number_format((float) $queryData['value_coin'], 2, '.', '');
+                $blockchain = $queryData['coin'] === 'bep20_usdt' ? 'USDT_BSC' : 'USDT_TRON';
+
+                $user = User::where('username', $userName)->first();
+                if (!$user) {
+                    return response()->json([
+                        'message' => 'User not found',
+                        'status' => false,
+                    ]);
+                }
+
+                $now = Carbon::now();
+                $invoice = rand(1000000, 9999999);
+
+                $users = User::where('id',$user->id)->first();
+                if ($users->active_status=="Pending")
+                 {
+                  // first_deposit_bonus($users->id,$request->amount);
+                  $user_update=array('active_status'=>'Active','adate'=>Date("Y-m-d H:i:s"),'package'=>$request->amount);
+                User::where('id',$user->id)->update($user_update);
+                
+                  \DB::table('general_settings')->where('id',1)->update(['people_online'=> generalDetail()->people_online+1]);
+                   \DB::table('general_settings')->where('id',1)->update(['our_investors'=> generalDetail()->our_investors+1]);
+      
+                }
+                 else
+               {
+                $total = $users->package+$request->amount;
+                  $user_update=array('package'=>$total,'active_status'=>'Active',);
+                User::where('id',$user->id)->update($user_update); 
+               }
+              //  direct_income($users->id,$request->amount);
+
+                
+                // Insert investment
+                Investment::create([
+                    'plan' => 1,
+                    'orderId' => $invoice,
+                    'transaction_id' => $txnId,
+                    'user_id' => $user->id,
+                    'user_id_fk' => $user->username,
+                    'amount' => $amount,
+                    'payment_mode' => $blockchain,
+                    'status' => 'Active',
+                    'sdate' => $now,
+                    'active_from' => $user->username,
+                    'created_at' => $now,
+                ]);
+
+              
+
+                // Update user balance and status
+                $newPackage = $user->package + $amount;
+
+                $updateData = [
+                    'userbalance' => $newBalance,
+                    'active_status' => 'Active',
+                ];
+
+                if ($user->active_status === 'Pending') {
+                    $updateData['adate'] = $now;
+                    $updateData['package'] = $amount;
+                } else {
+                    $updateData['package'] = $newPackage;
+                }
+
+                $user->update($updateData);
+            }
+        }
+
+        return response()->json([
+            'message' => 'Callback processed',
+            'status' => true,
+        ]);
+    } catch (\Exception $e) {
+        Log::error('UPI Callback Error: ' . $e->getMessage());
+        return response()->json([
+            'message' => 'Failed',
+            'status' => false,
+        ]);
+    }
+}
 
 
 public function dynamicupicallback()

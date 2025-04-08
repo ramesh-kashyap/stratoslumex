@@ -125,7 +125,7 @@
 	<div id="app" class="applang">
 		<div data-v-6e2d35de="" data-v-679886a1="" class="page">
 			<div data-v-6e2d35de="" class="headers">
-				<div data-v-b73557e2="" data-v-679886a1="" class="head" data-v-6e2d35de="">
+				<div data-v-b73557e2="" data-v-679886a1="" class="head" style="background: linear-gradient(to right, #119ac7, #b5dbe7);" data-v-6e2d35de="">
 					<div data-v-b73557e2="" class="safe"></div>
 					<div data-v-b73557e2="" class="container flex">
 						<div data-v-b73557e2="" class="back"><a href="{{route('user.asset')}}"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs
@@ -145,40 +145,40 @@
 					<div data-v-679886a1="" data-v-6e2d35de="" class="container">
 						<div data-v-679886a1="" data-v-6e2d35de="" class="item valMob">
 							<div data-v-679886a1="" data-v-6e2d35de="" class="cname">Select Currency</div>
-							<div data-v-679886a1="" data-v-6e2d35de="" class="inp">
-								<div data-v-679886a1="" data-v-6e2d35de="" class="icon"><img data-v-679886a1="" data-v-6e2d35de="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/f710b0ea16ca629941e92e00e453fd1b.png" alt=""></div><input data-v-679886a1="" data-v-6e2d35de="" type="text" readonly="readonly">
+							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: linear-gradient(to right, #119ac7, #b5dbe7);">
+								<div data-v-679886a1="" data-v-6e2d35de="" class="icon"><img data-v-679886a1="" data-v-6e2d35de="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/f710b0ea16ca629941e92e00e453fd1b.png" alt=""></div><input data-v-679886a1="" data-v-6e2d35de="" type="text"  value="USDT" readonly="readonly">
 								<div data-v-679886a1="" data-v-6e2d35de="" class="arr"><img data-v-679886a1="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII=" alt=""></div>
 							</div>
 						</div>
 						<div data-v-679886a1="" data-v-6e2d35de="" class="item valMob">
 							<div data-v-679886a1="" data-v-6e2d35de="" class="cname">Select Network</div>
-							<div data-v-679886a1="" data-v-6e2d35de="" class="inp">
-								<div data-v-679886a1="" data-v-6e2d35de="" class="icon"><img data-v-679886a1="" data-v-6e2d35de="" src="https://tux-all.s3.ap-southeast-1.amazonaws.com/upload/20240723/bcabd0a39b535b0c04e14dc6b5f16bdd.png" alt=""></div><input data-v-679886a1="" data-v-6e2d35de="" type="text" readonly="readonly">
+							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: linear-gradient(to right, #119ac7, #b5dbe7);">
+								<div data-v-679886a1="" data-v-6e2d35de="" class="icon"><img data-v-679886a1="" data-v-6e2d35de="" src="https://tux-all.s3.ap-southeast-1.amazonaws.com/upload/20240723/bcabd0a39b535b0c04e14dc6b5f16bdd.png" alt=""></div><input data-v-679886a1="" data-v-6e2d35de="" value="BEP20"  type="text" readonly="readonly">
 								<div data-v-679886a1="" data-v-6e2d35de="" class="arr"><img data-v-679886a1="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII=" alt=""></div>
 							</div>
 						</div>
 						<div data-v-679886a1="" data-v-6e2d35de="" class="itemBox">
 							<div data-v-679886a1="" data-v-6e2d35de="" class="mbox">
-								<div data-v-679886a1="" data-v-6e2d35de="" id="qrcode" title="THvFgAEiAJe5Q3xLoTDPjL2nnCgL2YaVuJ"><canvas width="185" height="185" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,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" style="display: block;"></div>
-								<div data-v-679886a1="" data-v-6e2d35de="" class="icon"><img data-v-679886a1="" data-v-6e2d35de="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/f710b0ea16ca629941e92e00e453fd1b.png" alt=""></div>
+								<div data-v-679886a1="" data-v-6e2d35de="" id="qrcode" title="{{ $address_in }}"><canvas width="185" height="185" style="display: none;"></canvas><img alt="Scan me!" src="{{ $qrCodeLink }}"></div>
+								
 							</div>
 							<div data-v-679886a1="" data-v-6e2d35de="" class="mtext"> This address only supports USDT of recharge TRX </div>
 						</div>
 						<div data-v-679886a1="" data-v-6e2d35de="" class="valMob">
 							<div data-v-679886a1="" data-v-6e2d35de="" class="cname">Deposit Address</div>
-							<div data-v-679886a1="" data-v-6e2d35de="" class="inp">
-								<div data-v-679886a1="" data-v-6e2d35de="" class="address_text">THvFgAEiAJe5Q3xLoTDPjL2nnCgL2YaVuJ</div>
-								<div data-v-679886a1="" data-v-6e2d35de="" class="copy_address"><img data-v-679886a1="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAAAp0ptCRlUo1ZxASFgo0ptDR1Uo0ptCRlZISFgo0ptCRlUqyZc/WF4vr4kwpoUfcbQVAAAACnRSTlMA7+8gIL+/sLAgyb3sXAAAAGxJREFUKM9jAAHmwFVQsNwALGC4Cg6EwQJVCIGlYIFVCLAQXWAVOQKcSbt3owhM2o0m0I0usHswC5xCF3iF4C8HC9xBCmSwwN5fML6oAVAAAUCBRY6ANrpANoK/AyzghBBQAQuwdMP4ag4gPgDsiytjL3zauAAAAABJRU5ErkJggg==" alt=""></div>
+							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: linear-gradient(to right, #119ac7, #b5dbe7);">
+								<div data-v-679886a1="" data-v-6e2d35de="" class="address_text" id="address">{{ $address_in }}</div>
+								<div data-v-679886a1="" data-v-6e2d35de="" class="copy_address"  onclick="copyAddress()"><img data-v-679886a1="" data-v-6e2d35de=""src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAAAp0ptCRlUo1ZxASFgo0ptDR1Uo0ptCRlZISFgo0ptCRlUqyZc/WF4vr4kwpoUfcbQVAAAACnRSTlMA7+8gIL+/sLAgyb3sXAAAAGxJREFUKM9jAAHmwFVQsNwALGC4Cg6EwQJVCIGlYIFVCLAQXWAVOQKcSbt3owhM2o0m0I0usHswC5xCF3iF4C8HC9xBCmSwwN5fML6oAVAAAUCBRY6ANrpANoK/AyzghBBQAQuwdMP4ag4gPgDsiytjL3zauAAAAABJRU5ErkJggg==" alt=""></div>
 							</div>
 						</div>
 						<div data-v-679886a1="" data-v-6e2d35de="" class="itemBox">
 							<div data-v-58b133cc="" data-v-679886a1="" class="tips">
-								<div data-v-58b133cc="" class="n">Recharge Precautions</div>
+								<div data-v-58b133cc="" class="n" style="color: #119ac7">Recharge Precautions</div>
 								<div data-v-58b133cc="" class="p">
 									<ol>
-										<li>After clicking "Recharge," the system will default to displaying the USDT-TRC20 recharge address.<br> <br> <span style="color:#2ecc71"><strong>Select Recharge Method</strong></span><br> Click the "Recharge" button to choose different types of USDT recharge methods (e.g., USDT-ERC20 or USDT-TRC20).<br> <br> <span style="color:#2ecc71"><strong>Copy Address or Save QR Code</strong></span><br> Copy the corresponding recharge address or save the recharge QR code to your device. Please carefully verify the address information before proceeding with the recharge.<br> <br> <span style="color:#2ecc71"><strong>Arrival Time</strong></span><br> The recharge arrival time depends on the blockchain network status. It may be delayed due to network congestion or other factors. Please be patient and monitor the transaction status on the blockchain.<br> &nbsp;</li>
+										<li>After clicking "Recharge," the system will default to displaying the USDT-TRC20 recharge address.<br> <br> <span style="color:#2ecc71" style="color: #119ac7"><strong style="color: #119ac7">Select Recharge Method</strong></span><br> Click the "Recharge" button to choose different types of USDT recharge methods (e.g., USDT-ERC20 or USDT-TRC20).<br> <br> <span style="color:#2ecc71" style="color: #119ac7"><strong style="color: #119ac7">Copy Address or Save QR Code</strong></span><br> Copy the corresponding recharge address or save the recharge QR code to your device. Please carefully verify the address information before proceeding with the recharge.<br> <br> <span style="color:#2ecc71" style="color: #119ac7"><strong style="color: #119ac7">Arrival Time</strong></span><br> The recharge arrival time depends on the blockchain network status. It may be delayed due to network congestion or other factors. Please be patient and monitor the transaction status on the blockchain.<br> &nbsp;</li>
 									</ol>
-									<p><span style="color:#2ecc71">【Other Notes】</span></p>
+									<p><span  style="color: #119ac7">【Other Notes】</span></p>
 									<ol>
 										<li>Before recharging, please confirm that your wallet supports the selected recharge method.</li>
 										<li>If you encounter any recharge issues, promptly contact the platform's customer service and provide relevant recharge records for verification and assistance.</li>
@@ -252,6 +252,30 @@
 	<script src="/js1743475952730/compressorjs.fe8857a9.1743475952730.js?v=1743475952730"></script>
 	<script src="/js1743475952730/vendors~app.fe8857a9.1743475952730.js?v=1743475952730"></script>
 	<script src="/js1743475952730/app.fe8857a9.1743475952730.js?v=1743475952730"></script>
+	<script>
+//   async function fetchAddress() {
+//             try {
+//                 const response = await fetch('/user/create-address');
+//                 const data = await response.json();
+//                 document.getElementById('address').innerText = data.address;
+// 				document.getElementById('qr_code').src = data.qr_code;
+//             } catch (error) {
+//                 console.error('Error fetching address:', error);
+//                 document.getElementById('address').innerText = 'Error loading address';
+//             }
+//         }
+
+function copyAddress() {
+    const address = document.getElementById('address').innerText;
+    navigator.clipboard.writeText(address).then(() => {
+        alert('Address copied to clipboard');
+    }).catch(() => {
+        alert('Failed to copy address');
+    });
+}
+
+window.onload = fetchAddress;
+</script>
 	<script>
 		window.onload = function() {
 			// 禁用双指放大
