@@ -269,7 +269,7 @@ const E = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAA
                     D = f("PageScroll");
                 return v(), $(D, {
                     footerShow: !0,
-                    bgColor: "#fff",
+                    bgColor: "#0f0e11",
                     refresh: R.value,
                     "onUpdate:refresh": p[1] || (p[1] = U => R.value = U),
                     onRefresh: Q,

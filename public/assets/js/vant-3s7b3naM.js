@@ -8926,7 +8926,7 @@ var nm = oe({
                 x1: "64%",
                 y1: "100%",
                 x2: "64%"
-            }, [s("#FFF", 0, .5), s("#F2F3F5", 100)])]), f("g", {
+            }, [s("#0f0e11", 0, .5), s("#F2F3F5", 100)])]), f("g", {
                 opacity: ".8"
             }, [f("path", {
                 d: "M36 131V53H16v20H2v58h34z",
@@ -8957,7 +8957,7 @@ var nm = oe({
                 x1: "64%",
                 y1: "100%",
                 x2: "64%"
-            }, [s("#FFF", 0, .5), s("#F2F3F5", 100)]), f("linearGradient", {
+            }, [s("#0f0e11", 0, .5), s("#F2F3F5", 100)]), f("linearGradient", {
                 id: i(2),
                 x1: "50%",
                 x2: "50%",
@@ -8975,7 +8975,7 @@ var nm = oe({
                 fy: "0%",
                 r: "100%",
                 gradientTransform: "matrix(0 1 -.54 0 .5 -.5)"
-            }, [s("#EBEDF0", 0), s("#FFF", 100, 0)])]), f("g", {
+            }, [s("#EBEDF0", 0), s("#0f0e11", 100, 0)])]), f("g", {
                 fill: "none"
             }, [u(), f("path", {
                 fill: l(4),
@@ -9007,7 +9007,7 @@ var nm = oe({
                 height: "34",
                 rx: "2"
             }, null), f("rect", {
-                fill: "#FFF",
+                fill: "#0f0e11",
                 x: "9",
                 y: "8",
                 width: "80",
@@ -9058,7 +9058,7 @@ var nm = oe({
                 height: "66",
                 rx: "2"
             }, null), f("rect", {
-                fill: "#FFF",
+                fill: "#0f0e11",
                 x: "6",
                 y: "6",
                 width: "52",
@@ -9125,7 +9125,7 @@ var nm = oe({
                 x2: "50%",
                 y2: "100%",
                 id: i(12)
-            }, [a("#FFF", "#F7F8FA")])]), u(), d(), c("d"), f("g", {
+            }, [a("#0f0e11", "#F7F8FA")])]), u(), d(), c("d"), f("g", {
                 transform: "rotate(-45 113 -4)",
                 fill: "none"
             }, [f("rect", {

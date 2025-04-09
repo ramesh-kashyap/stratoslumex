@@ -71,7 +71,7 @@
 <style>
     .item .item-top .right .btn.processing[data-v-d3d46c3f] {
         background: #85f;
-        color: #fff;
+        color: #0f0e11;
     }
 </style>
   <style>.item[data-v-01110b5f] {
@@ -81,7 +81,7 @@
                             padding: .4rem .28rem;
                             border-radius: .32rem;
                             border: .02rem solid #7a7a78;
-                            background: #fff;
+                            background: #0f0e11;
                             margin-bottom: .24rem;
                         }
                         
@@ -172,7 +172,7 @@
                                 <div data-v-6a9399e1="" class="tab "><span data-v-6a9399e1="">  <a href="{{ route('user.activities') }}">Long-Term
                                         Task </a></span>
                                 </div>
-                                <div data-v-6a9399e1="" class="tab first"> <a href="{{ route('user.level-income') }}" style="color: #fff">
+                                <div data-v-6a9399e1="" class="tab first"> <a href="{{ route('user.level-income') }}" style="color: #0f0e11">
                                         <span data-v-6a9399e1="">Daily Tasks </a></span></div>
                             </div>
                             <div data-v-6a9399e1="" class="task-con first">

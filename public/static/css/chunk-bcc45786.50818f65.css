@@ -200,7 +200,7 @@
 
 .swiper-button-next.swiper-button-white,
 .swiper-button-prev.swiper-button-white {
-    --swiper-navigation-color: #fff
+    --swiper-navigation-color: #0f0e11
 }
 
 .swiper-button-next.swiper-button-black,
@@ -368,7 +368,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-white {
-    --swiper-pagination-color: #fff
+    --swiper-pagination-color: #0f0e11
 }
 
 .swiper-pagination-black {
@@ -461,7 +461,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-lazy-preloader-white {
-    --swiper-preloader-color: #fff
+    --swiper-preloader-color: #0f0e11
 }
 
 .swiper-lazy-preloader-black {
@@ -776,7 +776,7 @@ button.swiper-pagination-bullet {
 }
 
 .notice_popup .count-down[data-v-d496beb0] {
-    color: #fff;
+    color: #0f0e11;
     text-align: center;
     font-size: .28rem
 }
@@ -820,7 +820,7 @@ button.swiper-pagination-bullet {
 }
 
 .banner .item .text[data-v-5adce6a8] {
-    color: #fff;
+    color: #0f0e11;
     font-size: .28rem;
     font-weight: 500;
     line-height: .32rem
@@ -922,7 +922,7 @@ button.swiper-pagination-bullet {
 }
 
 .cards .card .content .text_box .title[data-v-13f5c245] {
-    color: #fff;
+    color: #0f0e11;
     font-size: .3rem
 }
 
@@ -938,7 +938,7 @@ button.swiper-pagination-bullet {
 
 .order-lease[data-v-100809b9] {
     border-top: .3rem solid #f6f6f6;
-    background: #fff url(../../static/img/totalbg.cd2d59d3.png) no-repeat;
+    background: #0f0e11 url(../../static/img/totalbg.cd2d59d3.png) no-repeat;
     background-size: 100% 100%;
     padding: .4rem .32rem
 }
@@ -1022,7 +1022,7 @@ button.swiper-pagination-bullet {
 }
 
 .info_tip_box .info_tip[data-v-1c9a79fc] {
-    background: #fff;
+    background: #0f0e11;
     border-radius: .24rem;
     padding: .32rem .24rem;
     display: flex;
@@ -1107,7 +1107,7 @@ ul li .val img[data-v-2b218ac2] {
 }
 
 .info h3[data-v-d59d9098] {
-    color: #fff;
+    color: #0f0e11;
     font-size: .32rem;
     font-weight: 600;
     line-height: .44rem
@@ -1180,7 +1180,7 @@ ul li .val img[data-v-2b218ac2] {
 }
 
 .com-title .left[data-v-6b16f068] {
-    color: #fff;
+    color: #0f0e11;
     font-size: .32rem;
     font-weight: 600
 }
@@ -1222,7 +1222,7 @@ ul li .val img[data-v-2b218ac2] {
 .home-news .news-info div[data-v-6b16f068] {
     padding: .4rem .28rem 0;
     font-size: .3rem;
-    color: #fff;
+    color: #0f0e11;
     line-height: .3rem;
     font-weight: 700
 }

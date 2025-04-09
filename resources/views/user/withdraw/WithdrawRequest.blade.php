@@ -129,10 +129,10 @@
        
         .container {
     padding: 0 .26rem;
-    background-color: #fff;
+    background-color: #0f0e11;
 }
  .flex{
-    background: linear-gradient(to right, #119ac7, #b5dbe7);
+    background: #0f0e11
 }
 .cname[data-v-c0dba864] {
     display: flex

@@ -16,7 +16,7 @@
 }
 
 .level-info .title .ri[data-v-21b9e3ce] {
-    color: #ffffff;
+    color: #0f0e11fff;
     font-family: PingFang SC;
     font-size: .24rem;
     font-style: normal;
@@ -98,7 +98,7 @@
 }
 
 .level.level1[data-v-21b9e3ce] {
-    color: #ffffff;
+    color: #0f0e11fff;
 }
 
 .level.level1 .icon[data-v-21b9e3ce]:before {
@@ -106,7 +106,7 @@
 }
 
 .level.level2[data-v-21b9e3ce] {
-    color: #ffffff;
+    color: #0f0e11fff;
 }
 
 .level.level2 .icon[data-v-21b9e3ce]:before {
@@ -220,7 +220,7 @@
     margin-top: .32rem;
     border-radius: .32rem;
     border: .02rem solid #854af6;
-    background: #fff
+    background: #0f0e11
 }
 
 .box .box-title[data-v-21b9e3ce] {
@@ -310,7 +310,7 @@
     border-radius: .16rem;
     background: #854af6;
     padding: .1rem .12rem;
-    color: #ffffff;
+    color: #0f0e11fff;
     font-family: PingFang SC;
     font-size: .28rem;
     font-style: normal;

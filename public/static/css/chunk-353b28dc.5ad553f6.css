@@ -1,5 +1,5 @@
 .info-com[data-v-73226123] {
-    background: linear-gradient(to right, #119ac7, #b5dbe7);
+    background: #0f0e11
     padding: .32rem;
     display: flex;
     margin-bottom: .32rem;
@@ -244,7 +244,7 @@
 
 .swiper-button-next.swiper-button-white,
 .swiper-button-prev.swiper-button-white {
-    --swiper-navigation-color: #fff
+    --swiper-navigation-color: #0f0e11
 }
 
 .swiper-button-next.swiper-button-black,
@@ -412,7 +412,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-white {
-    --swiper-pagination-color: #fff
+    --swiper-pagination-color: #0f0e11
 }
 
 .swiper-pagination-black {
@@ -505,7 +505,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-lazy-preloader-white {
-    --swiper-preloader-color: #fff
+    --swiper-preloader-color: #0f0e11
 }
 
 .swiper-lazy-preloader-black {
@@ -640,7 +640,7 @@ button.swiper-pagination-bullet {
 .list .list-item[data-v-4dc539c5] {
     border-radius: .24rem;
     border: .02rem solid hsla(0, 0%, 100%, .1);
-    background: linear-gradient(to right, #119ac7, #b5dbe7);
+    background: #0f0e11
     padding: .32rem;
     position: relative;
     margin-bottom: .24rem;
@@ -719,7 +719,7 @@ button.swiper-pagination-bullet {
     padding: .24rem .32rem;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #0f0e11;
     border: 0
 }
 
@@ -794,7 +794,7 @@ button.swiper-pagination-bullet {
 }
 
 [data-v-4dc539c5] .van-count-down {
-    color: #fff
+    color: #0f0e11
 }
 
 .swiper-next[data-v-4dc539c5],
@@ -963,7 +963,7 @@ button.swiper-pagination-bullet {
     background: #32c092;
     width: 100%;
     height: .8rem;
-    color: #fff;
+    color: #0f0e11;
     text-align: center;
     display: flex;
     align-items: center;
@@ -1079,7 +1079,7 @@ button.swiper-pagination-bullet {
     background: #32c092;
     width: 100%;
     height: .8rem;
-    color: #fff;
+    color: #0f0e11;
     text-align: center;
     font-size: .28rem;
     display: flex;
@@ -1177,7 +1177,7 @@ button.swiper-pagination-bullet {
     background: #32c092;
     width: 100%;
     height: .8rem;
-    color: #fff;
+    color: #0f0e11;
     text-align: center;
     font-size: .28rem;
     display: flex;
@@ -1193,7 +1193,7 @@ button.swiper-pagination-bullet {
     height: .88rem;
     line-height: .88rem;
     text-align: center;
-    color: #fff;
+    color: #0f0e11;
     font-size: .28rem;
     border-radius: .16rem !important;
     background: #212423
@@ -1205,7 +1205,7 @@ button.swiper-pagination-bullet {
 }
 
 .btn_box .btn.submit[data-v-c95fb5c2] {
-    background: linear-gradient(to right, #119ac7, #b5dbe7);}
+    background: #0f0e11}
 
 .list[data-v-7a0ef217] {
     margin: 0 -.32rem
@@ -1302,7 +1302,7 @@ button.swiper-pagination-bullet {
     justify-content: space-between;
     border-radius: .16rem;
     background: #2d2f39;
-    color: #fff;
+    color: #0f0e11;
     font-size: .24rem;
     padding: .24rem
 }
@@ -1320,7 +1320,7 @@ button.swiper-pagination-bullet {
     padding: .24rem .32rem;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #0f0e11;
     border: 0
 }
 
@@ -1340,7 +1340,7 @@ button.swiper-pagination-bullet {
 }
 
 [data-v-7a0ef217] .van-count-down {
-    color: #fff
+    color: #0f0e11
 }
 
 .ongoing-box .module-title[data-v-427c00e3] {
@@ -1409,7 +1409,7 @@ button.swiper-pagination-bullet {
 
 .modal-con .modal-name[data-v-427eef2e] {
     font-size: .26rem;
-    color: #fff;
+    color: #0f0e11;
     line-height: .26rem
 }
 
@@ -1436,7 +1436,7 @@ button.swiper-pagination-bullet {
     background: none;
     border: none;
     font-size: .28rem;
-    color: #fff
+    color: #0f0e11
 }
 
 .modal-con .modal-input input[data-v-427eef2e]::placeholder {
@@ -1448,7 +1448,7 @@ button.swiper-pagination-bullet {
     background: #32c092;
     border-radius: .16rem;
     font-size: .28rem;
-    color: #fff;
+    color: #0f0e11;
     line-height: .88rem;
     text-align: center
 }
@@ -1483,7 +1483,7 @@ button.swiper-pagination-bullet {
 }
 
 .tab li[data-v-427eef2e] {
-    color: #fff;
+    color: #0f0e11;
     padding: .18rem;
     flex: 1;
     text-align: center
@@ -1553,7 +1553,7 @@ button.swiper-pagination-bullet {
 
 .btns .count-down[data-v-427eef2e] .van-count-down {
     font-size: .28rem;
-    color: #fff;
+    color: #0f0e11;
     margin-right: .1rem
 }
 

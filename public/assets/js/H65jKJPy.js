@@ -10721,7 +10721,7 @@ const {
             width: d,
             height: a,
             colorDark: c || "#000000",
-            colorLight: n || "#ffffff",
+            colorLight: n || "#0f0e11fff",
             correctLevel: po.CorrectLevel.H
         })
     },

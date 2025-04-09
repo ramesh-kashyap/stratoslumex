@@ -139,7 +139,7 @@
             <div data-v-6e2d35de="" class="headers">
                 <div data-v-b73557e2="" data-v-427eef2e="" class="head" data-v-6e2d35de="">
                     <div data-v-b73557e2="" class="safe"></div>
-                    <div data-v-b73557e2="" class="container flex" style=" background: linear-gradient(to right, #119ac7, #b5dbe7);=">
+                    <div data-v-b73557e2="" class="container flex" style=" background: #0f0e11=">
                      
                         <!---->
                         <!---->
@@ -200,7 +200,7 @@
                                 </li>
                             </ul>
                             <ul data-v-427eef2e="" data-v-6e2d35de="" class="tab flex"                             style="
-       background: linear-gradient(to right, #119ac7, #b5dbe7);
+       background: #0f0e11
 }
 "> 
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class="on" id="strategyButton" id="strategyButton" > Strategy </li>

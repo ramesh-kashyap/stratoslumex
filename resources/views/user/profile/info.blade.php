@@ -169,7 +169,7 @@
                             </div>
 
                             <div id="copyToast"
-                                style="visibility: hidden; position: fixed;  left: 50%; transform: translate(-50%, -50%); background-color: #333; color: #fff; padding: 10px 20px; border-radius: 8px; font-size: 14px; z-index: 9999; opacity: 0; transition: opacity 0.5s ease; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); font-family: sans-serif;">
+                                style="visibility: hidden; position: fixed;  left: 50%; transform: translate(-50%, -50%); background-color: #333; color: #0f0e11; padding: 10px 20px; border-radius: 8px; font-size: 14px; z-index: 9999; opacity: 0; transition: opacity 0.5s ease; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); font-family: sans-serif;">
                                 Copied to clipboard!
                             </div>
 

@@ -178,7 +178,8 @@ ul li .val[data-v-7e49fd41] {
 .box[data-v-396fd10e] {
     border-radius: .24rem;
     border: .02rem solid hsla(0, 0%, 100%, .1);
-    background:linear-gradient(to right, #119ac7, #b5dbe7);
+    background: linear-gradient(180deg, #111116, #141519);
+
     padding: 0 .32rem;
     margin: .32rem 0
 }
@@ -324,7 +325,7 @@ ul li .title[data-v-396fd10e] {
 }
 
 .info-com[data-v-32fa28da] {
-    background: linear-gradient(to right, #119ac7, #b5dbe7);
+    background: url(../../static/img/bg-infos.a0249c7c.png);
     background-size: 100% 100%;
     margin: .32rem 0;
     padding: .32rem

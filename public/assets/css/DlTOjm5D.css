@@ -49,7 +49,7 @@
 }
 
 .main-header.on[data-v-a6121970] {
-    background-color: #fff
+    background-color: #0f0e11
 }
 
 .main-header.on .left .title[data-v-a6121970] {
@@ -80,7 +80,7 @@
     min-width: 0;
     flex: 1;
     text-align: left;
-    color: #fff
+    color: #0f0e11
 }
 
 .main-header .right[data-v-a6121970] {
@@ -366,7 +366,7 @@
 
 .home-adv .adv-box[data-v-b12318dc] {
     border-radius: .24rem;
-    background: #fff;
+    background: #0f0e11;
     padding: 0 .32rme;
     box-sizing: border-box;
     display: flex;
@@ -377,7 +377,7 @@
     padding: .28rem;
     border-radius: .32rem;
     border: .02rem solid #7a7a78;
-    background: #fff;
+    background: #0f0e11;
     width: 100%;
     margin-bottom: .24rem;
     display: flex;
@@ -423,7 +423,7 @@
     margin-bottom: .02rem;
     border-radius: .44rem;
     border: .02rem solid #7A7A78;
-    background: #fff;
+    background: #0f0e11;
     padding: .04rem
 }
 
@@ -552,7 +552,7 @@
     background: #00bc81;
     min-width: 1.4rem;
     height: .56rem;
-    color: #fff;
+    color: #0f0e11;
     text-align: center;
     font-size: .26rem;
     font-style: normal;
@@ -579,7 +579,7 @@
 .swiper-con[data-v-49196a87] {
     width: 100%;
     border-radius: .24rem;
-    background: #fff;
+    background: #0f0e11;
     box-sizing: border-box;
     overflow: hidden
 }
@@ -733,7 +733,7 @@
 }
 
 .app-down .name[data-v-db34f896] {
-    color: #fff;
+    color: #0f0e11;
     text-align: center;
     font-family: PingFang SC;
     font-size: .26rem;
@@ -867,7 +867,7 @@
     padding: .36rem .28rem;
     border-radius: .32rem;
     border: .02rem solid #7A7A78;
-    background: #fff
+    background: #0f0e11
 }
 
 .inp-con .inp[data-v-0b9b2dcd]:focus-within {
@@ -999,7 +999,7 @@
 :root,
 :host {
     --van-black: #000;
-    --van-white: #fff;
+    --van-white: #0f0e11;
     --van-gray-1: #f7f8fa;
     --van-gray-2: #f2f3f5;
     --van-gray-3: #ebedf0;
@@ -1012,7 +1012,7 @@
     --van-blue: #1989fa;
     --van-orange: #ff976a;
     --van-orange-dark: #ed6a0c;
-    --van-orange-light: #fffbe8;
+    --van-orange-light: #0f0e11be8;
     --van-green: #07c160;
     --van-gradient-red: linear-gradient(to right, #ff6034, #ee0a24);
     --van-gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
@@ -2826,7 +2826,7 @@ ul {
     --van-back-top-bottom: 40px;
     --van-back-top-z-index: 100;
     --van-back-top-icon-size: 20px;
-    --van-back-top-text-color: #fff;
+    --van-back-top-text-color: #0f0e11;
     --van-back-top-background: var(--van-blue)
 }
 
@@ -9629,7 +9629,7 @@ html.pc .van-picker {
 }
 
 :root {
-    --van-popup-background: #ffffff;
+    --van-popup-background: #0f0e11fff;
     --van-active-color: #fbb600;
     --van-field-placeholder-text-color: #b4bdc8;
     --van-dialog-confirm-button-text-color: #fbb600
@@ -9730,7 +9730,7 @@ button {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background: #ffffff80
+    background: #0f0e11fff80
 }
 
 .container {

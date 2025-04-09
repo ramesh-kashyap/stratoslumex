@@ -84,7 +84,7 @@ const B = {
                     $ = i("PageScroll");
                 return P(), b($, {
                     type: "inside",
-                    bgColor: "#fff",
+                    bgColor: "#0f0e11",
                     title: t.$t("title.doc12")
                 }, {
                     default: y(() => [o("div", B, d(t.$t("title.doc12")), 1), o("div", x, [o("div", I, [o("div", S, [o("div", k, d(t.$t("user.doc34")), 1), l(c, {

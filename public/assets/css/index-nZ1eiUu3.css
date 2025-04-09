@@ -75,7 +75,7 @@
 }
 
 .asset .asset-bot .bot-item .val[data-v-350175d4] {
-    color: #fff;
+    color: #0f0e11;
     font-size: .32rem;
     font-style: normal;
     font-weight: 500;
@@ -102,7 +102,7 @@
     justify-content: center;
     border-radius: .32rem;
     border: .02rem solid #7a7a78;
-    background: #fff;
+    background: #0f0e11;
     height: 1.32rem
 }
 
@@ -128,7 +128,7 @@
 
 .list-head[data-v-fe635a66] {
     margin-top: -.1rem;
-    background-color: #fff;
+    background-color: #0f0e11;
     padding-top: .4rem;
     padding-bottom: .4rem
 }

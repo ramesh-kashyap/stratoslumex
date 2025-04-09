@@ -5,7 +5,7 @@
     padding: .4rem .28rem;
     border-radius: .32rem;
     border: .02rem solid #7a7a78;
-    background: #fff;
+    background: #0f0e11;
     margin-bottom: .24rem
 }
 
@@ -92,7 +92,7 @@
     padding: .04rem;
     border-radius: .44rem;
     border: .02rem solid #7a7a78;
-    background: #fff
+    background: #0f0e11
 }
 
 .tabs-con[data-v-38c4ffa9] .van-tabs--line .van-tabs__wrap {

@@ -127,10 +127,10 @@
 }
 a {
     text-decoration: none;
-    color: #FFF;
+    color: #0f0e11;
 }
 .back-btn h1 {
-    color: var(--1, #FFF);
+    color: var(--1, #0f0e11);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -144,7 +144,7 @@ a {
     position: relative;
 }
 .hello-jessica {
-    color: #fff;
+    color: #0f0e11;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
@@ -157,7 +157,7 @@ a {
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
 }.have-fun {
-    color: #fff;
+    color: #0f0e11;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -165,7 +165,7 @@ a {
     padding: 12px 0;
 }
 .conversation {
-    color: #fff;
+    color: #0f0e11;
     font-family: sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -174,7 +174,7 @@ a {
     padding-bottom: 12px;
 }
 .verify-section-main {
-    background-color: #fff;
+    background-color: #0f0e11;
     padding: 16px 16px 0 16px;
     display: flex;
     align-items: center;
@@ -450,7 +450,7 @@ function googleTranslateElementInit() {
                                         <div data-v-524186f8="" class="box invite">
                                             <a href="{{ route('user.share') }}">
                                                 <div data-v-524186f8="" class="box-top">
-                                                    <h3 style="color:black;" data-v-524186f8="">Invite Friends</h3>
+                                                    <h3  data-v-524186f8="">Invite Friends</h3>
                                                     <p data-v-524186f8="">Share {{siteName()}} Quantitative Bonus</p>
                                                 </div>
                                             </a>
@@ -460,7 +460,7 @@ function googleTranslateElementInit() {
                                         <div data-v-524186f8="" class="box task">
                                             <a href="{{route('user.activities')}}">
                                                 <div data-v-524186f8="" class="box-top">
-                                                    <h3 style="color:black;" data-v-524186f8="">Task Center</h3>
+                                                    <h3  data-v-524186f8="">Task Center</h3>
                                                     <p data-v-524186f8="">Complete Tasks for Rewards</p>
                                                 </div>
                                             </a>

@@ -267,7 +267,7 @@ const E = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAA
                     H = k("PageScroll");
                 return d(), U(H, {
                     footerShow: !0,
-                    bgColor: "#fff",
+                    bgColor: "#0f0e11",
                     refresh: y.value,
                     "onUpdate:refresh": m[1] || (m[1] = Q => y.value = Q),
                     onRefresh: N,

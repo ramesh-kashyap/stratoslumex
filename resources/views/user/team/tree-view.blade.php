@@ -22,7 +22,7 @@
     .modal .modal-header .modal-title {
         font-weight: 500;
         font-size: 1.3rem;
-        color: #ffffff;
+        color: #0f0e11fff;
     }
     .modal-content {
         position: relative;
@@ -45,7 +45,7 @@
     
     #userDataModal #userName{ text-transform:uppercase;}
     #userData table{ width:100%; border:1px #ccc solid; background-color:#000;}
-    #userData table td{ border:1px #ccc solid; padding:8px; text-transform:uppercase; color:#fff; text-align:center;}
+    #userData table td{ border:1px #ccc solid; padding:8px; text-transform:uppercase; color:#0f0e11; text-align:center;}
     #userData table td i{ margin-right:4px;}
     #userData table td span{ float:center; font-weight:100px; font-size:12px;}
     .text-center {

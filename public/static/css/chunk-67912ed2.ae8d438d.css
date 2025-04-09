@@ -121,7 +121,7 @@
 .level-box[data-v-610da18b] {
     background: url(../../static/img/bg-level.431a3256.png) no-repeat;
     background-size: 100% 100%;
-    color: #fff;
+    color: #0f0e11;
     display: flex
 }
 
@@ -130,7 +130,7 @@
     height: .72rem;
     width: .72rem;
     border-radius: 50%;
-    border: .04rem solid #fff;
+    border: .04rem solid #0f0e11;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +172,7 @@
 
 .toast-box[data-v-610da18b] {
     width: 5.5rem;
-    background: #fff;
+    background: #0f0e11;
     border-radius: .32rem;
     padding: .26rem;
     text-align: center

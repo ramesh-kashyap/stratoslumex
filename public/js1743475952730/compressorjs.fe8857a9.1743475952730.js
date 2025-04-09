@@ -479,7 +479,7 @@
                                 var Z = "transparent";
                                 f.size > d.convertSize && d.convertTypes.indexOf(d.mimeType) >= 0 && (d.mimeType = "image/jpeg");
                                 var _ = "image/jpeg" === d.mimeType;
-                                if (_ && (Z = "#fff"), m.fillStyle = Z, m.fillRect(0, 0, A, R), d.beforeDraw && d.beforeDraw.call(this, m, p), !this.aborted && (m.save(), m.translate(A / 2, R / 2), m.rotate(n * Math.PI / 180), m.scale(l, c), m.drawImage.apply(m, [h].concat(J)), m.restore(), d.drew && d.drew.call(this, m, p), !this.aborted)) {
+                                if (_ && (Z = "#0f0e11"), m.fillStyle = Z, m.fillRect(0, 0, A, R), d.beforeDraw && d.beforeDraw.call(this, m, p), !this.aborted && (m.save(), m.translate(A / 2, R / 2), m.rotate(n * Math.PI / 180), m.scale(l, c), m.drawImage.apply(m, [h].concat(J)), m.restore(), d.drew && d.drew.call(this, m, p), !this.aborted)) {
                                     var ee = function(e) {
                                         if (!t.aborted) {
                                             var a = function(e) {

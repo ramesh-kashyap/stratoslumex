@@ -1,7 +1,7 @@
 .popup-con[data-v-2f658818] {
     padding: .28rem;
     border-radius: .32rem;
-    background: #fff;
+    background: #0f0e11;
     overflow: hidden;
     margin: .4rem
 }
@@ -58,7 +58,7 @@
     border: 1px solid transparent;
     border-radius: .2rem;
     border: .02rem solid #7A7A78;
-    background: #fff
+    background: #0f0e11
 }
 
 .popup-con .popup-center .inp[data-v-2f658818]:focus-within {
@@ -94,7 +94,7 @@
 .container[data-v-15dcee51] {
     border-radius: .32rem;
     border: .02rem solid #7a7a78;
-    background: #fff;
+    background: #0f0e11;
     padding: 0rem;
     margin: 0rem .32rem;
     padding: .4rem .28rem
