@@ -155,10 +155,10 @@
                                             data-v-6e2d35de=""
                                             src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/6ca664b90f036b7967d5eb1e2ac4ac17.png"
                                             alt=""></div>
-                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="edit"><a href="{{route('user.showinfo')}}"> Edit </a></div>
+                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="edit" ><a href="{{route('user.showinfo')}}"> Edit </a></div>
                                 </div>
-                                <div data-v-184f5bd0="" data-v-6e2d35de="" class="name"> {{Auth::user()->name}} </div>
-                                <div data-v-184f5bd0="" data-v-6e2d35de="" class="str" style="margin-top: 80px;">
+                                <div data-v-184f5bd0="" data-v-6e2d35de="" class="name" style="color:white;"> {{Auth::user()->name}} </div>
+                                <div data-v-184f5bd0="" data-v-6e2d35de="" class="str">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="copy"> UID: <span
                                             data-v-184f5bd0="" data-v-6e2d35de="">{{Auth::user()->username}}</span><img data-v-184f5bd0=""
                                             data-v-6e2d35de=""
@@ -193,20 +193,21 @@
                             </div>
                         </div>
                         <div data-v-184f5bd0="" data-v-6e2d35de="" class="container">
-                            <ul data-v-184f5bd0="" data-v-6e2d35de="" class="nav1">
+                            <ul data-v-184f5bd0="" data-v-6e2d35de="" class="nav1" style="
+">
                                 <li data-v-184f5bd0="" data-v-6e2d35de="">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
                                             data-v-6e2d35de=""
                                             src="/static/img/income.png"
                                             alt=""></div>
-                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n"><a href="{{route('user.roi-bonus')}}" style="color: #020503;"> My income</a></div>
+                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n" ><a href="{{route('user.roi-bonus')}}"> My income</a></div>
                                 </li>
                                 <li data-v-184f5bd0="" data-v-6e2d35de="">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
                                             data-v-6e2d35de=""
                                             src="/static/img/read.png"
                                             alt=""></div>
-                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n" style="color: #020503;">LumeX Academy</div>
+                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n" style="color:white;">LumeX Academy</div>
                                 </li>
                                 <li data-v-184f5bd0="" data-v-6e2d35de="">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
@@ -221,31 +222,9 @@
                             </ul>
                             <div data-v-184f5bd0="" data-v-6e2d35de="" class="line">
                                 <ul data-v-184f5bd0="" data-v-6e2d35de="" class="ul1">
-                                    <li data-v-184f5bd0="" data-v-6e2d35de="">
-                                        <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
-                                                data-v-6e2d35de=""
-                                                src="/static/img/address.png"
-                                                alt=""></div>
-                                        <div data-v-184f5bd0="" data-v-6e2d35de="" class="flex1"> <a href="{{route('user.wallets')}}" style="color: #020503;">Withdrawal Address</a>
-                                        </div>
-                                        <div data-v-184f5bd0="" data-v-6e2d35de="" class="arr"><img data-v-184f5bd0=""
-                                                data-v-6e2d35de=""
-                                                src="/static/img/open.png"
-                                                alt=""></div>
-                                    </li>
-                                    <li data-v-184f5bd0="" data-v-6e2d35de="">
-                                        <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
-                                                data-v-6e2d35de=""
-                                                src="/static/img/verify.png"
-                                                alt=""></div>
-                                        <div data-v-184f5bd0="" data-v-6e2d35de="" class="flex1"> <a href="{{route('user.codeVerify')}}" style="color: #020503;">Verify</a></div>
-                                        <div data-v-184f5bd0="" data-v-6e2d35de="" class="arr"><img data-v-184f5bd0=""
-                                                data-v-6e2d35de=""
-                                                src="/static/img/open.png"
-                                                alt=""></div>
-                                    </li>
-
-
+                                   
+                                 
+                                    
                                     <li data-v-184f5bd0="" data-v-6e2d35de="">
                                         <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
                                                 data-v-6e2d35de=""
@@ -358,8 +337,10 @@
                                 </ul>
                             </div>
                             <div data-v-184f5bd0="" data-v-6e2d35de="" class="btn_list">
-                                <div data-v-184f5bd0="" data-v-6e2d35de="" class="go"><button data-v-184f5bd0=""
-                                        data-v-6e2d35de=""><a href="{{route('logout')}}" style="color: #020503;">Sign Out</a> </button></div>
+                                <div data-v-184f5bd0="" data-v-6e2d35de="" class="go">
+                                <button data-v-184f5bd0=""
+                                        data-v-6e2d35de="" style="  color:black; background: linear-gradient(180deg, #96c906, #c6f04e);
+">Sign Out</button></div>
                             </div>
                         </div>
                     </div>

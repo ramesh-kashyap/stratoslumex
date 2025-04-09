@@ -203,9 +203,9 @@
        background: #0f0e11
 }
 "> 
-                                <li data-v-427eef2e="" data-v-6e2d35de="" class="on" id="strategyButton" id="strategyButton" > Strategy </li>
-                                <li data-v-427eef2e="" data-v-6e2d35de="" class="" id="todayButton" > Today </li>
-                                <li data-v-427eef2e="" data-v-6e2d35de="" class=""  id="billButton"> Bill </li>
+                                <li data-v-427eef2e="" data-v-6e2d35de="" class="on" id="strategyButton" id="strategyButton"  style="color:#fff;"> Strategy </li>
+                                <li data-v-427eef2e="" data-v-6e2d35de="" class="" id="todayButton"  style="color:#fff;"> Today </li>
+                                <li data-v-427eef2e="" data-v-6e2d35de="" class=""  id="billButton"  style="color:#fff;">  Bill </li>
                             </ul>
 
                             <div  id="defaultContent" style="display: block;" >
@@ -218,7 +218,7 @@
                                     <div data-v-427eef2e="" data-v-6e2d35de="" class="title">G0</div>
                                     <div data-v-427eef2e="" data-v-6e2d35de="" class="rate">1.20%-1.50% </div>
                                 </div>
-                                <div data-v-427eef2e="" data-v-6e2d35de="" class="val" style="color:black"> 0-200 USDT </div><i
+                                <div data-v-427eef2e="" data-v-6e2d35de="" class="val" > 0-200 USDT </div><i
                                     data-v-427eef2e="" data-v-6e2d35de="" class="van-icon van-icon-arrow">
                                     <!----></i>
                             </div>
@@ -260,11 +260,11 @@
                                                 </svg>
                                                 <ul data-v-4dc539c5="">
                                                     <li data-v-4dc539c5="" class="flex">
-                                                        <div data-v-4dc539c5="" class="title">Transaction Amount</div>
-                                                        <div data-v-4dc539c5="" class="val">0 USDT</div>
+                                                        <div data-v-4dc539c5="" class="title" style="color:#fff;">Transaction Amount</div>
+                                                        <div data-v-4dc539c5="" class="val" style="color:#fff;">0 USDT</div>
                                                     </li>
                                                     <li data-v-4dc539c5="" class="flex">
-                                                        <div data-v-4dc539c5="" class="title">Rate of return</div>
+                                                        <div data-v-4dc539c5="" class="title" style="color:#fff;">Rate of return</div>
                                                         <div data-v-4dc539c5="" class="val">1.2%-1.5%</div>
                                                     </li>
                                                 </ul>

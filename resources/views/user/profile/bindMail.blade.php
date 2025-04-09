@@ -153,7 +153,7 @@
                         <div data-v-1daeed5a="" data-v-6e2d35de="" class="container">
                             <div data-v-1daeed5a="" data-v-6e2d35de="" class="cname">Mailbox</div>
                             <div data-v-1daeed5a="" data-v-6e2d35de="" class="valMob">
-                                <div data-v-1daeed5a="" data-v-6e2d35de="" class="inp"><input data-v-1daeed5a="" name="email" value="{{ Auth::user()->email }}" data-v-6e2d35de="" type="text" ></div>
+                                <div data-v-1daeed5a="" data-v-6e2d35de="" class="inp"><input data-v-1daeed5a="" name="email" value="{{ Auth::user()->email }}" data-v-6e2d35de="" type="text"  style="color:white;"></div>
                             </div>
                         </div>
 

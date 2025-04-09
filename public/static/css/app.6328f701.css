@@ -288,7 +288,7 @@
 
 .valMob .sendCode {
     border-radius: .08rem;
-    background: #32c092;
+    background: #98c80d;
     padding: .12rem .24rem;
     color: #0f0e11;
     font-size: .24rem
@@ -371,7 +371,7 @@
 
 :root {
     --COcolor1: #0f0e11;
-    --COcolor2: #32c092;
+    --COcolor2: #98c80d;
     --COcolor3: #555563;
     --COcolor4: #0f0e11;
     --COcolor5: grey;
@@ -380,7 +380,7 @@
     --COborder2: 0.02rem solid #2b2d36;
     --COborder3: 0.02rem solid #ffadb5;
     --CObackgroundLinear1: linear-gradient(270deg, #0571fd, #7b02fe 100%, #7b02fe 0);
-    --CObackgroundLinear2: #32c092;
+    --CObackgroundLinear2: #98c80d;
     --CObackgroundLinear3: #0e0f10;
     --CObackgroundLinear4: hsla(0, 0%, 100%, 0.8);
     --CObackgroundLinear5: linear-gradient(90deg, #e7625d, #e24a43)
@@ -497,7 +497,7 @@ section {
 
 a {
     text-decoration: none;
-    color: #0f0e11
+    color: #fff;
 }
 
 .c:after {
@@ -509,7 +509,7 @@ a {
 }
 
 .c {
-    *zoom: 1
+    zoom: 1
 }
 
 img {
