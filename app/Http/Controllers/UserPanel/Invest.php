@@ -674,12 +674,13 @@ public function viewdetail($txnId)
 
         $this->data['gen_team1Income'] =$gen_team1->count();
 
-        $notes = Contract::where('user_id',$user->id)->orderBy('id','DESC');
-
+        $notes = Contract::where('user_id',$user->id)->orderBy('id','DESC')->get();
+          
 
           $userDirect = User::where('sponsor',$user->id)->where('active_status','Active')->where('package','>=',30)->count();
           $totalRoi = \DB::table('contract')->where('user_id',$user->id)->sum('profit');
           $todaysRoi = \DB::table('contract')->where('user_id',$user->id)->where('ttime',date('Y-m-d'))->get();
+          $this->data['todaysTrade'] = $todaysRoi;
           $this->data['totalRoi'] = $totalRoi;
           $this->data['userDirect'] = $userDirect;
           $this->data['todaysRoi'] = $todaysRoi->count();
@@ -688,7 +689,7 @@ public function viewdetail($txnId)
           $this->data['totalLevelIncome'] = \DB::table('incomes')->where('user_id',$user->id)->where('remarks','Quantify Level Income')->sum('comm');
           $this->data['balance'] =round($user->available_balance(),2);
           $this->data['level_income'] =$notes;
-
+         
           $this->data['page'] = 'user.quality';
           return $this->dashboard_layout();
 
