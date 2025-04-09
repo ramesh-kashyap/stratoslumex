@@ -9,7 +9,7 @@ a[data-v-2620cc76] {
         </style>
             <div data-v-6e2d35de="" class="footer">
                 <div data-v-2620cc76="" data-v-32fa28da="" class="footers" data-v-6e2d35de="" style="
-       background: linear-gradient(to right, #119ac7, #b5dbe7);
+    background: linear-gradient(180deg, #96c906, #c6f04e);
 }
 " >
                     <div data-v-2620cc76="" class="item"   href="{{route('user.dashboard')}}">

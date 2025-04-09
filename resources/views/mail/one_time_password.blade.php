@@ -27,11 +27,11 @@
                 <div class="content"
                     style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; max-width: 600px; display: block; margin: 0 auto; padding: 20px;">
                     <table class="main" width="100%" cellpadding="0" cellspacing="0"
-                        style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; display: inline-block; font-size: 14px; border-radius: 3px; background-color: #fff; margin: 0; border: 1px solid #e9e9e9;"
-                        bgcolor="#fff">
+                        style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; display: inline-block; font-size: 14px; border-radius: 3px; background-color: #0f0e11; margin: 0; border: 1px solid #e9e9e9;"
+                        bgcolor="#0f0e11">
                          <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                               <td class=""
-                                  style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size:32px; vertical-align: top; color: #fff; font-weight: 500; text-align: center; display: block; border-radius: 3px 3px 0 0; background-color: #2b282e; margin: 0;text-shadow: 2px 2px #0100c9;font-weight: 700;text-shadow: 3px 1px 0px #c78283;font-size: 40px;margin-top: -40px;"
+                                  style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size:32px; vertical-align: top; color: #0f0e11; font-weight: 500; text-align: center; display: block; border-radius: 3px 3px 0 0; background-color: #2b282e; margin: 0;text-shadow: 2px 2px #0100c9;font-weight: 700;text-shadow: 3px 1px 0px #c78283;font-size: 40px;margin-top: -40px;"
                                   align="center" bgcolor="#71b6f9" valign="top">
                                 <p> <img style="width:200px" src="https://gstaiq.com/assets/images/logo-2.png" alt=""> </p>
                               </td>

@@ -2307,7 +2307,7 @@ var _x = function (a) {
             u = Et(s, (t.itemWidth - l) / 2, (t.itemHeight - l) / 2, l, l, t.itemStyle.fill);
         r.add(u), u.setStyle(t.itemStyle);
         var v = t.iconRotate === "inherit" ? o : t.iconRotate || 0;
-        return u.rotation = v * Math.PI / 180, u.setOrigin([t.itemWidth / 2, t.itemHeight / 2]), s.indexOf("empty") > -1 && (u.style.stroke = u.style.fill, u.style.fill = "#fff", u.style.lineWidth = 2), r
+        return u.rotation = v * Math.PI / 180, u.setOrigin([t.itemWidth / 2, t.itemHeight / 2]), s.indexOf("empty") > -1 && (u.style.stroke = u.style.fill, u.style.fill = "#0f0e11", u.style.lineWidth = 2), r
     }, e.type = "series.line", e.dependencies = ["grid", "polar"], e.defaultOption = {
         z: 3,
         coordinateSystem: "cartesian2d",
@@ -6025,7 +6025,7 @@ var qS = function (a) {
     }, e.prototype.getLegendIcon = function (t) {
         var r = t.icon || "roundRect",
             i = Et(r, 0, 0, t.itemWidth, t.itemHeight, t.itemStyle.fill);
-        return i.setStyle(t.itemStyle), i.style.stroke = "none", r.indexOf("empty") > -1 && (i.style.stroke = i.style.fill, i.style.fill = "#fff", i.style.lineWidth = 2), i
+        return i.setStyle(t.itemStyle), i.style.stroke = "none", r.indexOf("empty") > -1 && (i.style.stroke = i.style.fill, i.style.fill = "#0f0e11", i.style.lineWidth = 2), i
     }, e.type = "series.map", e.dependencies = ["geo"], e.layoutMode = "box", e.defaultOption = {
         z: 2,
         coordinateSystem: "geo",
@@ -6906,7 +6906,7 @@ function Ov(a, e, t, r, i) {
         o = a.tree.getNodeByDataIndex(e),
         s = o.getModel(),
         l = o.getVisual("style").fill,
-        u = o.isExpand === !1 && o.children.length !== 0 ? l : "#fff",
+        u = o.isExpand === !1 && o.children.length !== 0 ? l : "#0f0e11",
         v = a.tree.root,
         h = o.parentNode === v ? o : o.parentNode || o,
         c = a.getItemGraphicEl(h.dataIndex),
@@ -7688,7 +7688,7 @@ var F1 = function (a) {
             itemStyle: {
                 color: "rgba(0,0,0,0.7)",
                 textStyle: {
-                    color: "#fff"
+                    color: "#0f0e11"
                 }
             },
             emphasis: {
@@ -7702,7 +7702,7 @@ var F1 = function (a) {
             distance: 0,
             padding: 5,
             position: "inside",
-            color: "#fff",
+            color: "#0f0e11",
             overflow: "truncate"
         },
         upperLabel: {
@@ -7718,7 +7718,7 @@ var F1 = function (a) {
             colorSaturation: null,
             borderWidth: 0,
             gapWidth: 0,
-            borderColor: "#fff",
+            borderColor: "#0f0e11",
             borderColorSaturation: null
         },
         emphasis: {
@@ -10945,7 +10945,7 @@ var ab = function (a) {
             offsetCenter: [0, 0],
             keepAspect: !1,
             itemStyle: {
-                color: "#fff",
+                color: "#0f0e11",
                 borderWidth: 0,
                 borderColor: "#5470c6"
             }
@@ -11134,7 +11134,7 @@ var vb = function (a) {
             }
         },
         itemStyle: {
-            borderColor: "#fff",
+            borderColor: "#0f0e11",
             borderWidth: 1
         },
         emphasis: {
@@ -13409,7 +13409,7 @@ var Wd = function () {
             layout: null,
             boxWidth: [7, 50],
             itemStyle: {
-                color: "#fff",
+                color: "#0f0e11",
                 borderWidth: 1
             },
             emphasis: {
@@ -16478,7 +16478,7 @@ function Nh(a, e, t) {
         n = a.fill || "#000";
     Gh(r, e);
     var o = r.textFill == null;
-    return i ? o && (r.textFill = t.insideFill || "#fff", !r.textStroke && t.insideStroke && (r.textStroke = t.insideStroke), !r.textStroke && (r.textStroke = n), r.textStrokeWidth == null && (r.textStrokeWidth = 2)) : (o && (r.textFill = a.fill || t.outsideFill || "#000"), !r.textStroke && t.outsideStroke && (r.textStroke = t.outsideStroke)), r.text = e.text, r.rich = e.rich, T(e.rich, function (s) {
+    return i ? o && (r.textFill = t.insideFill || "#0f0e11", !r.textStroke && t.insideStroke && (r.textStroke = t.insideStroke), !r.textStroke && (r.textStroke = n), r.textStrokeWidth == null && (r.textStrokeWidth = 2)) : (o && (r.textFill = a.fill || t.outsideFill || "#000"), !r.textStroke && t.outsideStroke && (r.textStroke = t.outsideStroke)), r.text = e.text, r.rich = e.rich, T(e.rich, function (s) {
         Gh(s, s)
     }), r
 }
@@ -17680,7 +17680,7 @@ var LC = function (a) {
             formatter: null,
             precision: "auto",
             margin: 3,
-            color: "#fff",
+            color: "#0f0e11",
             padding: [5, 7, 5, 7],
             backgroundColor: "auto",
             borderColor: null,
@@ -19283,7 +19283,7 @@ var FD = function (a) {
             }
         },
         itemStyle: {
-            color: "#fff",
+            color: "#0f0e11",
             borderWidth: 1,
             borderColor: "#ccc"
         },
@@ -20740,7 +20740,7 @@ var AI = function (a) {
             s = o ? "svg" : i.get("type", !0) || "png",
             l = r.getConnectedDataURL({
                 type: s,
-                backgroundColor: i.get("backgroundColor", !0) || t.get("backgroundColor") || "#fff",
+                backgroundColor: i.get("backgroundColor", !0) || t.get("backgroundColor") || "#0f0e11",
                 connectedBackgroundColor: i.get("connectedBackgroundColor"),
                 excludeComponents: i.get("excludeComponents"),
                 pixelRatio: i.get("pixelRatio")
@@ -20784,7 +20784,7 @@ var AI = function (a) {
             icon: "M4.7,22.9L29.3,45.5L54.7,23.4M4.6,43.6L4.6,58L53.8,58L53.8,43.6M29.2,45.1L29.2,0",
             title: t.getLocaleModel().get(["toolbox", "saveAsImage", "title"]),
             type: "png",
-            connectedBackgroundColor: "#fff",
+            connectedBackgroundColor: "#0f0e11",
             name: "",
             excludeComponents: ["toolbox"],
             lang: t.getLocaleModel().get(["toolbox", "saveAsImage", "lang"])
@@ -21089,7 +21089,7 @@ var zI = function (a) {
             n = this.model;
         this._dom && i.removeChild(this._dom);
         var o = document.createElement("div");
-        o.style.cssText = "position:absolute;top:0;bottom:0;left:0;right:0;padding:5px", o.style.backgroundColor = n.get("backgroundColor") || "#fff";
+        o.style.cssText = "position:absolute;top:0;bottom:0;left:0;right:0;padding:5px", o.style.backgroundColor = n.get("backgroundColor") || "#0f0e11";
         var s = document.createElement("h4"),
             l = n.get("lang") || [];
         s.innerHTML = l[0] || n.get("title"), s.style.cssText = "margin:10px 20px", s.style.color = n.get("textColor");
@@ -21148,12 +21148,12 @@ var zI = function (a) {
             icon: "M17.5,17.3H33 M17.5,17.3H33 M45.4,29.5h-28 M11.5,2v56H51V14.8L38.4,2H11.5z M38.4,2.2v12.7H51 M45.4,41.7h-28",
             title: t.getLocaleModel().get(["toolbox", "dataView", "title"]),
             lang: t.getLocaleModel().get(["toolbox", "dataView", "lang"]),
-            backgroundColor: "#fff",
+            backgroundColor: "#0f0e11",
             textColor: "#000",
-            textareaColor: "#fff",
+            textareaColor: "#0f0e11",
             textareaBorderColor: "#333",
             buttonColor: "#c23531",
-            buttonTextColor: "#fff"
+            buttonTextColor: "#0f0e11"
         };
         return r
     }, e
@@ -21666,7 +21666,7 @@ var aL = function (a) {
         hideDelay: 100,
         transitionDuration: .4,
         enterable: !1,
-        backgroundColor: "#fff",
+        backgroundColor: "#0f0e11",
         shadowBlur: 10,
         shadowColor: "rgba(0, 0, 0, .2)",
         shadowOffsetX: 1,
@@ -22292,7 +22292,7 @@ var yL = new pt({
             }
         }, e.prototype._getNearestPoint = function (t, r, i, n) {
             if (i === "axis" || B(r)) return {
-                color: n || (this._renderMode === "html" ? "#fff" : "none")
+                color: n || (this._renderMode === "html" ? "#0f0e11" : "none")
             };
             if (!B(r)) return {
                 color: n || r.color || r.borderColor
@@ -23208,7 +23208,7 @@ var Fc = function (a) {
                 symbol: "circle",
                 symbolSize: 15,
                 color: "#316bf3",
-                borderColor: "#fff",
+                borderColor: "#0f0e11",
                 borderWidth: 2,
                 shadowBlur: 2,
                 shadowOffsetX: 1,
@@ -24965,7 +24965,7 @@ function zM(a, e, t, r, i, n, o) {
 function NM(a) {
     var e = a.icon || "roundRect",
         t = Et(e, 0, 0, a.itemWidth, a.itemHeight, a.itemStyle.fill, a.symbolKeepAspect);
-    return t.setStyle(a.itemStyle), t.rotation = (a.iconRotate || 0) * Math.PI / 180, t.setOrigin([a.itemWidth / 2, a.itemHeight / 2]), e.indexOf("empty") > -1 && (t.style.stroke = t.style.fill, t.style.fill = "#fff", t.style.lineWidth = 2), t
+    return t.setStyle(a.itemStyle), t.rotation = (a.iconRotate || 0) * Math.PI / 180, t.setOrigin([a.itemWidth / 2, a.itemHeight / 2]), e.indexOf("empty") > -1 && (t.style.stroke = t.style.fill, t.style.fill = "#0f0e11", t.style.lineWidth = 2), t
 }
 
 function Jc(a, e, t, r) {
@@ -25569,7 +25569,7 @@ var n2 = function (a) {
         handleIcon: "path://M-9.35,34.56V42m0-40V9.5m-2,0h4a2,2,0,0,1,2,2v21a2,2,0,0,1-2,2h-4a2,2,0,0,1-2-2v-21A2,2,0,0,1-11.35,9.5Z",
         handleSize: "100%",
         handleStyle: {
-            color: "#fff",
+            color: "#0f0e11",
             borderColor: "#ACB8D1"
         },
         moveHandleSize: 7,
@@ -25905,7 +25905,7 @@ var sa = pt,
                         }
                     }),
                     g = p * .8,
-                    y = r.moveHandleIcon = Et(l.get("moveHandleIcon"), -g / 2, -g / 2, g, g, "#fff", !0);
+                    y = r.moveHandleIcon = Et(l.get("moveHandleIcon"), -g / 2, -g / 2, g, g, "#0f0e11", !0);
                 y.silent = !0, y.y = s[1] + p / 2 - .5, d.ensureState("emphasis").style = l.getModel(["emphasis", "moveHandleStyle"]).getItemStyle();
                 var x = Math.min(s[1] / 2, Math.max(p, 10));
                 f = r.moveZone = new pt({
@@ -26418,13 +26418,13 @@ var Xg = {
             handleIcon: "path://M-11.39,9.77h0a3.5,3.5,0,0,1-3.5,3.5h-22a3.5,3.5,0,0,1-3.5-3.5h0a3.5,3.5,0,0,1,3.5-3.5h22A3.5,3.5,0,0,1-11.39,9.77Z",
             handleSize: "120%",
             handleStyle: {
-                borderColor: "#fff",
+                borderColor: "#0f0e11",
                 borderWidth: 1
             },
             indicatorIcon: "circle",
             indicatorSize: "50%",
             indicatorStyle: {
-                borderColor: "#fff",
+                borderColor: "#0f0e11",
                 borderWidth: 2,
                 shadowBlur: 2,
                 shadowOffsetX: 1,

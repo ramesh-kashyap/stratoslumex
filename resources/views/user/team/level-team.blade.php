@@ -137,13 +137,12 @@
                     </div>
                 </div>
                 <div data-v-6e2d35de="" id="scroll" class="content-container" style="
-    background: #97cfe1;
 ">
                     <div data-v-6e2d35de="" id="content" class="content-scroll">
                         <div data-v-127dfd5e="" data-v-6e2d35de="" class="container rel">
                             <div data-v-5105ae1a="" data-v-127dfd5e="" class="info" data-v-6e2d35de="" style="
-       background: linear-gradient(to right, #119ac7, #b5dbe7);
-">
+
+                            ">
                                 <ul data-v-5105ae1a="" class="flex">
                                     <li data-v-5105ae1a="">
                                         <div data-v-5105ae1a="" class="title">New Earnings</div>
@@ -161,13 +160,13 @@
                                         <div data-v-5105ae1a="" class="title">Total Withdrawals</div>
                                         <div data-v-5105ae1a="" class="val">{{number_format($totalwithdrawal,2)}}</div>
                                     </li>
-                                </ul><button data-v-5105ae1a="" class="btn2" style="background:black;">   <a href="{{route('user.roi-bonus')}}"> Revenue Record </a></button>
+                                </ul><button data-v-5105ae1a="" class="btn2" style=" background: linear-gradient(180deg, #96c906, #c6f04e);">   <a href="{{route('user.roi-bonus')}}" > Revenue Record </a></button>
                             </div>
                             <div data-v-127dfd5e="" data-v-6e2d35de="" class="itemBox">
-                                <div data-v-127dfd5e="" data-v-6e2d35de="" class="com-title flex"  style="       background: linear-gradient(to right, #119ac7, #b5dbe7);
+                                <div data-v-127dfd5e="" data-v-6e2d35de="" class="com-title flex"  style="      
 ">
                                     <div data-v-127dfd5e="" data-v-6e2d35de="" class="h3">My community</div>
-                                    <div data-v-127dfd5e="" data-v-6e2d35de="" class="str"><a href="{{route('user.referral-team')}}">Community List </a><img
+                                    <div data-v-127dfd5e="" data-v-6e2d35de="" class="str" style=" background: linear-gradient(180deg, #96c906, #c6f04e);"><a href="{{route('user.referral-team')}}" >Community List </a><img
                                             data-v-127dfd5e="" data-v-6e2d35de=""
                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAYAAABoMT8aAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACzSURBVHgB3ZRhDYMwEIWvU1AJlYCESkACEnCwOdicTMLmAAmVAA6OO0ICXPqDV3404SUXSJP3tb3Xlqi2XG6QmaN8vNTfOTcRIjE3vOlHqMTU8VFvQqUzG0iPArxUMpCIMBQSpMYdQP8DwljSMKvQVXkU0htIUTKfGyfzoGs6f0/W2e0WGgQwFDdRYzPmF2J+GvMXMbfGnPjsUc5EpuaAmFO1jrfFHV8BsajjGUjH6ONRRTPkXK97h0/JBwAAAABJRU5ErkJggg=="
                                             alt=""></div>

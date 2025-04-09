@@ -221,7 +221,7 @@ const H = {
                     V = u("PageScroll");
                 return _(), D(V, {
                     type: "inside",
-                    bgColor: "#FFF",
+                    bgColor: "#0f0e11",
                     title: a.$t("title.doc22"),
                     onReady: E
                 }, {

@@ -250,7 +250,7 @@ const rt = {
                         textStyle: {
                             width: 100,
                             height: 80,
-                            color: "#fff"
+                            color: "#0f0e11"
                         }
                     },
                     legend: {
@@ -426,7 +426,7 @@ const rt = {
                             textStyle: {
                                 width: 100,
                                 height: 80,
-                                color: "#fff"
+                                color: "#0f0e11"
                             }
                         },
                         legend: {

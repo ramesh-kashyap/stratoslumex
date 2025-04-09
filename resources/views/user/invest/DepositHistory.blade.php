@@ -78,9 +78,9 @@
     background: #f5f5f5;
     margin-bottom: .32rem;
     border-radius: .24rem;
-    background: #fff;
+    background: #0f0e11;
     border-radius: .32rem;
-    background: #fff;
+    background: #0f0e11;
 }
 .list .item .item-top .name[data-v-74600836] {
     font-size: .28rem;
@@ -144,7 +144,7 @@
                                                 name="balance/oper_frm_btncancel" data-v-74600836="" 
                                                 class="copy-btn" style="     background: #df3131;
                                                 padding: 3px;
-                                                color: #fff;
+                                                color: #0f0e11;
                                                 text-decoration: none;
                                                 border-radius: 7px; background: #df3131;padding-bottom:10px" >                                          
                                             Cancel</a> 

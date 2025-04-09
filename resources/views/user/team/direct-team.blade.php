@@ -160,7 +160,7 @@
 
 <div id="van-tabs-1-0" role="tab"
 class="van-tab van-tab--line van-tab--grow <?php echo  (Session::get('selected_level')==$l)?"van-tab--active":""?>
-tabindex="0" aria-selected="true" aria-controls="van-tab-2">  <a style="color: <?php echo  (Session::get('selected_level')==$l)?"#fff":"#000"?>" href="{{route('user.referral-team') }}?selected_level={{$l}}" ><span
+tabindex="0" aria-selected="true" aria-controls="van-tab-2">  <a style="color: <?php echo  (Session::get('selected_level')==$l)?"#0f0e11":"#000"?>" href="{{route('user.referral-team') }}?selected_level={{$l}}" ><span
     class="van-tab__text" style="
     color: white;
 ">@lang('Level') {{$l}}</span> </a></div>

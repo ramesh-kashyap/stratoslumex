@@ -4537,7 +4537,7 @@
                         g = "clipPath",
                         v = "clip-path";
                     for (r = 0; r < a; r += 1)
-                        if (("a" !== u[r].mode && "n" !== u[r].mode || u[r].inv || 100 !== u[r].o.k || u[r].o.x) && (g = "mask", v = "mask"), "s" !== u[r].mode && "i" !== u[r].mode || 0 !== m ? l = null : (l = createNS("rect"), l.setAttribute("fill", "#ffffff"), l.setAttribute("width", this.element.comp.data.w || 0), l.setAttribute("height", this.element.comp.data.h || 0), d.push(l)), s = createNS("path"), "n" === u[r].mode) this.viewData[r] = {
+                        if (("a" !== u[r].mode && "n" !== u[r].mode || u[r].inv || 100 !== u[r].o.k || u[r].o.x) && (g = "mask", v = "mask"), "s" !== u[r].mode && "i" !== u[r].mode || 0 !== m ? l = null : (l = createNS("rect"), l.setAttribute("fill", "#0f0e11fff"), l.setAttribute("width", this.element.comp.data.w || 0), l.setAttribute("height", this.element.comp.data.h || 0), d.push(l)), s = createNS("path"), "n" === u[r].mode) this.viewData[r] = {
                             op: PropertyFactory.getProp(this.element, u[r].o, 0, .01, this.element),
                             prop: ShapePropertyFactory.getShapeProp(this.element, u[r], 3),
                             elem: s,
@@ -4545,7 +4545,7 @@
                         }, n.appendChild(s);
                         else {
                             var b;
-                            if (m += 1, s.setAttribute("fill", "s" === u[r].mode ? "#000000" : "#ffffff"), s.setAttribute("clip-rule", "nonzero"), 0 !== u[r].x.k ? (g = "mask", v = "mask", c = PropertyFactory.getProp(this.element, u[r].x, 0, null, this.element), b = createElementID(), p = createNS("filter"), p.setAttribute("id", b), f = createNS("feMorphology"), f.setAttribute("operator", "erode"), f.setAttribute("in", "SourceGraphic"), f.setAttribute("radius", "0"), p.appendChild(f), n.appendChild(p), s.setAttribute("stroke", "s" === u[r].mode ? "#000000" : "#ffffff")) : (f = null, c = null), this.storedData[r] = {
+                            if (m += 1, s.setAttribute("fill", "s" === u[r].mode ? "#000000" : "#0f0e11fff"), s.setAttribute("clip-rule", "nonzero"), 0 !== u[r].x.k ? (g = "mask", v = "mask", c = PropertyFactory.getProp(this.element, u[r].x, 0, null, this.element), b = createElementID(), p = createNS("filter"), p.setAttribute("id", b), f = createNS("feMorphology"), f.setAttribute("operator", "erode"), f.setAttribute("in", "SourceGraphic"), f.setAttribute("radius", "0"), p.appendChild(f), n.appendChild(p), s.setAttribute("stroke", "s" === u[r].mode ? "#000000" : "#0f0e11fff")) : (f = null, c = null), this.storedData[r] = {
                                     elem: s,
                                     x: c,
                                     expan: f,
@@ -4802,7 +4802,7 @@
                                     var p = createNS("feFuncA");
                                     p.setAttribute("type", "table"), p.setAttribute("tableValues", "1.0 0.0"), l.appendChild(p), this.globalData.defs.appendChild(i);
                                     var f = createNS("rect");
-                                    f.setAttribute("width", this.comp.data.w), f.setAttribute("height", this.comp.data.h), f.setAttribute("x", "0"), f.setAttribute("y", "0"), f.setAttribute("fill", "#ffffff"), f.setAttribute("opacity", "0"), h.setAttribute("filter", "url(" + getLocationHref() + "#" + e + ")"), h.appendChild(f), r = createNS("use"), r.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#" + this.layerId), h.appendChild(r), featureSupport.maskType || (o.setAttribute("mask-type", "luminance"), i.appendChild(filtersFactory.createAlphaToLuminanceFilter()), s = createNS("g"), h.appendChild(f), s.appendChild(this.layerElement), h.appendChild(s)), this.globalData.defs.appendChild(o)
+                                    f.setAttribute("width", this.comp.data.w), f.setAttribute("height", this.comp.data.h), f.setAttribute("x", "0"), f.setAttribute("y", "0"), f.setAttribute("fill", "#0f0e11fff"), f.setAttribute("opacity", "0"), h.setAttribute("filter", "url(" + getLocationHref() + "#" + e + ")"), h.appendChild(f), r = createNS("use"), r.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#" + this.layerId), h.appendChild(r), featureSupport.maskType || (o.setAttribute("mask-type", "luminance"), i.appendChild(filtersFactory.createAlphaToLuminanceFilter()), s = createNS("g"), h.appendChild(f), s.appendChild(this.layerElement), h.appendChild(s)), this.globalData.defs.appendChild(o)
                                 }
                                 this.matteMasks[t] = n
                             }
@@ -8927,13 +8927,13 @@
                         var o = createNS("g");
                         o.setAttribute("mask", "url(" + getLocationHref() + "#" + a + ")");
                         while (s[0]) o.appendChild(s[0]);
-                        this.elem.layerElement.appendChild(o), this.masker = n, e.setAttribute("stroke", "#fff")
+                        this.elem.layerElement.appendChild(o), this.masker = n, e.setAttribute("stroke", "#0f0e11")
                     } else if (1 === this.filterManager.effectElements[10].p.v || 2 === this.filterManager.effectElements[10].p.v) {
                         if (2 === this.filterManager.effectElements[10].p.v) {
                             s = this.elem.layerElement.children || this.elem.layerElement.childNodes;
                             while (s.length) this.elem.layerElement.removeChild(s[0])
                         }
-                        this.elem.layerElement.appendChild(e), this.elem.layerElement.removeAttribute("mask"), e.setAttribute("stroke", "#fff")
+                        this.elem.layerElement.appendChild(e), this.elem.layerElement.removeAttribute("mask"), e.setAttribute("stroke", "#0f0e11")
                     }
                     this.initialized = !0, this.pathMasker = e
                 }, SVGStrokeEffect.prototype.renderFrame = function(t) {

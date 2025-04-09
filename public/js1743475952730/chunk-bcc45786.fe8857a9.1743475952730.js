@@ -139,7 +139,7 @@
                                         "left-icon": t.lefticon,
                                         scrollable: "",
                                         background: "none",
-                                        color: "#fff",
+                                        color: "#0f0e11",
                                         text: t.noticeText
                                     }
                                 })], 1) : t._e(), s("HomeQuant"), s("div", {

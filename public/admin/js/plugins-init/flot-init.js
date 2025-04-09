@@ -24,14 +24,14 @@
 			yaxis: {
 				tickColor: 'transparent',
 				font: {
-					color: '#fff',
+					color: '#0f0e11',
 					size: 10
 				}
 			},
 			xaxis: {
 				tickColor: 'transparent',
 				font: {
-					color: '#fff',
+					color: '#0f0e11',
 					size: 10
 				}
 			}
@@ -62,14 +62,14 @@
 			yaxis: {
 				tickColor: 'transparent',
 				font: {
-					color: '#fff',
+					color: '#0f0e11',
 					size: 10
 				}
 			},
 			xaxis: {
 				tickColor: 'transparent',
 				font: {
-					color: '#fff',
+					color: '#0f0e11',
 					size: 10
 				}
 			}
@@ -184,14 +184,14 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			},
 			xaxis: {
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			}
 		});		
@@ -242,14 +242,14 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			},
 			xaxis: {
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			}
 		});
@@ -301,14 +301,14 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			},
 			xaxis: {
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			}
 		});
@@ -364,14 +364,14 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			},
 			xaxis: {
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			}
 		});
@@ -463,7 +463,7 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			},
 			yaxis: {
@@ -472,7 +472,7 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			}
 		});
@@ -529,7 +529,7 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			},
 			yaxis: {
@@ -538,7 +538,7 @@
 				color: 'transparent',
 				font: {
 					size: 10,
-					color: '#fff'
+					color: '#0f0e11'
 				}
 			}
 		});

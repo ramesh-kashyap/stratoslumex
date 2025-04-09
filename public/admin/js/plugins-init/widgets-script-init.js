@@ -1191,7 +1191,7 @@
 						color: 'transparent',
 						font: {
 							size: 10,
-							color: '#fff'
+							color: '#0f0e11'
 						}
 					},
 					yaxis: {
@@ -1200,7 +1200,7 @@
 						color: 'transparent',
 						font: {
 							size: 10,
-							color: '#fff'
+							color: '#0f0e11'
 						}
 					}
 				}); 

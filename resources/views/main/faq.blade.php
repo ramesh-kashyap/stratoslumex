@@ -15,7 +15,7 @@
     <link rel="manifest" href="/favicons/site.webmanifest?v=1.1">
     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg?v=1.0" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#603cba">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#0f0e11fff">
 
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
@@ -60,7 +60,7 @@
                                         }
 
                                         .header-lang__hide table a {
-                                            color: #ffffff;
+                                            color: #0f0e11fff;
                                             text-decoration: none;
                                             transition: none;
                                             padding: 2px 10px;
@@ -68,7 +68,7 @@
 
                                         .header-lang__hide table td div.active,
                                         .header-lang__hide table td div:hover {
-                                            background: #ffffff;
+                                            background: #0f0e11fff;
                                             color: #000;
                                         }
 
@@ -86,7 +86,7 @@
 
                                         .header-lang__hide table td.inactive div:hover {
                                             background: rgb(194 149 109);
-                                            color: #ffffff;
+                                            color: #0f0e11fff;
                                         }
                                     </style>
                                     <div class="header-lang">

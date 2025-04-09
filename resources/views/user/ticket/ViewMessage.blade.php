@@ -19,10 +19,10 @@
                                             <?php foreach ($open_ticket_msg as $item): ?>
                                             <?php if($item->reply_by == 'user'){ }  ?>
 
-                                            <h5 class="form-header" style="width: 274px; background:#e92266;padding: 7px;color: #fff;border-radius: 10px;"> <?= $item->category ?> (<?=$item->gen_date?>)</h5>
+                                            <h5 class="form-header" style="width: 274px; background:#e92266;padding: 7px;color: #0f0e11;border-radius: 10px;"> <?= $item->category ?> (<?=$item->gen_date?>)</h5>
                                             <br>
-                                           <p class="comp_bank_p" style="color:#fff" ><?= $item->msg ?></p>
-                                           <p class="text-right" style="margin-right: 30px;color:#fff;margin-left:300px"><?=($item->reply_by == 'admin')? 'Admin' : 'You'?></p>
+                                           <p class="comp_bank_p" style="color:#0f0e11" ><?= $item->msg ?></p>
+                                           <p class="text-right" style="margin-right: 30px;color:#0f0e11;margin-left:300px"><?=($item->reply_by == 'admin')? 'Admin' : 'You'?></p>
                                            <?php endforeach; ?>
                                            <?php } ?>
                                        

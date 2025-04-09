@@ -125,7 +125,7 @@
 	<div id="app" class="applang">
 		<div data-v-6e2d35de="" data-v-679886a1="" class="page">
 			<div data-v-6e2d35de="" class="headers">
-				<div data-v-b73557e2="" data-v-679886a1="" class="head" style="background: linear-gradient(to right, #119ac7, #b5dbe7);" data-v-6e2d35de="">
+				<div data-v-b73557e2="" data-v-679886a1="" class="head" style="background: #0f0e11" data-v-6e2d35de="">
 					<div data-v-b73557e2="" class="safe"></div>
 					<div data-v-b73557e2="" class="container flex">
 						<div data-v-b73557e2="" class="back"><a href="{{route('user.asset')}}"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs
@@ -145,14 +145,14 @@
 					<div data-v-679886a1="" data-v-6e2d35de="" class="container">
 						<div data-v-679886a1="" data-v-6e2d35de="" class="item valMob">
 							<div data-v-679886a1="" data-v-6e2d35de="" class="cname">Select Currency</div>
-							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: linear-gradient(to right, #119ac7, #b5dbe7);">
+							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: #0f0e11">
 								<div data-v-679886a1="" data-v-6e2d35de="" class="icon"><img data-v-679886a1="" data-v-6e2d35de="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/f710b0ea16ca629941e92e00e453fd1b.png" alt=""></div><input data-v-679886a1="" data-v-6e2d35de="" type="text"  value="USDT" readonly="readonly">
 								<div data-v-679886a1="" data-v-6e2d35de="" class="arr"><img data-v-679886a1="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII=" alt=""></div>
 							</div>
 						</div>
 						<div data-v-679886a1="" data-v-6e2d35de="" class="item valMob">
 							<div data-v-679886a1="" data-v-6e2d35de="" class="cname">Select Network</div>
-							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: linear-gradient(to right, #119ac7, #b5dbe7);">
+							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: #0f0e11">
 								<div data-v-679886a1="" data-v-6e2d35de="" class="icon"><img data-v-679886a1="" data-v-6e2d35de="" src="https://tux-all.s3.ap-southeast-1.amazonaws.com/upload/20240723/bcabd0a39b535b0c04e14dc6b5f16bdd.png" alt=""></div><input data-v-679886a1="" data-v-6e2d35de="" value="BEP20"  type="text" readonly="readonly">
 								<div data-v-679886a1="" data-v-6e2d35de="" class="arr"><img data-v-679886a1="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgCAYAAACcuBHKAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQSURBVHgB7dPBEYMgFIThJRVYAqVQUkpIB0kHKcVSQgexg/U5cnB0RkUUL/vNcPHw+AcBEBGRE5H88rg3StkQz3J+bY/Hjo7OVsRx0TkXUSqdxp/5flunkBsSmC/gbDb0mRHwwlVs+OfWgElIuxLQogbbqOF46eaGbx61cPli6gZMQkIKGVbAXdKvaSAiIhX0NA2573NFoLgAAAAASUVORK5CYII=" alt=""></div>
 							</div>
@@ -166,7 +166,7 @@
 						</div>
 						<div data-v-679886a1="" data-v-6e2d35de="" class="valMob">
 							<div data-v-679886a1="" data-v-6e2d35de="" class="cname">Deposit Address</div>
-							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: linear-gradient(to right, #119ac7, #b5dbe7);">
+							<div data-v-679886a1="" data-v-6e2d35de="" class="inp" style="background: #0f0e11">
 								<div data-v-679886a1="" data-v-6e2d35de="" class="address_text" id="address">{{ $address_in }}</div>
 								<div data-v-679886a1="" data-v-6e2d35de="" class="copy_address"  onclick="copyAddress()"><img data-v-679886a1="" data-v-6e2d35de=""src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAAAp0ptCRlUo1ZxASFgo0ptDR1Uo0ptCRlZISFgo0ptCRlUqyZc/WF4vr4kwpoUfcbQVAAAACnRSTlMA7+8gIL+/sLAgyb3sXAAAAGxJREFUKM9jAAHmwFVQsNwALGC4Cg6EwQJVCIGlYIFVCLAQXWAVOQKcSbt3owhM2o0m0I0usHswC5xCF3iF4C8HC9xBCmSwwN5fML6oAVAAAUCBRY6ANrpANoK/AyzghBBQAQuwdMP4ag4gPgDsiytjL3zauAAAAABJRU5ErkJggg==" alt=""></div>
 							</div>

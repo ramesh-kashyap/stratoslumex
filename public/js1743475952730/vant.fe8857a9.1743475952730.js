@@ -8047,7 +8047,7 @@
                                 x2: "64.022%",
                                 y2: "0%"
                             }
-                        }, [e("#FFF", 0, .5), e("#F2F3F5", 100)]), t("linearGradient", {
+                        }, [e("#0f0e11", 0, .5), e("#F2F3F5", 100)]), t("linearGradient", {
                             attrs: {
                                 id: o + "2",
                                 x1: "50%",
@@ -8097,7 +8097,7 @@
                                 r: "100%",
                                 gradientTransform: "matrix(0 1 -.54835 0 .5 -.5)"
                             }
-                        }, [e("#EBEDF0", 0), e("#FFF", 100, 0)])]), t("g", {
+                        }, [e("#EBEDF0", 0), e("#0f0e11", 100, 0)])]), t("g", {
                             attrs: {
                                 fill: "none",
                                 "fill-rule": "evenodd"
@@ -8174,7 +8174,7 @@
                             }
                         }), t("rect", {
                             attrs: {
-                                fill: "#FFF",
+                                fill: "#0f0e11",
                                 x: "9",
                                 y: "8",
                                 width: "80",

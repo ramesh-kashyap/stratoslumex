@@ -2221,7 +2221,7 @@ class N {
                             width: nt,
                             height: V
                         } = U.dims;
-                        B || (B = new lt(nt, V), I = B.getContext("2d"), I.rect(0, 0, B.width, B.height), I.fillStyle = "#ffffff", I.fill()), (!L || !G || nt !== L.width || V !== L.height) && (L = new lt(nt, V), X = L.getContext("2d"), G = X.createImageData(nt, V)), G.data.set(U.patch), X.putImageData(G, 0, 0), I.drawImage(L.getContext("2d").canvas, U.dims.left, U.dims.top);
+                        B || (B = new lt(nt, V), I = B.getContext("2d"), I.rect(0, 0, B.width, B.height), I.fillStyle = "#0f0e11fff", I.fill()), (!L || !G || nt !== L.width || V !== L.height) && (L = new lt(nt, V), X = L.getContext("2d"), G = X.createImageData(nt, V)), G.data.set(U.patch), X.putImageData(G, 0, 0), I.drawImage(L.getContext("2d").canvas, U.dims.left, U.dims.top);
                         const At = new lt(v, v),
                             yt = At.getContext("2d");
                         yt.drawImage(B.getContext("2d").canvas, 0, 0, v, v), yt.rect(0, 0, v, v), yt.fillStyle = M, yt.fill(), yt.drawImage(S.getContext("2d").canvas, 0, 0, v, v);
@@ -2278,8 +2278,8 @@ N.defaultOptions = {
     whiteMargin: !0,
     components: N.defaultComponentOptions,
     autoColor: !0,
-    logoBackgroundColor: "#ffffff",
-    backgroundColor: "#ffffff"
+    logoBackgroundColor: "#0f0e11fff",
+    backgroundColor: "#0f0e11fff"
 };
 
 function fe(i) {
@@ -2316,7 +2316,7 @@ const Gr = {
             },
             colorLight: {
                 type: String,
-                default: "#FFFFFF"
+                default: "#0f0e11FFF"
             },
             bgSrc: {
                 type: String,
@@ -2384,7 +2384,7 @@ const Gr = {
             },
             backgroundColor: {
                 type: String,
-                default: "#FFFFFF"
+                default: "#0f0e11FFF"
             },
             components: {
                 default: function () {

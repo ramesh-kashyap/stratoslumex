@@ -51,7 +51,7 @@ const x = {
                 const c = f("PageScroll");
                 return u(), g(c, {
                     type: "inside",
-                    bgColor: "#fff",
+                    bgColor: "#0f0e11",
                     onReady: i
                 }, {
                     default: v(() => [e("div", x, [e("h1", null, y(o.value.title), 1), e("div", {

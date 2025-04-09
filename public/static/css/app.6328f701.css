@@ -64,7 +64,7 @@
 }
 
 .pop_type {
-    background: #fff
+    background: #0f0e11
 }
 
 .pop_type .name {
@@ -103,11 +103,11 @@
 }
 
 .van-radio__icon .van-icon {
-    border-color: #fff !important
+    border-color: #0f0e11 !important
 }
 
 .area_pop {
-    color: #fff;
+    color: #0f0e11;
     background: #17181d
 }
 
@@ -216,13 +216,13 @@
 .password_pop .van-number-keyboard .van-key {
     width: 2.3rem;
     height: .96rem;
-    background: #fff;
+    background: #0f0e11;
     border-radius: .08rem
 }
 
 .password_pop .pass {
     max-width: 7rem;
-    background: #fff;
+    background: #0f0e11;
     padding: .28rem
 }
 
@@ -242,7 +242,7 @@
 }
 
 .password_pop .jianpan {
-    background: #fff;
+    background: #0f0e11;
     margin-top: 1rem
 }
 
@@ -277,7 +277,7 @@
 
 .valMob .cname,
 .valMob .n {
-    color: #fff;
+    color: #0f0e11;
     margin-bottom: .2rem
 }
 
@@ -290,7 +290,7 @@
     border-radius: .08rem;
     background: #32c092;
     padding: .12rem .24rem;
-    color: #fff;
+    color: #0f0e11;
     font-size: .24rem
 }
 
@@ -370,10 +370,10 @@
 }
 
 :root {
-    --COcolor1: #fff;
+    --COcolor1: #0f0e11;
     --COcolor2: #32c092;
     --COcolor3: #555563;
-    --COcolor4: #fff;
+    --COcolor4: #0f0e11;
     --COcolor5: grey;
     --COcolor6: #929292;
     --COborder1: 0.02rem solid #292c2f;
@@ -388,7 +388,7 @@
 
 body {
     font: 400 .28rem/100% "\5FAE\8F6F\96C5\9ED1", Helvetica;
-    color: #fff;
+    color: #0f0e11;
     -webkit-user-select: none;
     -webkit-text-size-adjust: none;
     word-break: break-all
@@ -497,7 +497,7 @@ section {
 
 a {
     text-decoration: none;
-    color: #fff
+    color: #0f0e11
 }
 
 .c:after {
@@ -677,7 +677,7 @@ input:focus {
 }
 
 .bg-fff {
-    background: #fff
+    background: #0f0e11
 }
 
 .c-red {
@@ -709,7 +709,7 @@ i.iconfont {
     width: 100%;
     height: .84rem;
     font-size: .32rem;
-    color: #fff;
+    color: #0f0e11;
     border: 0;
     background: var(--theme-colr);
     border-radius: .12rem
@@ -717,7 +717,7 @@ i.iconfont {
 
 .btn.on {
     background: #213266;
-    color: #fff
+    color: #0f0e11
 }
 
 ::-webkit-input-placeholder {
