@@ -2,7 +2,7 @@
 
 .card {
     margin-bottom: 1.875rem;
-    background-color: #fff;
+    background-color: #0f0e11;
     transition: all .5s ease-in-out;
     position: relative;
     border: 0rem solid transparent;

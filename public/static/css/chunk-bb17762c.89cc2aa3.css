@@ -16,11 +16,11 @@
     border-bottom: .02rem solid #2b2d36;
     padding: .32rem 0;
     text-align: center;
-    color: #fff
+    color: #0f0e11
 }
 
 .popup_box .scroll .ul .active[data-v-554f6835] {
-    color: #32c092 !important
+    color: black !important
 }
 
 .popup_box .esc[data-v-554f6835] {
@@ -28,7 +28,7 @@
     border-top: .06rem solid #2b2d36;
     padding: .32rem 0;
     text-align: center;
-    color: #fff
+    color: #0f0e11
 }
 
 .chart_box[data-v-602cab3f] {
@@ -92,7 +92,7 @@ ul li .title[data-v-5105ae1a] {
     background: url(../../static/img/bg-com3.bbdbafd9.png) no-repeat 50%;
     background-size: 100% 100%;
     padding: .32rem;
-    color: #fff;
+    color: #0f0e11;
     line-height: 100%
 }
 
@@ -143,7 +143,7 @@ ul li .title[data-v-5105ae1a] {
 }
 
 .info li .add span[data-v-b96ab108] {
-    color: #32c092
+    color: black;
 }
 
 .tab[data-v-42e6b7af] {
@@ -157,7 +157,7 @@ ul li .title[data-v-5105ae1a] {
 }
 
 .tab li.on[data-v-42e6b7af] {
-    color: #fff;
+    color: #0f0e11;
     border-bottom: .04rem solid #32c092
 }
 
@@ -213,7 +213,7 @@ ul li .title[data-v-5105ae1a] {
 
 .com-title h3[data-v-127dfd5e] {
     margin-right: .24rem;
-    color: #fff;
+    color: #0f0e11;
     font-size: .32rem;
     font-weight: 600
 }
@@ -233,5 +233,5 @@ ul li .title[data-v-5105ae1a] {
     padding: 0 .32rem .32rem .32rem;
     border-radius: .24rem;
     border: .02rem solid hsla(0, 0%, 100%, .1);
-    background: linear-gradient(180deg, #111116, #141519)
+    background: #0f0e11
 }

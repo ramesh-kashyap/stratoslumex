@@ -16,7 +16,7 @@
     border-bottom: .02rem solid #2b2d36;
     padding: .32rem 0;
     text-align: center;
-    color: #fff
+    color: #0f0e11
 }
 
 .popup_box .scroll .ul .active[data-v-554f6835] {
@@ -28,7 +28,7 @@
     border-top: .06rem solid #2b2d36;
     padding: .32rem 0;
     text-align: center;
-    color: #fff
+    color: #0f0e11
 }
 
 .btn_box[data-v-c95fb5c2] {
@@ -39,7 +39,7 @@
     height: .88rem;
     line-height: .88rem;
     text-align: center;
-    color: #fff;
+    color: #0f0e11;
     font-size: .28rem;
     border-radius: .16rem !important;
     background: #212423
@@ -68,7 +68,7 @@
 
 .popup_box[data-v-68fde798] {
     padding: 0 .24rem .24rem;
-    background: #fff;
+    background: #0f0e11;
     border-radius: .16rem .16rem 0 0
 }
 

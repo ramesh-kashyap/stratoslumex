@@ -139,7 +139,7 @@
             <div data-v-6e2d35de="" class="headers">
                 <div data-v-b73557e2="" data-v-427eef2e="" class="head" data-v-6e2d35de="">
                     <div data-v-b73557e2="" class="safe"></div>
-                    <div data-v-b73557e2="" class="container flex" style=" background: linear-gradient(to right, #119ac7, #b5dbe7);=">
+                    <div data-v-b73557e2="" class="container flex" style=" background: #0f0e11=">
                      
                         <!---->
                         <!---->
@@ -200,15 +200,13 @@
                                 </li>
                             </ul>
                             <ul data-v-427eef2e="" data-v-6e2d35de="" class="tab flex"                             style="
-       background: linear-gradient(to right, #119ac7, #b5dbe7);
+       background: #0f0e11
 }
 "> 
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class="on" id="strategyButton" id="strategyButton" > Strategy </li>
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class="" id="todayButton" > Today </li>
                                 <li data-v-427eef2e="" data-v-6e2d35de="" class=""  id="billButton"> Bill </li>
                             </ul>
-
-
 
                             <div  id="defaultContent" style="display: block;" >
                             <div data-v-427eef2e="" data-v-6e2d35de="" class="select-level-tab">
@@ -296,70 +294,88 @@
 
       
 
-      <div data-v-68c18260="" class="list"  id="billContent" style="display: none;">
-      @foreach ($level_income as $value)
+      <div data-v-68c18260="" class="list" id="billContent" style="display: none;">
       
-                <div data-v-68c18260="" class="list-item">
-                    <div data-v-68c18260="" class="com1">
-                        <div data-v-68c18260="" class="left">
-                            <div data-v-68c18260="" class="title"></div>
-                            <div data-v-68c18260="" class="time">{{date("D, d M Y", strtotime($value->created_at)) }}</div>
-                        </div>
-                        <div data-v-68c18260="" class="right">
-                            <div data-v-68c18260=""></div><span data-v-68c18260="">Completed</span><i data-v-68c18260=""
-                                class="van-icon van-icon-arrow">
-                                <!----></i>
-                        </div>
-                    </div>
-                    <ul data-v-68c18260="" class="flex">
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Trading pair</div>
-                            <div data-v-68c18260="" class="val">{{ $value->c_name }}USDT</div>
-                        </li>
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Transaction amount</div>
-                            <div data-v-68c18260="" class="val">{{currency()}} {{ $value->c_ref }}</div>
-                        </li>
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Amount of income</div>
-                            <div data-v-68c18260="" class="val">{{currency()}} {{ $value->profit }}</div>
-                        </li>
-                    </ul>
+       
+    
+    
+    @if(is_array($level_income) || $level_income)
+    @foreach ($level_income as $value)
+   
+        <div data-v-68c18260="" class="list-item">
+            <div data-v-68c18260="" class="com1">
+                <div data-v-68c18260="" class="left">
+                    <div data-v-68c18260="" class="title"></div>
+                    <div data-v-68c18260="" class="time">{{ date("D, d M Y", strtotime($value->created_at)) }}</div>
                 </div>
-                @endforeach
+                <div data-v-68c18260="" class="right">
+                    <div data-v-68c18260=""></div>
+                    <span data-v-68c18260="">Completed</span>
+                    <i data-v-68c18260="" class="van-icon van-icon-arrow"></i>
+                </div>
             </div>
+            <ul data-v-68c18260="" class="flex">
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Trading pair</div>
+                    <div data-v-68c18260="" class="val">{{ $value->c_name ?? '0' }}USDT</div>
+                </li>
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Transaction amount</div>
+                    <div data-v-68c18260="" class="val">{{ currency() }} {{ $value->c_ref ?? '0' }}</div>
+                </li>
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Amount of income</div>
+                    <div data-v-68c18260="" class="val">{{ currency() }} {{ $value->profit ?? '0' }}</div>
+                </li>
+            </ul>
+        </div>
+    @endforeach
+   
+    @else
+    <p style="color: #000;">No bill history available.</p>
+    @endif
+</div>
 
          
     
 
             <div data-v-68c18260="" class="list"  id="todayContent" style="display: none;">
-                <div data-v-68c18260="" class="list-item">
-                    <div data-v-68c18260="" class="com1">
-                        <div data-v-68c18260="" class="left">
-                            <div data-v-68c18260="" class="title"></div>
-                            <div data-v-68c18260="" class="time">11</div>
-                        </div>
-                        <div data-v-68c18260="" class="right">
-                            <div data-v-68c18260=""></div><span data-v-68c18260="">Completed</span><i data-v-68c18260=""
-                                class="van-icon van-icon-arrow">
-                                <!----></i>
-                        </div>
-                    </div>
-                    <ul data-v-68c18260="" class="flex">
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Trading pair</div>
-                            <div data-v-68c18260="" class="val">raj</div>
-                        </li>
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Transaction amount</div>
-                            <div data-v-68c18260="" class="val">23</div>
-                        </li>
-                        <li data-v-68c18260="">
-                            <div data-v-68c18260="" class="title">Amount of income</div>
-                            <div data-v-68c18260="" class="val">3</div>
-                        </li>
-                    </ul>
+
+            @if(is_array($todaysTrade) || $todaysTrade)
+    @foreach ($todaysTrade as $value)
+   
+        <div data-v-68c18260="" class="list-item">
+            <div data-v-68c18260="" class="com1">
+                <div data-v-68c18260="" class="left">
+                    <div data-v-68c18260="" class="title"></div>
+                    <div data-v-68c18260="" class="time">{{ date("D, d M Y", strtotime($value->created_at)) }}</div>
                 </div>
+                <div data-v-68c18260="" class="right">
+                    <div data-v-68c18260=""></div>
+                    <span data-v-68c18260="">Completed</span>
+                    <i data-v-68c18260="" class="van-icon van-icon-arrow"></i>
+                </div>
+            </div>
+            <ul data-v-68c18260="" class="flex">
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Trading pair</div>
+                    <div data-v-68c18260="" class="val">{{ $value->c_name ?? '0' }}USDT</div>
+                </li>
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Transaction amount</div>
+                    <div data-v-68c18260="" class="val">{{ currency() }} {{ $value->c_ref ?? '0' }}</div>
+                </li>
+                <li data-v-68c18260="">
+                    <div data-v-68c18260="" class="title">Amount of income</div>
+                    <div data-v-68c18260="" class="val">{{ currency() }} {{ $value->profit ?? '0' }}</div>
+                </li>
+            </ul>
+        </div>
+    @endforeach
+   
+    @else
+    <p style="color: #000;">No bill history available.</p>
+    @endif
             
             </div>
 
@@ -392,27 +408,31 @@
   };
 
   // Loop through each button
-  Object.keys(tabs).forEach((buttonId) => {
-    document.getElementById(buttonId).addEventListener("click", () => {
-      // Hide all content
-      Object.values(tabs).forEach((contentId) => {
-        document.getElementById(contentId).style.display = "none";
-      });
-
-      // Remove active class from all buttons
-      Object.keys(tabs).forEach((btn) => {
-        document.getElementById(btn).classList.remove("on");
-      });
-
-      // Show clicked button's content
-      document.getElementById(tabs[buttonId]).style.display = "block";
-      document.getElementById(buttonId).classList.add("on");
-    });
-  });
-
-  // Optional: On load, show Strategy by default
   window.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("defaultContent").style.display = "block";
-    document.getElementById("strategyButton").classList.add("on");
+  // Attach click listeners after DOM is fully loaded
+  Object.keys(tabs).forEach((buttonId) => {
+    const btn = document.getElementById(buttonId);
+    if (btn) {
+      btn.addEventListener("click", () => {
+        Object.values(tabs).forEach((contentId) => {
+          document.getElementById(contentId).style.display = "none";
+        });
+
+        Object.keys(tabs).forEach((btnId) => {
+          document.getElementById(btnId).classList.remove("on");
+        });
+
+        document.getElementById(tabs[buttonId]).style.display = "block";
+        console.log("check:", tabs[buttonId]);
+
+        btn.classList.add("on");
+      });
+    }
   });
+
+  // Show Strategy tab by default
+  document.getElementById("defaultContent").style.display = "block";
+  document.getElementById("strategyButton").classList.add("on");
+});
+
 </script>

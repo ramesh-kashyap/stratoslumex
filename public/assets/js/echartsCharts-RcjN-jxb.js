@@ -3437,7 +3437,7 @@ var as = "__zr_normal__",
         }, e.prototype.canBeInsideText = function () {
             return !0
         }, e.prototype.getInsideTextFill = function () {
-            return "#fff"
+            return "#0f0e11"
         }, e.prototype.getInsideTextStroke = function (t) {
             return "#000"
         }, e.prototype.getOutsideFill = function () {
@@ -12732,7 +12732,7 @@ var Lt = "#B9B8CE",
                 color: "#817f91"
             },
             label: {
-                color: "#fff"
+                color: "#0f0e11"
             }
         },
         legend: {
@@ -13243,7 +13243,7 @@ var tb = at.extend({
 function eb(e, t) {
     if (this.type !== "image") {
         var r = this.style;
-        this.__isEmptyBrush ? (r.stroke = e, r.fill = t || "#fff", r.lineWidth = 2) : this.shape.symbolType === "line" ? r.stroke = e : r.fill = e, this.markRedraw()
+        this.__isEmptyBrush ? (r.stroke = e, r.fill = t || "#0f0e11", r.lineWidth = 2) : this.shape.symbolType === "line" ? r.stroke = e : r.fill = e, this.markRedraw()
     }
 }
 

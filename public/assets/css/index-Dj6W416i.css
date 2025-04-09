@@ -12,7 +12,7 @@
     padding: .36rem .28rem;
     border-radius: .32rem;
     border: .02rem solid #7A7A78;
-    background: #fff
+    background: #0f0e11
 }
 
 .inp-con .inp[data-v-c4fe115a]:focus-within {
@@ -74,7 +74,7 @@ h2[data-v-cfdd27cb] {
     padding: .36rem .28rem;
     border-radius: .32rem;
     border: .02rem solid #7a7a78;
-    background: #fff
+    background: #0f0e11
 }
 
 .box .inp-con .inp[data-v-cfdd27cb]:focus-within {
@@ -105,7 +105,7 @@ h2[data-v-cfdd27cb] {
     padding: .36rem .28rem;
     border-radius: .32rem;
     border: .02rem solid #7a7a78;
-    background: #fff
+    background: #0f0e11
 }
 
 .box .inp-con .inp img[data-v-cfdd27cb] {
@@ -121,7 +121,7 @@ h2[data-v-cfdd27cb] {
     padding: .04rem;
     border-radius: .44rem;
     border: .02rem solid #7a7a78;
-    background: #fff;
+    background: #0f0e11;
     color: #828284
 }
 

@@ -152,7 +152,7 @@
                         style: {
                             height: "100%",
                             width: "80%",
-                            background: "#ffffff"
+                            background: "#0f0e11fff"
                         },
                         attrs: {
                             position: "left"

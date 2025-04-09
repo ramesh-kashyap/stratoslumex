@@ -2,7 +2,7 @@
     width: 6.46rem;
     padding: .28rem;
     border-radius: .32rem;
-    background: #fff;
+    background: #0f0e11;
     overflow: hidden
 }
 
@@ -97,7 +97,7 @@
     border: 1px solid transparent;
     border-radius: .2rem;
     border: .02rem solid #7a7a78;
-    background: #fff
+    background: #0f0e11
 }
 
 .popup-con .popup-center .inp[data-v-fc29887d]:focus-within {
@@ -201,7 +201,7 @@
     box-sizing: border-box;
     border-radius: .32rem;
     border: .02rem solid #7a7a78;
-    background: #fff
+    background: #0f0e11
 }
 
 .box-con[data-v-c654d101]:focus-within {

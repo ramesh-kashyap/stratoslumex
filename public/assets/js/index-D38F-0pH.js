@@ -174,7 +174,7 @@ const T = {
                     n = i("PageScroll");
                 return C(), y(n, {
                     type: "inside",
-                    bgColor: "#fff",
+                    bgColor: "#0f0e11",
                     title: e.$t("title.doc38")
                 }, {
                     default: D(() => [o("div", K, a(e.$t("title.doc38")), 1), o("div", L, [o("div", Q, [o("div", W, a(e.$t("google.doc1")), 1), o("div", X, [f(o("span", {

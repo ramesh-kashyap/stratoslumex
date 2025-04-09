@@ -1,6 +1,6 @@
 .select-head[data-v-ad2799de] {
     padding-top: .12rem;
-    background-color: #fffffa;
+    background-color: #0f0e11ffa;
     margin-top: -.3rem
 }
 
@@ -68,7 +68,7 @@
     box-sizing: border-box;
     border-radius: .32rem;
     border: .02rem solid #854af6;
-    background: #fff
+    background: #0f0e11
 }
 
 .item .item-info[data-v-4232bd2c] {
@@ -102,7 +102,7 @@
 }
 
 .page[data-v-541b9065] {
-    background: #fffffa !important
+    background: #0f0e11ffa !important
 }
 
 .empty-con[data-v-541b9065] {

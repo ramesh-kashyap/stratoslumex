@@ -124,7 +124,7 @@ const G = l => (N("data-v-8ad3dd38"), l = l(), T(), l),
                 return V(), w(b, {
                     csShow: !0,
                     type: "inside",
-                    bgColor: "#fff",
+                    bgColor: "#0f0e11",
                     title: o.$t("title.doc39")
                 }, {
                     default: B(() => [t("div", J, [t("div", M, i(o.$t("title.doc40")), 1), t("div", O, [t("div", R, [t("div", z, i(o.$t("profile.doc1")), 1), t("div", A, [m(t("input", {

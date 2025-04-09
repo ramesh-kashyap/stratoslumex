@@ -1,7 +1,7 @@
 .box[data-v-d0749d68] {
     margin-bottom: .32rem;
     border-radius: .32rem;
-    background: #fff
+    background: #0f0e11
 }
 
 .box .total[data-v-d0749d68] {
@@ -19,7 +19,7 @@
 }
 
 .box .total .total-head .title[data-v-d0749d68] {
-    color: #ffffff;
+    color: #0f0e11fff;
     font-size: .32rem;
     font-style: normal;
     font-weight: 500;
@@ -27,7 +27,7 @@
 }
 
 .box .total .total-head .time[data-v-d0749d68] {
-    color: #ffffff;
+    color: #0f0e11fff;
     text-align: right;
     font-size: .28rem;
     font-style: normal;
@@ -55,7 +55,7 @@
 }
 
 .box .total .total-con .item .val[data-v-d0749d68] {
-    color: #fff;
+    color: #0f0e11;
     text-align: center;
     font-size: .32rem;
     font-style: normal;
@@ -66,7 +66,7 @@
 
 .box .total .total-con .item .name[data-v-d0749d68] {
     margin-top: .16rem;
-    color: #ffffff;
+    color: #0f0e11fff;
     text-align: center;
     font-size: .24rem;
     font-style: normal;
@@ -82,7 +82,7 @@
     padding: 0 .28rem;
     border-radius: .32rem;
     border: .02rem solid #854af6;
-    background: #fff;
+    background: #0f0e11;
     margin-top: .24rem
 }
 
@@ -153,7 +153,7 @@
     padding: .32rem;
     border-radius: .32rem;
     border: .02rem solid #854af6;
-    background: #fff
+    background: #0f0e11
 }
 
 .team-income .income-top[data-v-55773a97] {
@@ -216,7 +216,7 @@
     margin-left: .2rem;
     border-radius: .28rem;
     background: #854af6;
-    color: #ffffff;
+    color: #0f0e11fff;
     font-family: PingFang SC;
     font-size: .24rem;
     font-style: normal;
@@ -274,7 +274,7 @@
     padding: .32rem;
     border-radius: .32rem;
     border: .02rem solid #854af6;
-    background: #fff
+    background: #0f0e11
 }
 
 .team-generations .title[data-v-6e0a804a] {

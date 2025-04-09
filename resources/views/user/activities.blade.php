@@ -60,7 +60,7 @@
 <style>
     .item .item-top .right .btn.processing[data-v-d3d46c3f] {
     background: #85f;
-    color: #fff;
+    color: #0f0e11;
 }
 .task-page[data-v-6a9399e1] {
     width: 100%;

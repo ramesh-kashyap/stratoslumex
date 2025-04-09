@@ -12,7 +12,11 @@ use App\Models\Investment;
 use App\Models\Income;
 use App\Models\User_trade;
 use App\Models\Contract;
+use App\Models\Withdraw;
+
 use App\Models\Activitie;
+use Illuminate\Support\Facades\DB;
+
 use Illuminate\Support\Facades\Http;
 
 use Carbon\Carbon;
@@ -39,7 +43,7 @@ class Dashboard extends Controller
       $directIds=User::where('sponsor',$user->id)->where('active_status','Active')->pluck('id');
       $personal_deposit=Investment::where('user_id',$user->id)->where('status','Active')->sum('amount');
 
-      $tolteam=$this->my_level_team_count($user->id);               
+      $tolteam=$this->my_level_team($user->id);               
  
       
 
@@ -74,10 +78,6 @@ class Dashboard extends Controller
 
 
 
-        $this->data['willgetProfit'] =$personal_deposit*200/100;
-        $this->data['remaining_amount'] =($personal_deposit*2)-$totalIncome;
-        $this->data['totalIncome'] =$percentage;
-
 
         
         $response = Http::get('https://api.coingecko.com/api/v3/coins/markets', [
@@ -90,13 +90,189 @@ class Dashboard extends Controller
   
 
       $coins = $response->json();
+
+
+
+
+      $ids=$this->my_level_team($user->id);
+      $my_level_team=$this->my_level_team_count($user->id);
+      $gen_team1 =  (array_key_exists(1,$my_level_team) ? $my_level_team[1]:array());
+      $gen_team2 =  (array_key_exists(2,$my_level_team) ? $my_level_team[2]:array());
+      $gen_team3 =  (array_key_exists(3,$my_level_team) ? $my_level_team[3]:array());
+
+      $notes = User::where(function($query) use($ids)
+              {
+                if(!empty($ids)){
+                  foreach ($ids as $key => $value) {
+                  //   $f = explode(",", $value);
+                  //   print_r($f)."<br>";
+                    $query->orWhere('id', $value);
+                  }
+                }else{$query->where('id',null);}
+              })->orderBy('id', 'DESC')->get();
+
+
+
+              $teamwithdraw = Withdraw::where(function($query) use($ids)
+              {
+                if(!empty($ids)){
+                  foreach ($ids as $key => $value) {
+                  //   $f = explode(",", $value);
+                  //   print_r($f)."<br>";
+                    $query->orWhere('user_id', $value);
+                  }
+                }else{$query->where('user_id',null);}
+              })->where('status','Approved')->orderBy('id', 'DESC')->get();
+
+        
+      $gen_team1 = User::where(function($query) use($gen_team1)
+              {
+                if(!empty($gen_team1)){
+                  foreach ($gen_team1 as $key => $value) {
+                  //   $f = explode(",", $value);
+                  //   print_r($f)."<br>";
+                    $query->orWhere('id', $value);
+                  }
+                }else{$query->where('id',null);}
+              })->orderBy('id', 'DESC')->get();
+              
+        $gen_team2 = User::where(function($query) use($gen_team2)
+              {
+                if(!empty($gen_team2)){
+                  foreach ($gen_team2 as $key => $value) {
+                  //   $f = explode(",", $value);
+                  //   print_r($f)."<br>";
+                    $query->orWhere('id', $value);
+                  }
+                }else{$query->where('id',null);}
+              })->orderBy('id', 'DESC')->get();
+         $gen_team3 = User::where(function($query) use($gen_team3)
+              {
+                if(!empty($gen_team3)){
+                  foreach ($gen_team3 as $key => $value) {
+                  //   $f = explode(",", $value);
+                  //   print_r($f)."<br>";
+                    $query->orWhere('id', $value);
+                  }
+                }else{$query->where('id',null);}
+              })->orderBy('id', 'DESC')->get();
+
+
+        $gen_team1UserName =$gen_team1->pluck('username');
+        $gen_team2UserName =$gen_team2->pluck('username');
+        $gen_team3UserName =$gen_team3->pluck('username');
+
+ 
+   $totalrecharge=Investment::whereIn('user_id',(!empty($ids)?$ids:array()))->where('status','Active')->sum("amount");
+   
+   
+     if($gen_team1->isNotEmpty())
+     {
+         $gen_teamIncome = Income::where(function($query) use($gen_team1UserName)
+        {
+          if(!empty($gen_team1UserName)){
+            foreach ($gen_team1UserName as $key => $value) {
+            //   $f = explode(",", $value);
+            //   print_r($f)."<br>";
+              $query->orWhere('rname', $value);
+            }
+          }else{$query->where('rname',null);}
+        })->where('user_id',$user->id)->orderBy('id', 'DESC')->sum('comm'); 
+     }
+     else
+     {
+       $gen_teamIncome =0;  
+     }
+       
+  if($gen_team2->isNotEmpty())
+     {
+        $gen_team2Income = Income::where(function($query) use($gen_team2UserName)
+        {
+            // dd($gen_team2UserName);
+          if($gen_team2UserName){
+            foreach ($gen_team2UserName as $key => $value) {
+            //   $f = explode(",", $value);
+            //   print_r($f)."<br>";
+              $query->orWhere('rname', $value);
+            }
+          }else{$query->where('rname',null);}
+        })->where('user_id',$user->id)->orderBy('id', 'DESC')->sum('comm');
+  
+     }
+      else
+     {
+       $gen_team2Income =0;  
+     }
+     
+      if($gen_team3->isNotEmpty())
+     {
+         
+      $gen_team3Income = Income::where(function($query) use($gen_team3UserName)
+        {
+          if(!empty($gen_team3UserName)){
+            foreach ($gen_team3UserName as $key => $value) {
+            //   $f = explode(",", $value);
+            //   print_r($f)."<br>";
+              $query->orWhere('rname', $value);
+            }
+          }else{$query->where('rname',null);}
+        })->where('user_id',$user->id)->orderBy('id', 'DESC')->sum('comm');
+        
+     }
+      else
+     {
+       $gen_team3Income =0;  
+     }
+  
+      $teamUserName =$gen_team1->pluck('username');
+        $todaysIncome =  \DB::table('incomes')->where('user_id',$user->id)->where('ttime',date('Y-m-d'))->where('remarks','Quantify Level Income')->sum('comm');
+    
+
+
+
+
+
       
      $this->data['coins'] =$coins ;
+
+
+
+     $this->data['willgetProfit'] =$personal_deposit*200/100;
+     $this->data['remaining_amount'] =($personal_deposit*2)-$totalIncome;
+     $this->data['totalIncome'] =$percentage;
+
+     $this->data['todaysIncome'] =$todaysIncome;
+     $this->data['gen_team3Income'] =$gen_team3Income;
+     $this->data['gen_team2Income'] =$gen_team2Income;
+     $this->data['gen_teamIncome'] =$gen_teamIncome;
+
+
+     $this->data['gen_team1total'] =$gen_team1->count();
+     $this->data['active_gen_team1total'] =$gen_team1->where('active_status','Active')->count();
+     $this->data['gen_team2total'] =$gen_team2->count();
+     $this->data['active_gen_team2total'] =$gen_team2->where('active_status','Active')->count();
+
+     $this->data['gen_team3total'] =$gen_team3->count();
+     $this->data['active_gen_team3total'] =$gen_team3->where('active_status','Active')->count();
+
+
+     $this->data['gen_team1Income'] =$gen_team1->count();
+
+     $this->data['totalwithdrawal'] =$teamwithdraw->sum('amount');
+     $this->data['todaysuser'] =$notes->where('jdate',date('Y-m-d'))->count();
+     $this->data['totalrecharge'] =$totalrecharge;
+     $this->data['totalTeam'] =$notes->count();
+     $this->data['teamEarning'] =$gen_teamIncome+$gen_team2Income+$gen_team3Income;
       $this->data['page'] = 'user.dashboard';
       return $this->dashboard_layout();
 
 
     }
+
+
+   
+
+
 
 
     public function stop_trade(){
@@ -562,8 +738,48 @@ public function tradeOn()
     
     }
 
+    public function my_level_team($userid,$level=3){
+      $arrin=array($userid);
+      $ret=array();
+
+      $i=1;
+      while(!empty($arrin)){
+          $alldown=User::select('id')->whereIn('sponsor',$arrin)->get()->toArray();
+          if(!empty($alldown)){
+              $arrin = array_column($alldown,'id');
+              $ret[$i]=$arrin;
+              $i++;
+
+              if ($i>$level) {
+               break;
+              }
 
 
+          }else{
+              $arrin = array();
+          }
+      }
+
+      $final = array();
+      if(!empty($ret)){
+          array_walk_recursive($ret, function($item, $key) use (&$final){
+              $final[] = $item;
+          });
+      }
+
+
+      return $final;
+
+  }
+
+
+
+
+  public function find_users($snode,$pos) {
+    // $this->load->model('Dashboard_model');
+  $user_just_downline = User::where('Parentid',$snode)->where('position',$pos)->first();
+       return $user_just_downline;
+}
     public  function my_binary($userid){
         $arrin=array($userid);
         $ret=array();
@@ -651,17 +867,19 @@ public function tradeOn()
             }
         }
 
-        $final = array();
-        if(!empty($ret)){
-            array_walk_recursive($ret, function($item, $key) use (&$final){
-                $final[] = $item;
-            });
-        }
+        // $final = array();
+        // if(!empty($ret)){
+        //     array_walk_recursive($ret, function($item, $key) use (&$final){
+        //         $final[] = $item;
+        //     });
+        // }
 
 
-        return $final;
+        return $ret;
 
     }
+
+    
 
     public function my_direct_business_count($userid){
 

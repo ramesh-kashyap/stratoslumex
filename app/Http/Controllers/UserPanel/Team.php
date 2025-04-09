@@ -282,7 +282,7 @@ class Team extends Controller
 
 
 
-   public  function team_by_position($userid,$position){
+    public  function team_by_position($userid,$position){
       $ret=array();
       $get_position_user=User::where('Parentid',$userid)->where('position',$position)->first();
       if($get_position_user){

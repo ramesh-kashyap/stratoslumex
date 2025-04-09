@@ -8,7 +8,7 @@
     column-gap: 6px;
     display: inline-flex;
     vertical-align: middle;
-    color: #fff !important;
+    color: #0f0e11 !important;
 }
 .content-WOGqw5_Y {
     align-items: center;
@@ -19,7 +19,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    color: #fff !important;
+    color: #0f0e11 !important;
 }
 .tradingview-widget-copyright {
     display: none !important;

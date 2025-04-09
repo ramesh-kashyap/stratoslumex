@@ -462,7 +462,7 @@
 }
 
 .iziToast.iziToast-theme-dark .iziToast-title {
-    color: #fff
+    color: #0f0e11
 }
 
 .iziToast.iziToast-theme-dark .iziToast-message {
@@ -476,7 +476,7 @@
 }
 
 .iziToast.iziToast-theme-dark .iziToast-icon {
-    color: #fff
+    color: #0f0e11
 }
 
 .iziToast.iziToast-theme-dark .iziToast-icon.ico-info {
@@ -507,7 +507,7 @@
 .iziToast.iziToast-theme-dark .iziToast-buttons>a,
 .iziToast.iziToast-theme-dark .iziToast-buttons>button,
 .iziToast.iziToast-theme-dark .iziToast-buttons>input {
-    color: #fff;
+    color: #0f0e11;
     background: rgba(255, 255, 255, .1)
 }
 

@@ -8,7 +8,7 @@
             <div class="settings-tab">
                 <h5 class="mb-0">Withdrawal Principal </h5>
        <br>
-                <code class="badge badge-rounded badge-outline-warning" style="color:#fff;font-size:15px">Principal Balance : <b>{{ currency() }} {{ number_format(Auth::user()->principleBalance(), 2) }}  </b></code>
+                <code class="badge badge-rounded badge-outline-warning" style="color:#0f0e11;font-size:15px">Principal Balance : <b>{{ currency() }} {{ number_format(Auth::user()->principleBalance(), 2) }}  </b></code>
                 
 
                 <div class="tab-content pt-2" id="pills-tabContent">

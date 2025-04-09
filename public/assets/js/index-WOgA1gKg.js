@@ -11676,7 +11676,7 @@ const f1 = {
                 width: d,
                 height: t,
                 colorDark: c || "#000000",
-                colorLight: n || "#ffffff",
+                colorLight: n || "#0f0e11fff",
                 correctLevel: vo.CorrectLevel.H
             })
         },
