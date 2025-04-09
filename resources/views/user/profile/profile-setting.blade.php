@@ -148,14 +148,14 @@
                 <div data-v-6e2d35de="" id="content" class="content-scroll">
                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="profile">
                         <div data-v-184f5bd0="" data-v-6e2d35de="" class="container">
-                            <div data-v-184f5bd0="" data-v-6e2d35de="" class="top-com" style="    margin-top: 14px;
+                            <div data-v-184f5bd0="" data-v-6e2d35de="" class="top-com" style=" margin-top: 14px;
     border-radius: 12px;">
                                 <div data-v-184f5bd0="" data-v-6e2d35de="" class="flex">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
                                             data-v-6e2d35de=""
                                             src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250303/6ca664b90f036b7967d5eb1e2ac4ac17.png"
                                             alt=""></div>
-                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="edit" ><a href="{{route('user.showinfo')}}"> Edit </a></div>
+                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="edit"><a href="{{route('user.showinfo')}}"> Edit </a></div>
                                 </div>
                                 <div data-v-184f5bd0="" data-v-6e2d35de="" class="name" style="color:white;"> {{Auth::user()->name}} </div>
                                 <div data-v-184f5bd0="" data-v-6e2d35de="" class="str">
@@ -200,7 +200,7 @@
                                             data-v-6e2d35de=""
                                             src="/static/img/income.png"
                                             alt=""></div>
-                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n" ><a href="{{route('user.roi-bonus')}}"> My income</a></div>
+                                    <div data-v-184f5bd0="" data-v-6e2d35de="" class="n"><a href="{{route('user.roi-bonus')}}"> My income</a></div>
                                 </li>
                                 <li data-v-184f5bd0="" data-v-6e2d35de="">
                                     <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
@@ -222,9 +222,9 @@
                             </ul>
                             <div data-v-184f5bd0="" data-v-6e2d35de="" class="line">
                                 <ul data-v-184f5bd0="" data-v-6e2d35de="" class="ul1">
-                                   
-                                 
-                                    
+
+
+
                                     <li data-v-184f5bd0="" data-v-6e2d35de="">
                                         <div data-v-184f5bd0="" data-v-6e2d35de="" class="ico"><img data-v-184f5bd0=""
                                                 data-v-6e2d35de=""
@@ -338,9 +338,10 @@
                             </div>
                             <div data-v-184f5bd0="" data-v-6e2d35de="" class="btn_list">
                                 <div data-v-184f5bd0="" data-v-6e2d35de="" class="go">
-                                <button data-v-184f5bd0=""
+                                    <button data-v-184f5bd0=""
                                         data-v-6e2d35de="" style="  color:black; background: linear-gradient(180deg, #96c906, #c6f04e);
-">Sign Out</button></div>
+">Sign Out</button>
+                                </div>
                             </div>
                         </div>
                     </div>
