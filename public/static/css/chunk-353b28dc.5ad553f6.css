@@ -960,7 +960,7 @@ button.swiper-pagination-bullet {
 
 .popup-box .content .bot .btn[data-v-22717aba] {
     border-radius: .16rem;
-    background: #32c092;
+    background: #98c80d;
     width: 100%;
     height: .8rem;
     color: #0f0e11;
@@ -1076,7 +1076,7 @@ button.swiper-pagination-bullet {
 
 .popup-box .content .bot .btn[data-v-11b54ad9] {
     border-radius: .16rem;
-    background: #32c092;
+    background: #98c80d;
     width: 100%;
     height: .8rem;
     color: #0f0e11;
@@ -1174,7 +1174,7 @@ button.swiper-pagination-bullet {
 
 .popup-box .content .bot .btn[data-v-52c6a81e] {
     border-radius: .16rem;
-    background: #32c092;
+    background: #98c80d;
     width: 100%;
     height: .8rem;
     color: #0f0e11;
@@ -1313,7 +1313,7 @@ button.swiper-pagination-bullet {
 
 .list .list-item button[data-v-7a0ef217] {
     border-radius: .16rem;
-    background: #32c092;
+    background: #98c80d;
     display: flex;
     width: 100%;
     height: .72rem;
@@ -1424,7 +1424,7 @@ button.swiper-pagination-bullet {
 
 .modal-con .modal-input button[data-v-427eef2e] {
     border-radius: .08rem;
-    background: #32c092;
+    background: #98c80d;
     font-size: .24rem;
     border: 0;
     padding: .14rem .24rem
@@ -1445,7 +1445,7 @@ button.swiper-pagination-bullet {
 
 .modal-con .modal-btn[data-v-427eef2e] {
     height: .88rem;
-    background: #32c092;
+    background: #98c80d;
     border-radius: .16rem;
     font-size: .28rem;
     color: #0f0e11;
@@ -1491,7 +1491,7 @@ button.swiper-pagination-bullet {
 
 .tab li.on[data-v-427eef2e] {
     border-radius: .12rem;
-    background: black;
+    background: linear-gradient(180deg, #96c906, #c6f04e);
 }
 
 .levelListPop[data-v-427eef2e] {
@@ -1559,8 +1559,7 @@ button.swiper-pagination-bullet {
 
 .select-level-tab[data-v-427eef2e] {
     border-radius: .24rem;
-    border: .02rem solid hsl(194.91deg 71.31% 46.47%);
-    background: rgba(2, 2, 2, 0);
+    border: .02rem solid hsl(75.59deg 72.84% 52.35%);   
     padding: .24rem;
     align-items: center;
     display: flex;

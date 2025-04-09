@@ -212,10 +212,10 @@
                                     </div>
                                     <div data-v-361779d3="" data-v-127dfd5e="" data-v-6e2d35de="">
                                         <div data-v-361779d3="" class="invate-com">
-                                            <div data-v-361779d3="" class="com1"> Invite friends </div>
-                                            <div data-v-361779d3="" class="com2"> Invite friends and earn coins together
+                                            <div data-v-361779d3="" class="com1" style="color:#ffff;"> Invite friends </div>
+                                            <div data-v-361779d3="" class="com2" style="color:#ffff;"> Invite friends and earn coins together
                                             </div>
-                                            <div data-v-361779d3="" class="com3"> Go to invite <img data-v-361779d3=""
+                                            <div data-v-361779d3="" class="com3" style="color:#ffff;"> Go to invite <img data-v-361779d3=""
                                                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAAA0v5MzwJM4v5czwJMywJIzwJMyv5IywJIywJI0qxk+AAAACXRSTlMAIM8Qr9+/MK9o/IQhAAAAdUlEQVQoz63QMQqEQBBE0ZFdjDU0NhAz9QSmHshDGCoozG2FrpIPxlYy8HlM0OmrFbX3hC17s0F+tlssr+A/1gjs17/ClE8FQBcBcIwRAG0RATAoAJICwAGgAHAAKAAcAAoAB0Bs0cXKAEH0NALsfwmwKn28G90HOf4DSvFJAAAAAElFTkSuQmCC"
                                                     alt=""></div>
                                         </div>
