@@ -114,13 +114,13 @@
                 <div data-v-b73557e2="" data-v-6b16f068="" class="head" data-v-6e2d35de="" style="
        background: #0f0e11
 }
-" >
+">
                     <div data-v-b73557e2="" class="safe"></div>
                     <div data-v-b73557e2="" class="container flex"><!----><!----><!---->
                         <div data-v-b73557e2="" class="myName">
-                        <a href="{{route('user.dashboard')}}">
+                            <a href="{{route('user.dashboard')}}">
 
-                        <img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAAwCAYAAACxB/CGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
+                                <img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAAwCAYAAACxB/CGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA
                         AXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA15SURBVHgB7V3fiyRXFf5OVSN5y/ogKATT67OSGYVAnrY3kocQMD
                         tohCi6M2+RPGQXQQki00tAUZSZFTWJQqb3KRAfZuIPBEF38qCRqMyE/AFbPvmYCRIMs111Peeec2/d7unu7R+z2c12fUxPV
                         9+6dW/N1Fenzv3OubcJo/DiQTursFk5dIjoQThHznbxZ8cgAg6phV71zOpV3A68eNBBiU3upy0frf8ChGt4drWHBg0YNFyQv3x
@@ -166,7 +166,8 @@
                         LVLyaKfXG/KDdwdrtAg6VGxiS85pKBmn6RobOJl47i1w3kNsiT8jDIC2s7eC25egPz4oHtbb5rPg8JRVP47rkyrCsRFkfR
                         98y94eh4FZ/e7qHB0oNw49IZuu/4APKl3gjPZhumAVHrDU/14GGEquYY33Cf/PlncBrg88F9/ZPz4/LqCO9/rGCr2wzcGkQoH//zT
                         Judies+YR0xryyO22LtVItFEB54IFVVa/jUSwUaNPiQUZNTSNxyklPaYdehzVZYUuAskQfJrB9fcMQbh1z8Bj7xUhcNGtwh/B89AbiCteI
-                        r+gAAAABJRU5ErkJggg==" alt=""> </a> </div><!----><!----><!----><!---->
+                        r+gAAAABJRU5ErkJggg==" alt=""> </a>
+                        </div><!----><!----><!----><!---->
                         <div data-v-b73557e2="" class="flex1"></div>
                         <div data-v-b73557e2="" class="clear"> <img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJ
                         QFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIoSURBVHgB7VfhVcJADA4+B6gb1A3YwNtAnEA2sBuAE4
@@ -177,10 +178,14 @@
                         CWKww4HV5iprIuluzUAgoGoLnJ7D0M1NXb5089JFyC/hXiF/1WggvocpE09bNuKgXtgReYT24ZrGEEPVjHs2Wra64p9cy8
                         8E/6/JPyRqI3jvnn0exbxPGnrowNmKeVkwHKaNm1Zjz5OOXU5nlR/p/dmCMt42lMWLlj2MmHOTs2nhgv1fVoWZh89c2ZNMdS
                         32uUy6dwvd8CXmXdxcLXOtp0cBq7lqDh2Aqnx6uLUQumU30KSAU6uZ0vMr/RZqPYdCpDY04Ie0SGQ/rHDweP+FeC6OIUSLZjg
-                        +zEFZY4njgftGg2UM8M1ij+HBMlNUVewXACe9O4d20nIAAAAASUVORK5CYII="></div>  <div data-v-b73557e2="" class="notice" style="margin-left: 0rem; margin-right: 0.32rem;"><a href="{{route('user.notice')}}"> <img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGWSURBVHgB7ZiNTcMwEIVfKgZghGwQNiAjZAO6AWxA2YANChOEDZoNYINkg3SD40ws4bpu6t/IlfJJp7ZpfH6+81knA5EgopJtZOvZHpAbLOqD/tkjEgUCYCH3/FGzPbI1bKX8a2D7ZPth64qiOGJJWFjNdiB7WjEGqRF7y1GYzkHsVaSAHT/LIjAhnn/LSLVSyDgj9BUxEQ4viNrRTOpoirgonj6ZyAvi3mkqEFsfJZ1WeRyR7GBriFoDT6Q/PfVP8EGuutfEBR/AMu2j5tc6G6qjvbbSF0TCkBm3g11Gz9+B3RytNod9FA3RKxEZQxB2LoP7lNFT5lGj2NsO0lfmXbUWczXXMrUxjNMrtUM6Ou13rb9wTeCQshORvgfl0VmhbDDPgPSoAXAWuASzGcpB4CyrwFBWgaGsAkNZBYayCgzlTrbaas9XKd9Fb7hFWtQGoVLmO3K381WIrhanAnOiEwIJGSP24BvyJWdtN4L3DStNt1ql5et/FYmloPOrCxu8rk58D+oa7lRYCppuqHqH6I3keX3yCwvp/H0GI4TUAAAAAElFTkSuQmCC" alt=""><span data-v-b73557e2=""> 1 </span></div>
-    </a>    <div data-v-b73557e2="" class="lang">
-                           <a href="{{route('user.lang')}}"> <img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANtSURBVHgBxVmBcdswDIRzHUCdoOwE9QZlNsgI2iDpBM4GdieQO0GzAd0J5E5AZQJ5A5QIqRqCQFmylcvf4SSLJPAEQRKkV3AlENGGxzrI9/QskhBOQZokf4McVqvVAd4bgVQRZBOkxfnwQaogBpZGIrbF5VAtRjQoesRpHnNBHoLYIPWE+j5ICbcAda+1CoG90navdMAr+rYwFxiH1CnEnlMZN+RHdNTCY0XSIUH1ijkEpYdIuUllpSgzI3qsqFum7waH3nQwBTgcVsd7J8hXE/Q5jQTqo7S9pKwc61X4vRblFi4TtGNtFJJPOUXS7R5FXITfO14OEyH0PosyGdMtavGIcW3iMEodGfQuPT0O0c12J8pdxjl8KdtqFVDrJcYh2uBwKG4BEadYXzM7cnYXOe95jG4vFyaFI2TLZJN78c1Jqy5GwsMkvof0biAPSgZegrxCTAhOSSRMkm9BLJyTCQ1N0tF59RQSjM/aLNPgsR9HLzAT2N9ZpL4c7F3qWQ6HIPehJ19TDzscYT4a/p503gf5NdJmTT37jXpcWF4T+zO4hJnA/hrrRZnJePRF29ZoKArFAA9gCzOBMdNRCbI6e8HFS8P1iAG8kWAv1kfqOVatpRjk3voBH4+f7L24E4XTU573Q2+5uhMfHuHjwbe5kyRIcZJLoRr2fqunB4s6xp2EbK+5TSIo17QSWYKawTUEDTcMfXI2PCiJKEWbVyL4B3RlRLJiM7YR5bcQPHXEMGY3JGulzfETjO8KJUSPNuL7F5iPb+zdYH//z+HQJQstnIftmN7HGpMHDhBvDRoQQ5ZQMD3UoQe4nCyQ2O532g4HuViL53Rryvn2Vjg8p1uefT9P1lTI8czK6ByyW5isw+gUy+xsRB3T8y/2zxst6im/Y3V8+l2jfvPgsX8s6FAremVGP1zqcJjRklJ5aOKhcO2haafY9cKuySl6Ej2Rx06Z3Fq4TE62WYtyJ8rLSwp3kiT2D+4u14GMvorVr9l37eC+gylQGnrMX33YET1G8w7qCWoNU4HDi58OGxzGTPbiB5WLANQvQB3OuTxiBnYKSY9DD1dK20rUyc32acM6QrJLHi7h7RyDMbV3E+oT2SdYAhhjZo/LgUZm+eSYEfU4H/8vQOfYXMGVwDh7SShLMUn43xAklHhQOne89m+If/+wcMgdl847AAAAAElFTkSuQmCC" alt=""></div>
-    </a> <div data-v-b73557e2="" class="notice"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJNSURBVHgB7ZnRcYMwDEBFrgNkBHeC0g3SCXqdIGyQdIJ0g9IJ0g3STkA2SDKB6QTNBqoUzJ0RtkkIED767hTuQJaFZLBEImgJIk7pEBt5IFFC5UhyINmS7KMoOsIQkGMzkozkFy9jQ5JAX7BxEo3Xozt1lIwpE7FzJt4ZXX2mvoJrIANz9KcyI1mSxIHxsdHJPDbY9hLaQANXHqPrkFMBe5yJT4/N1aXGVuhOyQyuxDiqWztJigvHYL7zKXQE2yJJHfPMmwby3ck19wY9wbbFXDy3Cg3QYkAKPYP1dZn5FBOhqLtMa8DBqSMwiUtRKikYCCx2p0pwpIKM3hoGxpHqmX1xc6voWT7E6FqLZg3UL9wArO44/ERPJ1CUSzbfcDvsuU/l3B39zITSnDx/puOe5IPquBx6xCynBRSBkm+N2LX+UIR5Dj2B4WKkeFixuZQKv93bO6ewuejNJmIcl+Vbktw6x2FvVxKFWUI1peXcldZAOsi9wxMdH4XiA3SPbTMnuTdz7yHg4AnT4OxhOHJfUzWBkfPv4LU4HcSizFIwHDF6Sjt28CgUeS/mckdZ5w/QPbZNdm5n5q5uvVgvu0f1oi6rmV3AuQR6Aos6NORkGhlFDnFC8myN5xSkAxULvKuUH6CUdfkFxgTesO1oBOv9+OBthxfPA6NgDGDRi2j5cMAYMGmVkdM4QD8ecorTuUT3ByQtUxtBRxjD71DvK0rK7dN3PSd56u21hud9hfWR9p5WDDdfPjJs+OZ4B93xCv70lXBh8gNFtf51zl8Tf7SnafQ0q88oAAAAAElFTkSuQmCC" alt=""></div><!---->
+                        +zEFZY4njgftGg2UM8M1ij+HBMlNUVewXACe9O4d20nIAAAAASUVORK5CYII="></div>
+                        <div data-v-b73557e2="" class="notice" style="margin-left: 0rem; margin-right: 0.32rem;"><a href="{{route('user.notice')}}"> <img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGWSURBVHgB7ZiNTcMwEIVfKgZghGwQNiAjZAO6AWxA2YANChOEDZoNYINkg3SD40ws4bpu6t/IlfJJp7ZpfH6+81knA5EgopJtZOvZHpAbLOqD/tkjEgUCYCH3/FGzPbI1bKX8a2D7ZPth64qiOGJJWFjNdiB7WjEGqRF7y1GYzkHsVaSAHT/LIjAhnn/LSLVSyDgj9BUxEQ4viNrRTOpoirgonj6ZyAvi3mkqEFsfJZ1WeRyR7GBriFoDT6Q/PfVP8EGuutfEBR/AMu2j5tc6G6qjvbbSF0TCkBm3g11Gz9+B3RytNod9FA3RKxEZQxB2LoP7lNFT5lGj2NsO0lfmXbUWczXXMrUxjNMrtUM6Ou13rb9wTeCQshORvgfl0VmhbDDPgPSoAXAWuASzGcpB4CyrwFBWgaGsAkNZBYayCgzlTrbaas9XKd9Fb7hFWtQGoVLmO3K381WIrhanAnOiEwIJGSP24BvyJWdtN4L3DStNt1ql5et/FYmloPOrCxu8rk58D+oa7lRYCppuqHqH6I3keX3yCwvp/H0GI4TUAAAAAElFTkSuQmCC" alt=""><span data-v-b73557e2=""> 1 </span></div>
+                        </a>
+                        <div data-v-b73557e2="" class="lang">
+                            <a href="{{route('user.lang')}}"> <img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANtSURBVHgBxVmBcdswDIRzHUCdoOwE9QZlNsgI2iDpBM4GdieQO0GzAd0J5E5AZQJ5A5QIqRqCQFmylcvf4SSLJPAEQRKkV3AlENGGxzrI9/QskhBOQZokf4McVqvVAd4bgVQRZBOkxfnwQaogBpZGIrbF5VAtRjQoesRpHnNBHoLYIPWE+j5ICbcAda+1CoG90navdMAr+rYwFxiH1CnEnlMZN+RHdNTCY0XSIUH1ijkEpYdIuUllpSgzI3qsqFum7waH3nQwBTgcVsd7J8hXE/Q5jQTqo7S9pKwc61X4vRblFi4TtGNtFJJPOUXS7R5FXITfO14OEyH0PosyGdMtavGIcW3iMEodGfQuPT0O0c12J8pdxjl8KdtqFVDrJcYh2uBwKG4BEadYXzM7cnYXOe95jG4vFyaFI2TLZJN78c1Jqy5GwsMkvof0biAPSgZegrxCTAhOSSRMkm9BLJyTCQ1N0tF59RQSjM/aLNPgsR9HLzAT2N9ZpL4c7F3qWQ6HIPehJ19TDzscYT4a/p503gf5NdJmTT37jXpcWF4T+zO4hJnA/hrrRZnJePRF29ZoKArFAA9gCzOBMdNRCbI6e8HFS8P1iAG8kWAv1kfqOVatpRjk3voBH4+f7L24E4XTU573Q2+5uhMfHuHjwbe5kyRIcZJLoRr2fqunB4s6xp2EbK+5TSIo17QSWYKawTUEDTcMfXI2PCiJKEWbVyL4B3RlRLJiM7YR5bcQPHXEMGY3JGulzfETjO8KJUSPNuL7F5iPb+zdYH//z+HQJQstnIftmN7HGpMHDhBvDRoQQ5ZQMD3UoQe4nCyQ2O532g4HuViL53Rryvn2Vjg8p1uefT9P1lTI8czK6ByyW5isw+gUy+xsRB3T8y/2zxst6im/Y3V8+l2jfvPgsX8s6FAremVGP1zqcJjRklJ5aOKhcO2haafY9cKuySl6Ej2Rx06Z3Fq4TE62WYtyJ8rLSwp3kiT2D+4u14GMvorVr9l37eC+gylQGnrMX33YET1G8w7qCWoNU4HDi58OGxzGTPbiB5WLANQvQB3OuTxiBnYKSY9DD1dK20rUyc32acM6QrJLHi7h7RyDMbV3E+oT2SdYAhhjZo/LgUZm+eSYEfU4H/8vQOfYXMGVwDh7SShLMUn43xAklHhQOne89m+If/+wcMgdl847AAAAAElFTkSuQmCC" alt="">
+                        </div>
+                        </a>
+                        <div data-v-b73557e2="" class="notice"><img data-v-b73557e2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJNSURBVHgB7ZnRcYMwDEBFrgNkBHeC0g3SCXqdIGyQdIJ0g9IJ0g3STkA2SDKB6QTNBqoUzJ0RtkkIED767hTuQJaFZLBEImgJIk7pEBt5IFFC5UhyINmS7KMoOsIQkGMzkozkFy9jQ5JAX7BxEo3Xozt1lIwpE7FzJt4ZXX2mvoJrIANz9KcyI1mSxIHxsdHJPDbY9hLaQANXHqPrkFMBe5yJT4/N1aXGVuhOyQyuxDiqWztJigvHYL7zKXQE2yJJHfPMmwby3ck19wY9wbbFXDy3Cg3QYkAKPYP1dZn5FBOhqLtMa8DBqSMwiUtRKikYCCx2p0pwpIKM3hoGxpHqmX1xc6voWT7E6FqLZg3UL9wArO44/ERPJ1CUSzbfcDvsuU/l3B39zITSnDx/puOe5IPquBx6xCynBRSBkm+N2LX+UIR5Dj2B4WKkeFixuZQKv93bO6ewuejNJmIcl+Vbktw6x2FvVxKFWUI1peXcldZAOsi9wxMdH4XiA3SPbTMnuTdz7yHg4AnT4OxhOHJfUzWBkfPv4LU4HcSizFIwHDF6Sjt28CgUeS/mckdZ5w/QPbZNdm5n5q5uvVgvu0f1oi6rmV3AuQR6Aos6NORkGhlFDnFC8myN5xSkAxULvKuUH6CUdfkFxgTesO1oBOv9+OBthxfPA6NgDGDRi2j5cMAYMGmVkdM4QD8ecorTuUT3ByQtUxtBRxjD71DvK0rK7dN3PSd56u21hud9hfWR9p5WDDdfPjJs+OZ4B93xCv70lXBh8gNFtf51zl8Tf7SnafQ0q88oAAAAAElFTkSuQmCC" alt=""></div><!---->
                         <div data-v-b73557e2="" class="head_right"></div>
                     </div>
                     <div data-v-b73557e2=""><!----></div>
@@ -203,21 +208,22 @@
                                 <li data-v-2b218ac2="" style="
     background: linear-gradient(180deg, #96c906, #c6f04e);
 }
-" >
-                                    <div data-v-2b218ac2="" class="title" >Total Assets <img data-v-2b218ac2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADjSURBVHgB7ZXfDcIgEIcPdABHcAYWUDepA2hHkG7gnwHaTYgLdAc3aKrPnNCk+lITDi4xafieeLjw+wLcAZDJZP6MCC3cmnrVy1cJFh/t7tgAEzK0sIdnAYjaKdfqfjsBE8ECju6zciJcEsECw7EjVtwSwW9gRJmLuwbxDRZCt5tDBZGQBbglogQ4JaIFuCSSBCYlEPaUOUFpwx87SIQEkgSGNvTDacS1KXVKxj/CyfBSE7eJbEOm8CgBznCyAHc4SUCZa+F/Qs5wD6ELcM0d7lmGFlqwZ4kL/yV3LryBTCYzF95dfHtiVPp2SwAAAABJRU5ErkJggg==" alt=""></div>
-                                    <div data-v-2b218ac2="" class="val"  style="color:black;">${{number_format(Auth::user()->available_balance(),2)}}</div>
+">
+                                    <div data-v-2b218ac2="" class="title">Total Assets <img data-v-2b218ac2="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADjSURBVHgB7ZXfDcIgEIcPdABHcAYWUDepA2hHkG7gnwHaTYgLdAc3aKrPnNCk+lITDi4xafieeLjw+wLcAZDJZP6MCC3cmnrVy1cJFh/t7tgAEzK0sIdnAYjaKdfqfjsBE8ECju6zciJcEsECw7EjVtwSwW9gRJmLuwbxDRZCt5tDBZGQBbglogQ4JaIFuCSSBCYlEPaUOUFpwx87SIQEkgSGNvTDacS1KXVKxj/CyfBSE7eJbEOm8CgBznCyAHc4SUCZa+F/Qs5wD6ELcM0d7lmGFlqwZ4kL/yV3LryBTCYzF95dfHtiVPp2SwAAAABJRU5ErkJggg==" alt=""></div>
+                                    <div data-v-2b218ac2="" class="val" style="color:black;">${{number_format(Auth::user()->available_balance(),2)}}</div>
                                 </li>
                                 <li data-v-2b218ac2="" style="
     background: linear-gradient(180deg, #96c906, #c6f04e);
 }
-" >
-                                   <div data-v-2b218ac2="" class="title" >Level 
-                                    <img data-v-2b218ac2="" src="{{asset('')}}static/img/11.png" alt=""></div>
-                                   
-                                   
-                                    <div data-v-2b218ac2="" class="val"> <a href="{{route('user.vip')}}">  <img data-v-2b218ac2="" src="{{asset('')}}static/img/V0_icon.69de7dcc.png" alt=""></a>   G0  </div>
+">
+                                    <div data-v-2b218ac2="" class="title">Level
+                                        <img data-v-2b218ac2="" src="{{asset('')}}static/img/11.png" alt="">
+                                    </div>
+
+
+                                    <div data-v-2b218ac2="" class="val"> <a href="{{route('user.vip')}}"> <img data-v-2b218ac2="" src="{{asset('')}}static/img/V0_icon.69de7dcc.png" alt=""></a> G0 </div>
                                 </li>
-   
+
                             </ul>
                             <div data-v-6b16f068="" data-v-6e2d35de="" class="notice_bar" style="
     background: linear-gradient(180deg, #96c906, #c6f04e);
@@ -241,13 +247,14 @@
                                     </marquee>
 
                                 </div>
-                            </div><div data-v-d59d9098="" data-v-6b16f068="" class="info" 
-                             style="
+                            </div>
+                            <div data-v-d59d9098="" data-v-6b16f068="" class="info"
+                                style="
        background: #0f0e11
 }
 " data-v-6e2d35de="">
-                                <h3 data-v-d59d9098=""  style="color:#ffff;">Algorithm order</h3>
-                                <p data-v-d59d9098="" >Standing at the forefront of technology and finance, achieving steady multiplication of assets</p>
+                                <h3 data-v-d59d9098="" style="color:#ffff;">Algorithm order</h3>
+                                <p data-v-d59d9098="">Standing at the forefront of technology and finance, achieving steady multiplication of assets</p>
                                 <!-- <a href="{{route('user.quality')}}">   <div data-v-d59d9098="" class="view" >  View details<img data-v-d59d9098="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADjSURBVHgB
                                 7ZXfDcIgEIcPdABHcAYWUDepA2hHkG7gnwHaTYgLdAc3aKrPnNCk+lITDi4xafieeLjw+wLcAZDJZP6MCC3cmnrVy1cJFh/t7
                                 tgAEzK0sIdnAYjaKdfqfjsBE8ECju6zciJcEsECw7EjVtwSwW9gRJmLuwbxDRZCt5tDBZGQBbglogQ4JaIFuCSSBCYlEPaUOUF
@@ -256,17 +263,17 @@
                             </div>
                             <div data-v-6b16f068="" data-v-6e2d35de="" class="itemBox">
                                 <div data-v-6b16f068="" data-v-6e2d35de="" class="com-title flex">
-                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="left" >market</div>
-                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="right"  style="background:#96c906;"> More <img data-v-6b16f068="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAMAAABWBG9SAAAAM1BMVEUAAAC9vb27u7u7u7u7u7u/v7++vr69vb29vb29vb29vb2/v7+vr6+9vb29vb2/v7+9vb1wSDrWAAAAEHRSTlMA3yBAgBDPkHDvgH8QoGAwgYnI2QAAAGFJREFUKM+l0TkOwCAMRNEAZl8y9z9trJQeGhKXT0Ify9fZjL4YG5AJBUCxGJNqsOor4LzVACBFq0V1UmyexepBTCx2xbZ57qIJOd5quM2X8lvhSP4TuflGvIpwRGfJ9W0eIl8FPPjFWJQAAAAASUVORK5CYII=" alt=""></div>
+                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="left">market</div>
+                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="right" style="background:#96c906;"> More <img data-v-6b16f068="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAMAAABWBG9SAAAAM1BMVEUAAAC9vb27u7u7u7u7u7u/v7++vr69vb29vb29vb29vb2/v7+vr6+9vb29vb2/v7+9vb1wSDrWAAAAEHRSTlMA3yBAgBDPkHDvgH8QoGAwgYnI2QAAAGFJREFUKM+l0TkOwCAMRNEAZl8y9z9trJQeGhKXT0Ify9fZjL4YG5AJBUCxGJNqsOor4LzVACBFq0V1UmyexepBTCx2xbZ57qIJOd5quM2X8lvhSP4TuflGvIpwRGfJ9W0eIl8FPPjFWJQAAAAASUVORK5CYII=" alt=""></div>
                                 </div>
 
 
                                 <div data-v-6b16f068="" data-v-6e2d35de="" class="quotes">
-                                    <table data-v-6b16f068="" data-v-6e2d35de="" >
+                                    <table data-v-6b16f068="" data-v-6e2d35de="">
                                         <tr data-v-6b16f068="" data-v-6e2d35de="">
-                                            <th data-v-6b16f068="" data-v-6e2d35de="" >Currency/Name</th>
+                                            <th data-v-6b16f068="" data-v-6e2d35de="">Currency/Name</th>
                                             <th data-v-6b16f068="" data-v-6e2d35de=""></th>
-                                            <th data-v-6b16f068="" data-v-6e2d35de="" style="text-align: right;" >Last price/24h change</th>
+                                            <th data-v-6b16f068="" data-v-6e2d35de="" style="text-align: right;">Last price/24h change</th>
                                         </tr>
 
 
@@ -276,7 +283,8 @@
                                         <tr data-v-6b16f068="" data-v-6e2d35de="">
                                             <td data-v-6b16f068="" data-v-6e2d35de="" style="display: flex; align-items: center;">
                                                 <img data-v-6b16f068="" data-v-6e2d35de="" src="{{ $coin['image'] }}" alt="" style="height: 0.64rem; width: 0.64rem;">
-                                                <span data-v-6b16f068="" data-v-6e2d35de=""  style="color:#ffff;">{{ strtoupper($coin['symbol']) }}</span></td>
+                                                <span data-v-6b16f068="" data-v-6e2d35de="" style="color:#ffff;">{{ strtoupper($coin['symbol']) }}</span>
+                                            </td>
                                             <td data-v-6b16f068="" data-v-6e2d35de="" style="width: 2rem;">
                                                 <svg data-v-6b16f068="" width="100%" height="25%" viewBox="0 0 300 75" stroke-width="4" data-v-6e2d35de="">
                                                     <defs>
@@ -287,14 +295,15 @@
                                                         </linearGradient>
                                                     </defs>
                                                     <path d="M8 49.819082516894795L14.210049456695522 60.01383070370757S17.79310344827586 65.89596311483224 22.689655172413794 61.05225184954969L22.689655172413794 61.05225184954969S27.586206896551722 56.20854058426715 32.36939069228332 61.16423532716989L33.97717336533601 62.83000450536611S37.37931034482759 66.35484341265352 42.275862068965516 66.2038249952566L47.172413793103445 66.05280657785967L56.9655172413793 66.12929432779323L66.75862068965517 66.3705619011705L76.55172413793103 65.95903514801712L81.44827586206895 65.51849255645368S86.34482758620689 65.07794996489022 89.9736041167886 61.760981853310156L91.24137931034483 60.60214226805629S96.13793103448275 56.12633457122236 100.58847424351106 61.04586081576746L101.0993561519679 61.61057771401446S105.9310344827586 66.95140179708508 110.82758620689654 61.669991134072646L110.89842811149916 61.593581200830855S115.72413793103448 56.38858047106021 120.62068965517241 61.52699355995394L122.11833855729934 63.09861766499925S125.51724137931033 66.66540664884766 130.41379310344826 66.11923335984633L135.3103448275862 65.573060070845L140.20689655172413 65.05993135930657S145.10344827586206 64.54680264776816 149.97809874000575 65.2376736300702L154.8965517241379 65.93475262466653L164.68965517241378 66.48576492605378L174.48275862068965 66.97722952081277L184.2758620689655 66.99999999997345L189.17241379310343 66.85211592111992S194.06896551724137 66.7042318422664 195.39004787178837 61.98694131692867L201.1653135060041 41.364755452568836S203.8620689655172 31.735243004288485 206.7604480406782 41.306000484063475L210.7567933386321 54.502359780175034S213.65517241379308 64.07311725995002 217.0906639147487 54.68177027738879L220.01278436111335 46.69378747230428S223.44827586206895 37.30244048974305 227.2228593128092 46.56270613244456L229.46679585960456 52.067803259020614S233.2413793103448 61.328068901722126 235.04756480400977 51.49253668620505L241.2282972649557 17.835532215543616S243.03448275862067 8.000000000026539 245.5112436653552 17.688428944436026L250.82773881251276 38.48514183120571S252.82758620689654 46.30801214842782 257.7241379310345 52.728329182168466L259.2990903503385 54.79339341811686S262.6206896551724 59.14864621590912 267.51724137931035 61.60323988643633L267.9778259146103 61.83412642634909S272.41379310344826 64.05783355696353 277.31034482758616 63.25380649520872L277.31034482758616 63.25380649520872S282.2068965517241 62.44977943345392 284.072587432587 57.85174987284239L292 38.31449549806068" fill="none" stroke="url(#vue-trend-36)" style="transition: stroke-dashoffset 2000ms; stroke-dasharray: 435.888, 435.888; stroke-dashoffset: 0;"></path>
-                                                </svg></td>
+                                                </svg>
+                                            </td>
                                             <td data-v-6b16f068="" data-v-6e2d35de="" class="text-right">
                                                 <div data-v-6b16f068="" data-v-6e2d35de="" style="color:#ffff;"> ${{ number_format($coin['current_price'], 2) }}</div>
                                                 <var data-v-6b16f068="" data-v-6e2d35de="" class="">
-                                                    <i data-v-6b16f068="" data-v-6e2d35de="" class="play van-icon van-icon-play"><!----></i>    {{ round($coin['price_change_percentage_24h'], 2) }}% </var>
+                                                    <i data-v-6b16f068="" data-v-6e2d35de="" class="play van-icon van-icon-play"><!----></i> {{ round($coin['price_change_percentage_24h'], 2) }}% </var>
                                             </td>
                                         </tr>
-                                     
+
                                         @endforeach
 
                                     </table>
@@ -303,43 +312,110 @@
 
 
                             </div>
-                            <div data-v-4e3fe4c4="" data-v-6b16f068="" class="teaminfo"   style=" background: linear-gradient(180deg, #96c906, #c6f04e);
+                            <div data-v-4e3fe4c4="" data-v-6b16f068="" class="teaminfo" style=" background: linear-gradient(180deg, #96c906, #c6f04e);
 ">
-                                <div data-v-4e3fe4c4="" class="cname"  style="color:black;"> Community Information <img data-v-4e3fe4c4="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgB7ZbNDYJAEIVnF1oxMSEa6AAr0A6MBykKPVCCdkAHkKgJibXAynIysP/MepF3hIHv2wkkD2DJv4foBtaPSwodpDAzQchuryirwUYgqvK4DUgFWCGwazbn8vsSVc23lBwAM4JNKgX6uyV4Tqi6yde1qvIksNgEo7AnDGLT+VA38E6GD6cGg6yf1yPpmDGchwJSOBw6VoBlUARkcMb0m5stID85O/X/+F33/CwBFbzZZoXJO5wFMODOAlhwJwFMuLUANtxKwAfcWMAX3EjAJ1wr4BuuFPgFXCqABh/1CV7LxiOTSiavYW4n7/tEPPSJXmZcx3gmfUBcw9zXrusTVHClxIKbRNiKdWtbsgQzH3FhqIls8vSZAAAAAElFTkSuQmCC" alt=""></div>
+                                <div data-v-4e3fe4c4="" class="cname" style="color:black;"> Community Information <img data-v-4e3fe4c4="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAESSURBVHgB7ZbNDYJAEIVnF1oxMSEa6AAr0A6MBykKPVCCdkAHkKgJibXAynIysP/MepF3hIHv2wkkD2DJv4foBtaPSwodpDAzQchuryirwUYgqvK4DUgFWCGwazbn8vsSVc23lBwAM4JNKgX6uyV4Tqi6yde1qvIksNgEo7AnDGLT+VA38E6GD6cGg6yf1yPpmDGchwJSOBw6VoBlUARkcMb0m5stID85O/X/+F33/CwBFbzZZoXJO5wFMODOAlhwJwFMuLUANtxKwAfcWMAX3EjAJ1wr4BuuFPgFXCqABh/1CV7LxiOTSiavYW4n7/tEPPSJXmZcx3gmfUBcw9zXrusTVHClxIKbRNiKdWtbsgQzH3FhqIls8vSZAAAAAElFTkSuQmCC" alt=""></div>
                                 <ul data-v-4e3fe4c4="" class="flex">
                                     <li data-v-4e3fe4c4="">
                                         <div data-v-4e3fe4c4="" class="val" style="color:black;">{{$active_gen_team1total}}/{{$gen_team1total}}</div>
-                                        <div data-v-4e3fe4c4="" class="title" >M1</div>
+                                        <div data-v-4e3fe4c4="" class="title">M1</div>
                                     </li>
                                     <li data-v-4e3fe4c4="">
                                         <div data-v-4e3fe4c4="" class="val" style="color:black;"> {{$active_gen_team2total}}/{{$gen_team2total}}</div>
                                         <div data-v-4e3fe4c4="" class="title">M2</div>
                                     </li>
                                     <li data-v-4e3fe4c4="">
-                                        <div data-v-4e3fe4c4="" class="val"  style="color:black;">{{$active_gen_team3total}}/{{$gen_team3total}}</div>
-                                        <div data-v-4e3fe4c4="" class="title" >M3</div>
+                                        <div data-v-4e3fe4c4="" class="val" style="color:black;">{{$active_gen_team3total}}/{{$gen_team3total}}</div>
+                                        <div data-v-4e3fe4c4="" class="title">M3</div>
                                     </li>
                                 </ul>
                             </div>
                             <div data-v-6b16f068="" data-v-6e2d35de="" class="itemBox">
                                 <div data-v-6b16f068="" data-v-6e2d35de="" class="com-title flex">
-                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="left" >Hot News</div>
+                                    <div data-v-6b16f068="" data-v-6e2d35de="" class="left">Hot News</div>
                                     <div data-v-6b16f068="" data-v-6e2d35de="" class="right" style="color:black; background: #96c906;"> More <img data-v-6b16f068="" data-v-6e2d35de="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAMAAABWBG9SAAAAM1BMVEUAAAC9vb27u7u7u7u7u7u/v7++vr69vb29vb29vb29vb2/v7+vr6+9vb29vb2/v7+9vb1wSDrWAAAAEHRSTlMA3yBAgBDPkHDvgH8QoGAwgYnI2QAAAGFJREFUKM+l0TkOwCAMRNEAZl8y9z9trJQeGhKXT0Ify9fZjL4YG5AJBUCxGJNqsOor4LzVACBFq0V1UmyexepBTCx2xbZ57qIJOd5quM2X8lvhSP4TuflGvIpwRGfJ9W0eIl8FPPjFWJQAAAAASUVORK5CYII=" alt=""></div>
                                 </div>
-                           <div data-v-5adce6a8="" data-v-88474812="" class="banner" data-v-6e2d35de=""><div data-v-5adce6a8="" class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-autoheight"> <div class="swiper-wrapper" style="transition-duration: 300ms; transform: translate3d(-1520px, 0px, 0px); height: 84px;"><div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
-                            <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250316/ae554e8a994a7ee5af0a2c26e38242d2.png"></div><div data-v-5adce6a8="" class="flex1">
-                                <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"  style="color:#ffff;"> LumeX: The world's first OTC integrated trading platform based on price algorithm trading innovation and breakthrough </div><div data-v-5adce6a8="" class="time" style="color:#ffff;"> 15/07/2024 06:13:26 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
-                                    <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg" lazy="loaded"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> The Price Evolution of Bitcoin Over 15 Years: From Genesis Block to Trillion-Dollar Market Cap in the Global Financial Revolution </div><div data-v-5adce6a8="" class="time"> 06/08/2024 22:48:52 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide" data-swiper-slide-index="1" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
-                                        <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250317/378f8db2f538eae53c93cc8d418265f5.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250317/378f8db2f538eae53c93cc8d418265f5.png" lazy="loaded"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> Quick Overview of LumeX </div><div data-v-5adce6a8="" class="time" style="color:#ffff;"> 15/07/2024 10:55:12 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
-                                            <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250314/61814da64330650677780f8c403d946b.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250314/61814da64330650677780f8c403d946b.png" lazy="loaded"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> Cryptocurrency OTC is expected to surpass $7.5 trillion between 2028 and 2030. </div><div data-v-5adce6a8="" class="time"> 05/02/2025 02:19:08 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
-                                                <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250316/ae554e8a994a7ee5af0a2c26e38242d2.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250316/ae554e8a994a7ee5af0a2c26e38242d2.png" lazy="loaded"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2" style="color:#ffff;"> LumeX: The world's first OTC integrated trading platform based on price algorithm trading innovation and breakthrough </div><div data-v-5adce6a8="" class="time"> 15/07/2024 06:13:26 </div></div></div></div><div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 365px; margin-right: 15px;"><div data-v-5adce6a8="" class="item"><div data-v-5adce6a8="" class="img">
-                                                    <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg"></div><div data-v-5adce6a8="" class="flex1"><div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> The Price Evolution of Bitcoin Over 15 Years: From Genesis Block to Trillion-Dollar Market Cap in the Global Financial Revolution </div><div data-v-5adce6a8="" class="time"> 06/08/2024 22:48:52 </div></div></div></div></div>    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div><div data-v-5adce6a8="" class="navigation_dot"><div data-v-5adce6a8="" class="dot"></div><div data-v-5adce6a8="" class="dot"></div><div data-v-5adce6a8="" class="dot"></div><div data-v-5adce6a8="" class="dot"></div></div></div>
+                                <div data-v-5adce6a8="" data-v-88474812="" class="banner" data-v-6e2d35de="">
+                                    <div data-v-5adce6a8="" class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-autoheight">
+                                        <div class="swiper-wrapper" style="transition-duration: 300ms; transform: translate3d(-1520px, 0px, 0px); height: 84px;">
+                                            <div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="3" style="width: 365px; margin-right: 15px;">
+                                                <div data-v-5adce6a8="" class="item">
+                                                    <div data-v-5adce6a8="" class="img">
+                                                        <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250316/ae554e8a994a7ee5af0a2c26e38242d2.png">
+                                                    </div>
+                                                    <div data-v-5adce6a8="" class="flex1">
+                                                        <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2" style="color:#ffff;"> LumeX: The world's first OTC integrated trading platform based on price algorithm trading innovation and breakthrough </div>
+                                                        <div data-v-5adce6a8="" class="time" style="color:#ffff;"> 15/07/2024 06:13:26 </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 365px; margin-right: 15px;">
+                                                <div data-v-5adce6a8="" class="item">
+                                                    <div data-v-5adce6a8="" class="img">
+                                                        <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg" lazy="loaded">
+                                                    </div>
+                                                    <div data-v-5adce6a8="" class="flex1">
+                                                        <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> The Price Evolution of Bitcoin Over 15 Years: From Genesis Block to Trillion-Dollar Market Cap in the Global Financial Revolution </div>
+                                                        <div data-v-5adce6a8="" class="time"> 06/08/2024 22:48:52 </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-v-5adce6a8="" class="swiper-slide" data-swiper-slide-index="1" style="width: 365px; margin-right: 15px;">
+                                                <div data-v-5adce6a8="" class="item">
+                                                    <div data-v-5adce6a8="" class="img">
+                                                        <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250317/378f8db2f538eae53c93cc8d418265f5.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250317/378f8db2f538eae53c93cc8d418265f5.png" lazy="loaded">
+                                                    </div>
+                                                    <div data-v-5adce6a8="" class="flex1">
+                                                        <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> Quick Overview of LumeX </div>
+                                                        <div data-v-5adce6a8="" class="time" style="color:#ffff;"> 15/07/2024 10:55:12 </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-v-5adce6a8="" class="swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 365px; margin-right: 15px;">
+                                                <div data-v-5adce6a8="" class="item">
+                                                    <div data-v-5adce6a8="" class="img">
+                                                        <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250314/61814da64330650677780f8c403d946b.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250314/61814da64330650677780f8c403d946b.png" lazy="loaded">
+                                                    </div>
+                                                    <div data-v-5adce6a8="" class="flex1">
+                                                        <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> Cryptocurrency OTC is expected to surpass $7.5 trillion between 2028 and 2030. </div>
+                                                        <div data-v-5adce6a8="" class="time"> 05/02/2025 02:19:08 </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-v-5adce6a8="" class="swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 365px; margin-right: 15px;">
+                                                <div data-v-5adce6a8="" class="item">
+                                                    <div data-v-5adce6a8="" class="img">
+                                                        <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250316/ae554e8a994a7ee5af0a2c26e38242d2.png" data-src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250316/ae554e8a994a7ee5af0a2c26e38242d2.png" lazy="loaded">
+                                                    </div>
+                                                    <div data-v-5adce6a8="" class="flex1">
+                                                        <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2" style="color:#ffff;"> LumeX: The world's first OTC integrated trading platform based on price algorithm trading innovation and breakthrough </div>
+                                                        <div data-v-5adce6a8="" class="time"> 15/07/2024 06:13:26 </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-v-5adce6a8="" class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 365px; margin-right: 15px;">
+                                                <div data-v-5adce6a8="" class="item">
+                                                    <div data-v-5adce6a8="" class="img">
+                                                        <img data-v-5adce6a8="" src="https://lumex-all.s3.ap-southeast-1.amazonaws.com/upload/20250312/93d66e2d52b9bbb9a97f76c77d201d51.jpg">
+                                                    </div>
+                                                    <div data-v-5adce6a8="" class="flex1">
+                                                        <div data-v-5adce6a8="" class="text van-multi-ellipsis--l2"> The Price Evolution of Bitcoin Over 15 Years: From Genesis Block to Trillion-Dollar Market Cap in the Global Financial Revolution </div>
+                                                        <div data-v-5adce6a8="" class="time"> 06/08/2024 22:48:52 </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                                    </div>
+                                    <div data-v-5adce6a8="" class="navigation_dot">
+                                        <div data-v-5adce6a8="" class="dot"></div>
+                                        <div data-v-5adce6a8="" class="dot"></div>
+                                        <div data-v-5adce6a8="" class="dot"></div>
+                                        <div data-v-5adce6a8="" class="dot"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div data-v-d496beb0="" data-v-6b16f068="" data-v-6e2d35de=""></div>
                     </div>
                 </div>
             </div>
-
-
-            

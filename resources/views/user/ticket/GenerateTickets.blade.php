@@ -78,53 +78,7 @@
             height: 100vh;
             object-fit: cover;
         }
-    </style>
-    <link href="/js1743619988925/app.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="/js1743619988925/axios.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="/js1743619988925/compressorjs.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="/js1743619988925/core-js.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="/js1743619988925/crypto-js.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="/js1743619988925/vant.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="/js1743619988925/vendors~app.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="/js1743619988925/vue.d968e27a.1743619988925.js?v=1743619988925" rel="preload" as="script">
-    <link href="{{asset('')}}static/css/app.6328f701.css" rel="preload" as="style">
-    <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="preload" as="style">
-    <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="stylesheet">
-    <link href="{{asset('')}}static/css/app.6328f701.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-3cf9912c.12730d60.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-3cf9912c.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-5576a184.9f52f39a.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-5576a184.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-60c8a75a.d6f6b692.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-60c8a75a.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-a7d8f170.c87a4291.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-a7d8f170.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-67912ed2.ae8d438d.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-67912ed2.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-75ff273e.12bb350e.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-75ff273e.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-747287e5.9009fee8.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-747287e5.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-7f362702.6a53b834.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-7f362702.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-00b1464f.674dbd13.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-00b1464f.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <script charset="utf-8" src="/js1743619988925/echarts.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <script charset="utf-8" src="/js1743619988925/chunk-0119f9da.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-bb17762c.89cc2aa3.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-bb17762c.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-05e98ee6.bea82fa2.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-05e98ee6.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-6b11ef3e.540ca443.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-6b11ef3e.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-3553982a.589d4855.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-3553982a.d968e27a.1743619988925.js?v=1743619988925"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-b2c9775c.b1e4da02.css">
-    <script charset="utf-8" src="/js1743619988925/chunk-b2c9775c.d968e27a.1743619988925.js?v=1743619988925"></script>
-</head>
-<style>
-    /* Hide default radio and style custom */
-    input[type="radio"] {
+        input[type="radio"] {
         appearance: none;
         -webkit-appearance: none;
         background-color: #222;
@@ -158,7 +112,17 @@
         font-size: 16px;
         cursor: pointer;
     }
-</style>
+    </style>
+
+    <link href="{{asset('')}}static/css/app.6328f701.css" rel="preload" as="style">
+    <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="preload" as="style">
+    <link href="{{asset('')}}static/css/vant.d14f5539.css" rel="stylesheet">
+    <link href="{{asset('')}}static/css/app.6328f701.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-60c8a75a.d6f6b692.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('')}}static/css/chunk-a7d8f170.c87a4291.css">
+
+</head>
+
 
 <body class="mein_cn">
     <div id="app" class="applang">
@@ -213,10 +177,9 @@
                             </button>
                         </div>
                         
-                        <!-- <div data-v-76ac7338="" data-v-7daccefc="" class="go"><button data-v-76ac7338="" data-v-7daccefc="" class="btn2">Submit</button></div> -->
                     </form>
 
-                </div><!---->
+                </div>
             </div>
         </div>
         <div data-v-a7d12cfc="" class="global-loading default" style="display: none;">
@@ -224,32 +187,7 @@
         </div>
     </div>
 
-    <script>
-        window.onload = function() {
-            // 禁用双指放大
-            document.addEventListener("touchstart", function(event) {
-                if (event.touches.length > 1) {
-                    event.preventDefault();
-                }
-            });
-            // 禁用双击放大
-            let lastTouchEnd = 0;
-            document.addEventListener(
-                "touchend",
-                function(event) {
-                    const now = new Date().getTime();
-                    if (now - lastTouchEnd <= 300) {
-                        event.preventDefault();
-                    }
-                    lastTouchEnd = now;
-                },
-                false
-            );
-            document.addEventListener("gesturestart", function(event) {
-                event.preventDefault();
-            });
-        };
-    </script>
+ 
 </body>
 
 </html>
