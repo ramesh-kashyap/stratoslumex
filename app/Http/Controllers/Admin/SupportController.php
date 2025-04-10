@@ -111,7 +111,7 @@ class SupportController extends Controller
               
                 $ticket_no=$request->ticket_no;
                 $message=$request->message;
-    
+                
                  $check_tacket =Ticket::where('ticket_no',$ticket_no)->first();
            
                  if(!empty($check_tacket))  
@@ -123,7 +123,7 @@ class SupportController extends Controller
                                   'category'   => $check_tacket->category, 
                                   'msg'        => $message, 
                                   'gen_date'   => date('Y-m-d'), 
-                                  'closing_date' => NULL, 
+                                  'closing_date' => NULL,
                                   'ticket_no' => $ticket_no, 
                                  
                                   'status'       => false,
